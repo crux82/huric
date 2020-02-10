@@ -166,12 +166,10 @@ The targeted command is *"take the mug next to the keyboard"*
               <frameElement>
                 <type name="Theme" />
                 <span startId="2" endId="3" />
-                <head startId="NA" endId="NA" />
               </frameElement>
               <frameElement>
                 <type name="Goal" />
                 <span startId="4" endId="7" />
-                <head startId="NA" endId="NA" />
               </frameElement>
             </frameElements>
           </frame>
@@ -226,8 +224,12 @@ Hence, for each command, the following information are provided:
 2. the list of tokens composing it, along with the corresponding lemma and POS tag (i.e., `<tokens/>` tag);
 3. the dependency relations among tokens (i.e., `<dependencies/>` tag);
 4. the semantics, expressed in terms of Frames and Frame elements (i.e., `<frames/>` tag);
-6. the configuration of the environment, in terms of entities populating the Semantic Map (*SM*), along with their semantic attributes (i.e., `semanticMap` tag);
-7. the gold groundings, providing mapping between linguistic symbols (namely, words of the sentence) and entities of the semantic map (i.e., `lexicalGroundings` tag).
+5. the configuration of the environment, in terms of entities populating the Semantic Map (*SM*), along with their semantic attributes (i.e., `semanticMap` tag). Each entity is:
+	* identified by a unique id (`atom`),
+	* characterized by a `type`,
+	* extended through semantic or lexical `<attributes/>`, and
+	* localized within the environment through `<coordinate/>`;
+6. the gold groundings, providing gold mapping between linguistic symbols (namely, words of the sentence) and entities of the semantic map (i.e., `lexicalGroundings` tag). In the example, the token with id `3` (*mug*) refers to the entity `p1` (`Cup`), while token `7` (*keyboard*) to entity `k1` (`Keyboard`).
 
 ### Citation
 
