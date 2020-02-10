@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="4357">
+  <commands>
+    <command>
+      <sentence>in questa camera ci sono sei sedie</sentence>
+      <tokens>
+        <token id="1" lemma="in" pos="E" surface="in"/>
+        <token id="2" lemma="questo" pos="DD" surface="questa"/>
+        <token id="3" lemma="camera" pos="S" surface="camera"/>
+        <token id="4" lemma="ci" pos="PC" surface="ci"/>
+        <token id="5" lemma="essere" pos="VA" surface="sono"/>
+        <token id="6" lemma="sei" pos="N" surface="sei"/>
+        <token id="7" lemma="sedia" pos="S" surface="sedie"/>
+      </tokens>
+      <dependencies/>
+      <semantics>
+        <frames>
+          <frame name="Being_located">
+            <lexicalUnit>
+              <token id="5"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Location">
+                <token id="1"/>
+                <token id="2"/>
+                <token id="3"/>
+              </frameElement>
+              <frameElement type="Theme">
+                <token id="6"/>
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="vaso_1484051520298" type="Vaso">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>vaso</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="penna_1484051520302" type="Penna">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>penna</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="caffè_1484051520300" type="Caffè">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>caffè</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="bibita_1484051520299" type="Bibita">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bibita</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="sedia_1484051520197" type="Sedia">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>sedia</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="credenza_1484051520297" type="Credenza">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>credenza</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="stanza_1484051520195" type="Stanza">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>stanza</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="6.0" y="13.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>

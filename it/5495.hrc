@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="5495">
+  <commands>
+    <command>
+      <sentence>questa è una camera da letto</sentence>
+      <tokens>
+        <token id="1" lemma="questo" pos="PD" surface="questa"/>
+        <token id="2" lemma="essere" pos="V" surface="è"/>
+        <token id="3" lemma="una" pos="RI" surface="una"/>
+        <token id="4" lemma="camera" pos="S" surface="camera"/>
+        <token id="5" lemma="da" pos="E" surface="da"/>
+        <token id="6" lemma="letto" pos="S" surface="letto"/>
+      </tokens>
+      <dependencies/>
+      <semantics>
+        <frames>
+          <frame name="Being_in_category">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Item">
+                <token id="1"/>
+              </frameElement>
+              <frameElement type="Category">
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="cappotto_1484051280692" type="Cappotto">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cappotto</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="catalogo_1484051280694" type="Catalogo">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>catalogo</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="catalogo_1484051280693" type="Catalogo">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>catalogo</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="maniglia_1484051280691" type="Maniglia">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>maniglia</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="orologio_1484051280690" type="Orologio">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>orologio</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="camera_da_letto_1484051280596" type="Camera_da_letto">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>camera_da_letto</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="angolo_1484051280688" type="Angolo">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>angolo</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>

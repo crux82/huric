@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="5474">
+  <commands>
+    <command>
+      <sentence>porta il telecomando sulla sinistra del televisore</sentence>
+      <tokens>
+        <token id="1" lemma="portare" pos="V" surface="porta"/>
+        <token id="2" lemma="il" pos="RD" surface="il"/>
+        <token id="3" lemma="telecomando" pos="S" surface="telecomando"/>
+        <token id="4" lemma="su" pos="EA" surface="sulla"/>
+        <token id="5" lemma="sinistra" pos="S" surface="sinistra"/>
+        <token id="6" lemma="di" pos="EA" surface="del"/>
+        <token id="7" lemma="televisore" pos="S" surface="televisore"/>
+      </tokens>
+      <dependencies/>
+      <semantics>
+        <frames>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="2"/>
+                <token id="3"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="frutto_1484050869293" type="Frutto">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>frutto</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="forno_1484050869273" type="Forno">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>forno</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="scaldabagno_1484050869303" type="Scaldabagno">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>scaldabagno</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="televisione_1484050869133" type="Televisione">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>televisione</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="asciugamano_1484050869297" type="Asciugamano">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>asciugamano</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="dispensa_1484050869295" type="Dispensa">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>dispensa</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="me_1484050869260" type="Me">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>me</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>

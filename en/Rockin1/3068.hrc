@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3068">
+  <commands>
+    <command>
+      <sentence>go in the kitchen and switch off the coffee machine and the dishwasher</sentence>
+      <tokens>
+        <token id="1" lemma="go" pos="VB" surface="go"/>
+        <token id="2" lemma="in" pos="IN" surface="in"/>
+        <token id="3" lemma="the" pos="DT" surface="the"/>
+        <token id="4" lemma="kitchen" pos="NN" surface="kitchen"/>
+        <token id="5" lemma="and" pos="CC" surface="and"/>
+        <token id="6" lemma="switch" pos="VB" surface="switch"/>
+        <token id="7" lemma="off" pos="RP" surface="off"/>
+        <token id="8" lemma="the" pos="DT" surface="the"/>
+        <token id="9" lemma="coffee" pos="NN" surface="coffee"/>
+        <token id="10" lemma="machine" pos="NN" surface="machine"/>
+        <token id="11" lemma="and" pos="CC" surface="and"/>
+        <token id="12" lemma="the" pos="DT" surface="the"/>
+        <token id="13" lemma="dishwasher" pos="NN" surface="dishwasher"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="prep"/>
+        <dep from="4" to="3" type="det"/>
+        <dep from="2" to="4" type="pobj"/>
+        <dep from="1" to="5" type="cc"/>
+        <dep from="1" to="6" type="conj"/>
+        <dep from="6" to="7" type="prt"/>
+        <dep from="10" to="8" type="det"/>
+        <dep from="10" to="9" type="nn"/>
+        <dep from="6" to="10" type="dobj"/>
+        <dep from="10" to="11" type="cc"/>
+        <dep from="13" to="12" type="det"/>
+        <dep from="10" to="13" type="conj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Motion">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Goal">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Change_operational_state">
+            <lexicalUnit>
+              <token id="6"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Operational_state">
+                <token id="7"/>
+              </frameElement>
+              <frameElement type="Device">
+                <token id="8"/>
+                <token id="9"/>
+                <token id="10"/>
+                <token id="11"/>
+                <token id="12"/>
+                <token id="13"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="person_1484051851385" type="Person">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>person</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="apple_1484051851388" type="Apple">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>apple</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="bread_1484051851390" type="Bread">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bread</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="dishwasher_1484051851241" type="Dishwasher">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>dishwasher</value>
+            <value>washer</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="tablet_1484051851387" type="Tablet">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tablet</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="clothes_1484051851386" type="Clothes">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>clothes</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="kitchen_1484051851232" type="Kitchen">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>kitchen</value>
+            <value>kitchenette</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="3.0" z="0.0"/>
+      </entity>
+      <entity atom="wall_1484051851383" type="Wall">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>wall</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="kitchen_1484051851232" tokenId="4"/>
+    <lexicalGrounding atom="coffee_machine_1484051851240" tokenId="9"/>
+    <lexicalGrounding atom="coffee_machine_1484051851240" tokenId="10"/>
+    <lexicalGrounding atom="dishwasher_1484051851241" tokenId="13"/>
+  </lexicalGroundings>
+</huricExample>

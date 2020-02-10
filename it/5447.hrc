@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="5447">
+  <commands>
+    <command>
+      <sentence>segui mi nel bagno</sentence>
+      <tokens>
+        <token id="1" lemma="seguire" pos="V" surface="segui"/>
+        <token id="2" lemma="mi" pos="PC" surface="mi"/>
+        <token id="3" lemma="in" pos="EA" surface="nel"/>
+        <token id="4" lemma="bagno" pos="S" surface="bagno"/>
+      </tokens>
+      <dependencies/>
+      <semantics>
+        <frames>
+          <frame name="Cotheme">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Cotheme">
+                <token id="2"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="giornale_1484052154058" type="Giornale">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>giornale</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="interruttore_1484052154056" type="Interruttore">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>interruttore</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="cereali_1484052154057" type="Cereali">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cereali</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="fazzoletto_1484052154055" type="Fazzoletto">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>fazzoletto</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="maglietta_1484052154061" type="Maglietta">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>maglietta</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="me_1484052153956" type="Me">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>me</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="13.0" y="7.0" z="0.0"/>
+      </entity>
+      <entity atom="mark_1484052154062" type="Mark">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>mark</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="bagno_1484052153957" type="Bagno">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bagno</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="9.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>

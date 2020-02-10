@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3333">
+  <commands>
+    <command>
+      <sentence>i want to watch tv bring me the remote</sentence>
+      <tokens>
+        <token id="1" lemma="i" pos="LS" surface="i"/>
+        <token id="2" lemma="want" pos="VB" surface="want"/>
+        <token id="3" lemma="to" pos="TO" surface="to"/>
+        <token id="4" lemma="watch" pos="VB" surface="watch"/>
+        <token id="5" lemma="tv" pos="NN" surface="tv"/>
+        <token id="6" lemma="bring" pos="VB" surface="bring"/>
+        <token id="7" lemma="I" pos="PRP" surface="me"/>
+        <token id="8" lemma="the" pos="DT" surface="the"/>
+        <token id="9" lemma="remote" pos="JJ" surface="remote"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="nsubj"/>
+        <dep from="0" to="2" type="root"/>
+        <dep from="4" to="3" type="aux"/>
+        <dep from="2" to="4" type="xcomp"/>
+        <dep from="6" to="5" type="nsubj"/>
+        <dep from="2" to="6" type="conj"/>
+        <dep from="6" to="7" type="iobj"/>
+        <dep from="9" to="8" type="det"/>
+        <dep from="6" to="9" type="dobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="6"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Beneficiary">
+                <token id="7"/>
+              </frameElement>
+              <frameElement type="Theme">
+                <token id="8"/>
+                <token id="9"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="studio_1484052179171" type="Studio">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>studio</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="fork_1484052179170" type="Fork">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>fork</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="head_1484052179168" type="Head">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>head</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="bread_1484052179169" type="Bread">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bread</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="me_1484052179039" type="Person">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>person</value>
+            <value>user</value>
+            <value>me</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="8.0" y="11.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="me_1484052179039" tokenId="7"/>
+    <lexicalGrounding atom="remote_control_1484052179040" tokenId="9"/>
+  </lexicalGroundings>
+</huricExample>

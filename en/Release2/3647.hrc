@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3647">
+  <commands>
+    <command>
+      <sentence>robot please grasp the book near the glass on the table</sentence>
+      <tokens>
+        <token id="1" lemma="robot" pos="NN" surface="robot"/>
+        <token id="2" lemma="please" pos="VB" surface="please"/>
+        <token id="3" lemma="grasp" pos="VB" surface="grasp"/>
+        <token id="4" lemma="the" pos="DT" surface="the"/>
+        <token id="5" lemma="book" pos="NN" surface="book"/>
+        <token id="6" lemma="near" pos="IN" surface="near"/>
+        <token id="7" lemma="the" pos="DT" surface="the"/>
+        <token id="8" lemma="glass" pos="NN" surface="glass"/>
+        <token id="9" lemma="on" pos="IN" surface="on"/>
+        <token id="10" lemma="the" pos="DT" surface="the"/>
+        <token id="11" lemma="table" pos="NN" surface="table"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="dep"/>
+        <dep from="2" to="3" type="xcomp"/>
+        <dep from="5" to="4" type="det"/>
+        <dep from="3" to="5" type="dobj"/>
+        <dep from="5" to="6" type="prep"/>
+        <dep from="8" to="7" type="det"/>
+        <dep from="6" to="8" type="pobj"/>
+        <dep from="8" to="9" type="prep"/>
+        <dep from="11" to="10" type="det"/>
+        <dep from="9" to="11" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Manipulation">
+            <lexicalUnit>
+              <token id="3"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Entity">
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+                <token id="10"/>
+                <token id="11"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="book_1484051213459" type="Book">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>book</value>
+            <value>guidebook</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="13.0" y="9.0" z="0.0"/>
+      </entity>
+      <entity atom="cupboard_1484051213587" type="Cupboard">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cupboard</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="table_1484051213461" type="Table">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>table</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="13.0" y="10.0" z="0.0"/>
+      </entity>
+      <entity atom="jar_1484051213586" type="Jar">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>jar</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="cup_1484051213588" type="Cup">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cup</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="glass_1484051213460" type="Glass">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>glass</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="12.0" y="10.0" z="0.0"/>
+      </entity>
+      <entity atom="wifi_1484051213583" type="Wifi">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>wifi</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="router_1484051213584" type="Router">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>router</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="kettle_1484051213582" type="Kettle">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>kettle</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="book_1484051213459" tokenId="5"/>
+    <lexicalGrounding atom="glass_1484051213460" tokenId="8"/>
+    <lexicalGrounding atom="table_1484051213461" tokenId="11"/>
+  </lexicalGroundings>
+</huricExample>

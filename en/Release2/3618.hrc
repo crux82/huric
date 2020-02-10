@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3618">
+  <commands>
+    <command>
+      <sentence>go to the corridor and take the ruler near the box on the shelf</sentence>
+      <tokens>
+        <token id="1" lemma="go" pos="VB" surface="go"/>
+        <token id="2" lemma="to" pos="TO" surface="to"/>
+        <token id="3" lemma="the" pos="DT" surface="the"/>
+        <token id="4" lemma="corridor" pos="NN" surface="corridor"/>
+        <token id="5" lemma="and" pos="CC" surface="and"/>
+        <token id="6" lemma="take" pos="VB" surface="take"/>
+        <token id="7" lemma="the" pos="DT" surface="the"/>
+        <token id="8" lemma="ruler" pos="NN" surface="ruler"/>
+        <token id="9" lemma="near" pos="IN" surface="near"/>
+        <token id="10" lemma="the" pos="DT" surface="the"/>
+        <token id="11" lemma="box" pos="NN" surface="box"/>
+        <token id="12" lemma="on" pos="IN" surface="on"/>
+        <token id="13" lemma="the" pos="DT" surface="the"/>
+        <token id="14" lemma="shelf" pos="NN" surface="shelf"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="prep"/>
+        <dep from="4" to="3" type="det"/>
+        <dep from="2" to="4" type="pobj"/>
+        <dep from="1" to="5" type="cc"/>
+        <dep from="1" to="6" type="conj"/>
+        <dep from="8" to="7" type="det"/>
+        <dep from="6" to="8" type="dobj"/>
+        <dep from="8" to="9" type="prep"/>
+        <dep from="11" to="10" type="det"/>
+        <dep from="9" to="11" type="pobj"/>
+        <dep from="11" to="12" type="prep"/>
+        <dep from="14" to="13" type="det"/>
+        <dep from="12" to="14" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Motion">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Goal">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="6"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="7"/>
+                <token id="8"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="9"/>
+                <token id="10"/>
+                <token id="11"/>
+                <token id="12"/>
+                <token id="13"/>
+                <token id="14"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="jar_1484051144620" type="Jar">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>jar</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="box_1484051144417" type="Box">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>box</value>
+            <value>crate</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="cigarettes_1484051144624" type="Cigarettes">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cigarettes</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="plate_1484051144618" type="Plate">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>plate</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="corridor_1484051144401" type="Corridor">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>corridor</value>
+            <value>passageway</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="message_1484051144619" type="Message">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>message</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="corridor_1484051144401" tokenId="4"/>
+    <lexicalGrounding atom="box_1484051144417" tokenId="11"/>
+  </lexicalGroundings>
+</huricExample>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2281">
+  <commands>
+    <command>
+      <sentence>this is a very wide and bright livingroom</sentence>
+      <tokens>
+        <token id="1" lemma="this" pos="DT" surface="this"/>
+        <token id="2" lemma="be" pos="VBZ" surface="is"/>
+        <token id="3" lemma="a" pos="DT" surface="a"/>
+        <token id="4" lemma="very" pos="RB" surface="very"/>
+        <token id="5" lemma="wide" pos="JJ" surface="wide"/>
+        <token id="6" lemma="and" pos="CC" surface="and"/>
+        <token id="7" lemma="bright" pos="JJ" surface="bright"/>
+        <token id="8" lemma="livingroom" pos="NN" surface="livingroom"/>
+      </tokens>
+      <dependencies>
+        <dep from="8" to="1" type="nsubj"/>
+        <dep from="8" to="2" type="cop"/>
+        <dep from="8" to="3" type="det"/>
+        <dep from="5" to="4" type="advmod"/>
+        <dep from="8" to="5" type="amod"/>
+        <dep from="5" to="6" type="cc"/>
+        <dep from="5" to="7" type="conj"/>
+        <dep from="0" to="8" type="root"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Being_in_category">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Item">
+                <token id="1"/>
+              </frameElement>
+              <frameElement type="Category">
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="window_1484051325721" type="Window">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>window</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="flower_1484051325720" type="Flower">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>flower</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="hall_1484051325718" type="Hall">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>hall</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="can_1484051325724" type="Can">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>can</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="livingroom_1484051325637" tokenId="7"/>
+    <lexicalGrounding atom="livingroom_1484051325637" tokenId="8"/>
+  </lexicalGroundings>
+</huricExample>

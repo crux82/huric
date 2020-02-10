@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2700">
+  <commands>
+    <command>
+      <sentence>find the white vase</sentence>
+      <tokens>
+        <token id="1" lemma="find" pos="VB" surface="find"/>
+        <token id="2" lemma="the" pos="DT" surface="the"/>
+        <token id="3" lemma="white" pos="JJ" surface="white"/>
+        <token id="4" lemma="vase" pos="NN" surface="vase"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="4" to="2" type="det"/>
+        <dep from="4" to="3" type="amod"/>
+        <dep from="1" to="4" type="dobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Locating">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Sought_entity">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="picture_1484052368405" type="Picture">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>picture</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="tablet_1484052368400" type="Tablet">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tablet</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="vase_1484052368307" type="Vase">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>vase</value>
+            <value>bowl</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="tray_1484052368402" type="Tray">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tray</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="napkin_1484052368407" type="Napkin">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>napkin</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="fences_1484052368403" type="Fences">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>fences</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="vase_1484052368307" tokenId="3"/>
+    <lexicalGrounding atom="vase_1484052368307" tokenId="4"/>
+  </lexicalGroundings>
+</huricExample>

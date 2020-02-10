@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2299">
+  <commands>
+    <command>
+      <sentence>the sink is in the kitchen</sentence>
+      <tokens>
+        <token id="1" lemma="the" pos="DT" surface="the"/>
+        <token id="2" lemma="sink" pos="NN" surface="sink"/>
+        <token id="3" lemma="be" pos="VBZ" surface="is"/>
+        <token id="4" lemma="in" pos="IN" surface="in"/>
+        <token id="5" lemma="the" pos="DT" surface="the"/>
+        <token id="6" lemma="kitchen" pos="NN" surface="kitchen"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="det"/>
+        <dep from="3" to="2" type="nsubj"/>
+        <dep from="0" to="3" type="root"/>
+        <dep from="3" to="4" type="prep"/>
+        <dep from="6" to="5" type="det"/>
+        <dep from="4" to="6" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Being_located">
+            <lexicalUnit>
+              <token id="3"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="1"/>
+                <token id="2"/>
+              </frameElement>
+              <frameElement type="Location">
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="kitchen_1484051356853" type="Kitchen">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>kitchen</value>
+            <value>kitchenette</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="6.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="coffee_1484051356960" type="Coffee">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>coffee</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="clothes_1484051356962" type="Clothes">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>clothes</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="cutlery_1484051356959" type="Cutlery">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cutlery</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="sink_1484051356852" type="Sink">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>sink</value>
+            <value>washbasin</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="kettle_1484051356963" type="Kettle">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>kettle</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="newspaper_1484051356977" type="Newspaper">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>newspaper</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="sink_1484051356852" tokenId="2"/>
+    <lexicalGrounding atom="kitchen_1484051356853" tokenId="6"/>
+  </lexicalGroundings>
+</huricExample>

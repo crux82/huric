@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3064">
+  <commands>
+    <command>
+      <sentence>go close to the window</sentence>
+      <tokens>
+        <token id="1" lemma="go" pos="VB" surface="go"/>
+        <token id="2" lemma="close" pos="RB" surface="close"/>
+        <token id="3" lemma="to" pos="TO" surface="to"/>
+        <token id="4" lemma="the" pos="DT" surface="the"/>
+        <token id="5" lemma="window" pos="NN" surface="window"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="advmod"/>
+        <dep from="2" to="3" type="prep"/>
+        <dep from="5" to="4" type="det"/>
+        <dep from="3" to="5" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Motion">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Goal">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="bedroom_1484051841499" type="Bedroom">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bedroom</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="flower_1484051841497" type="Flower">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>flower</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="window_1484051841356" type="Window">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>window</value>
+            <value>casement</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="fork_1484051841498" type="Fork">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>fork</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="fridge_1484051841501" type="Fridge">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>fridge</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="desk_1484051841496" type="Desk">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>desk</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="window_1484051841356" tokenId="5"/>
+  </lexicalGroundings>
+</huricExample>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2250">
+  <commands>
+    <command>
+      <sentence>you are in the bedroom and the bed is between two lamps</sentence>
+      <tokens>
+        <token id="1" lemma="you" pos="PRP" surface="you"/>
+        <token id="2" lemma="be" pos="VB" surface="are"/>
+        <token id="3" lemma="in" pos="IN" surface="in"/>
+        <token id="4" lemma="the" pos="DT" surface="the"/>
+        <token id="5" lemma="bedroom" pos="NN" surface="bedroom"/>
+        <token id="6" lemma="and" pos="CC" surface="and"/>
+        <token id="7" lemma="the" pos="DT" surface="the"/>
+        <token id="8" lemma="bed" pos="NN" surface="bed"/>
+        <token id="9" lemma="be" pos="VBZ" surface="is"/>
+        <token id="10" lemma="between" pos="IN" surface="between"/>
+        <token id="11" lemma="two" pos="CD" surface="two"/>
+        <token id="12" lemma="lamp" pos="NNS" surface="lamps"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="nsubj"/>
+        <dep from="0" to="2" type="root"/>
+        <dep from="2" to="3" type="prep"/>
+        <dep from="5" to="4" type="det"/>
+        <dep from="3" to="5" type="pobj"/>
+        <dep from="2" to="6" type="cc"/>
+        <dep from="8" to="7" type="det"/>
+        <dep from="9" to="8" type="nsubj"/>
+        <dep from="2" to="9" type="conj"/>
+        <dep from="9" to="10" type="prep"/>
+        <dep from="12" to="11" type="num"/>
+        <dep from="10" to="12" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Being_located">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="1"/>
+              </frameElement>
+              <frameElement type="Location">
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Being_located">
+            <lexicalUnit>
+              <token id="9"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="7"/>
+                <token id="8"/>
+              </frameElement>
+              <frameElement type="Location">
+                <token id="10"/>
+                <token id="11"/>
+                <token id="12"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="fridge_1484051272344" type="Fridge">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>fridge</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="light_1484051272220" type="Light">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>light</value>
+            <value>nightlight</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="14.0" y="3.0" z="0.0"/>
+      </entity>
+      <entity atom="book_1484051272348" type="Book">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>book</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="soap_1484051272347" type="Soap">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>soap</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="board_1484051272342" type="Board">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>board</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="bed_1484051272219" type="Bed">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bed</value>
+            <value>futon</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="13.0" y="3.0" z="0.0"/>
+      </entity>
+      <entity atom="bedroom_1484051272212" type="Bedroom">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bedroom</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="pantry_1484051272343" type="Pantry">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>pantry</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="robot_1484063748562" type="Robot">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>robot</value>
+            <value>you</value>
+            <value>yourself</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+  	<lexicalGrounding atom="robot_1484063748562" tokenId="1"/>
+    <lexicalGrounding atom="bedroom_1484051272212" tokenId="5"/>
+    <lexicalGrounding atom="bed_1484051272219" tokenId="8"/>
+    <lexicalGrounding atom="light_1484051272220" tokenId="12"/>
+  </lexicalGroundings>
+</huricExample>

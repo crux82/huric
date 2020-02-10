@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3303">
+  <commands>
+    <command>
+      <sentence>check the answer machine for any messages</sentence>
+      <tokens>
+        <token id="1" lemma="check" pos="VB" surface="check"/>
+        <token id="2" lemma="the" pos="DT" surface="the"/>
+        <token id="3" lemma="answer" pos="NN" surface="answer"/>
+        <token id="4" lemma="machine" pos="NN" surface="machine"/>
+        <token id="5" lemma="for" pos="IN" surface="for"/>
+        <token id="6" lemma="any" pos="DT" surface="any"/>
+        <token id="7" lemma="message" pos="NNS" surface="messages"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="4" to="2" type="det"/>
+        <dep from="4" to="3" type="nn"/>
+        <dep from="1" to="4" type="dobj"/>
+        <dep from="1" to="5" type="prep"/>
+        <dep from="7" to="6" type="det"/>
+        <dep from="5" to="7" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Inspecting">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Ground">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+              <frameElement type="Unwanted_entity">
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="furniture_1484052122451" type="Furniture">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>furniture</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="mirror_1484052122449" type="Mirror">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>mirror</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="screwdriver_1484052122459" type="Screwdriver">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>screwdriver</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="message_1484052122353" type="Message">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>message</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="6.0" y="13.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="answer_machine_1484052122352" tokenId="3"/>
+    <lexicalGrounding atom="answer_machine_1484052122352" tokenId="4"/>
+    <lexicalGrounding atom="message_1484052122353" tokenId="7"/>
+  </lexicalGroundings>
+</huricExample>

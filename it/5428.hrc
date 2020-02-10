@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="5428">
+  <commands>
+    <command>
+      <sentence>robot puoi andare vicino il tavolo</sentence>
+      <tokens>
+        <token id="1" lemma="robot" pos="S" surface="robot"/>
+        <token id="2" lemma="potere" pos="VM" surface="puoi"/>
+        <token id="3" lemma="andare" pos="V" surface="andare"/>
+        <token id="4" lemma="vicino" pos="B" surface="vicino"/>
+        <token id="5" lemma="il" pos="RD" surface="il"/>
+        <token id="6" lemma="tavolo" pos="S" surface="tavolo"/>
+      </tokens>
+      <dependencies/>
+      <semantics>
+        <frames>
+          <frame name="Motion">
+            <lexicalUnit>
+              <token id="3"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Goal">
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="rubinetto_1484051977842" type="Rubinetto">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>rubinetto</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="tavolo_1484051977688" type="Tavolo">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tavolo</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="poster_1484051977841" type="Poster">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>poster</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="maniglia_1484051977840" type="Maniglia">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>maniglia</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="vittorio_1484051977844" type="Vittorio">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>vittorio</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="messaggio_1484051977845" type="Messaggio">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>messaggio</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>

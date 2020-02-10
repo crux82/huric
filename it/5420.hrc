@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="5420">
+  <commands>
+    <command>
+      <sentence>ho bisogno del mio orologio cerca lo per favore</sentence>
+      <tokens>
+        <token id="1" lemma="avere" pos="V" surface="ho"/>
+        <token id="2" lemma="bisogno" pos="S" surface="bisogno"/>
+        <token id="3" lemma="di" pos="EA" surface="del"/>
+        <token id="4" lemma="mio" pos="AP" surface="mio"/>
+        <token id="5" lemma="orologio" pos="S" surface="orologio"/>
+        <token id="6" lemma="cercare" pos="V" surface="cerca"/>
+        <token id="7" lemma="lo" pos="PC" surface="lo"/>
+        <token id="8" lemma="per" pos="E" surface="per"/>
+        <token id="9" lemma="favore" pos="S" surface="favore"/>
+      </tokens>
+      <dependencies/>
+      <semantics>
+        <frames>
+          <frame name="Locating">
+            <lexicalUnit>
+              <token id="6"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Phenomenon">
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="esso_1484051878142" type="Esso">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>esso</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="mais_1484051878220" type="Mais">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>mais</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="succo_1484051878225" type="Succo">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>succo</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="piatto_1484051878221" type="Piatto">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>piatto</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="tablet_1484051878222" type="Tablet">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tablet</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="cuscino_1484051878224" type="Cuscino">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cuscino</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="panca_1484051878218" type="Panca">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>panca</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>

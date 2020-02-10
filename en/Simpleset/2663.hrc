@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2663">
+  <commands>
+    <command>
+      <sentence>take the case at the left of the box</sentence>
+      <tokens>
+        <token id="1" lemma="take" pos="VB" surface="take"/>
+        <token id="2" lemma="the" pos="DT" surface="the"/>
+        <token id="3" lemma="case" pos="NN" surface="case"/>
+        <token id="4" lemma="at" pos="IN" surface="at"/>
+        <token id="5" lemma="the" pos="DT" surface="the"/>
+        <token id="6" lemma="left" pos="NN" surface="left"/>
+        <token id="7" lemma="of" pos="IN" surface="of"/>
+        <token id="8" lemma="the" pos="DT" surface="the"/>
+        <token id="9" lemma="box" pos="NN" surface="box"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="3" to="2" type="det"/>
+        <dep from="1" to="3" type="dobj"/>
+        <dep from="3" to="4" type="prep"/>
+        <dep from="6" to="5" type="det"/>
+        <dep from="4" to="6" type="pobj"/>
+        <dep from="6" to="7" type="prep"/>
+        <dep from="9" to="8" type="det"/>
+        <dep from="7" to="9" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Taking">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="water_1484052574257" type="Water">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>water</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="box_1484052574006" type="Box">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>box</value>
+            <value>crate</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="6.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="wallet_1484052574260" type="Wallet">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>wallet</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="case_1484052574004" type="Case">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>case</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="can_1484052574255" type="Can">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>can</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="screwdriver_1484052574261" type="Screwdriver">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>screwdriver</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="picture_1484052574258" type="Picture">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>picture</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="studio_1484052574256" type="Studio">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>studio</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="case_1484052574004" tokenId="3"/>
+    <lexicalGrounding atom="box_1484052574006" tokenId="9"/>
+  </lexicalGroundings>
+</huricExample>

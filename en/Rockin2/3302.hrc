@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3302">
+  <commands>
+    <command>
+      <sentence>check if there 's clothes in the washing machine</sentence>
+      <tokens>
+        <token id="1" lemma="check" pos="VB" surface="check"/>
+        <token id="2" lemma="if" pos="IN" surface="if"/>
+        <token id="3" lemma="there" pos="EX" surface="there"/>
+        <token id="4" lemma="be" pos="VBZ" surface="'s"/>
+        <token id="5" lemma="clothes" pos="NNS" surface="clothes"/>
+        <token id="6" lemma="in" pos="IN" surface="in"/>
+        <token id="7" lemma="the" pos="DT" surface="the"/>
+        <token id="8" lemma="wash" pos="NN" surface="washing"/>
+        <token id="9" lemma="machine" pos="NN" surface="machine"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="4" to="2" type="mark"/>
+        <dep from="4" to="3" type="expl"/>
+        <dep from="1" to="4" type="ccomp"/>
+        <dep from="4" to="5" type="nsubj"/>
+        <dep from="4" to="6" type="prep"/>
+        <dep from="9" to="7" type="det"/>
+        <dep from="9" to="8" type="nn"/>
+        <dep from="6" to="9" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Inspecting">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Ground">
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Being_located">
+            <lexicalUnit>
+              <token id="3"/>
+              <token id="4"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="5"/>
+              </frameElement>
+              <frameElement type="Location">
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="mustard_1484052120585" type="Mustard">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>mustard</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="cigarettes_1484052120583" type="Cigarettes">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cigarettes</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="stove_1484052120586" type="Stove">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>stove</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="stove_1484052120582" type="Stove">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>stove</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="clothes_1484052120376" type="Clothes">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>clothes</value>
+            <value>clothing</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="6.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="slippers_1484052120581" type="Slippers">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>slippers</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="clothes_1484052120376" tokenId="5"/>
+    <lexicalGrounding atom="washing_machine_1484052120377" tokenId="8"/>
+    <lexicalGrounding atom="washing_machine_1484052120377" tokenId="9"/>
+  </lexicalGroundings>
+</huricExample>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3494">
+  <commands>
+    <command>
+      <sentence>could you please move towards the washing machine and turn it on</sentence>
+      <tokens>
+        <token id="1" lemma="could" pos="MD" surface="could"/>
+        <token id="2" lemma="you" pos="PRP" surface="you"/>
+        <token id="3" lemma="please" pos="VB" surface="please"/>
+        <token id="4" lemma="move" pos="NN" surface="move"/>
+        <token id="5" lemma="towards" pos="IN" surface="towards"/>
+        <token id="6" lemma="the" pos="DT" surface="the"/>
+        <token id="7" lemma="wash" pos="VBG" surface="washing"/>
+        <token id="8" lemma="machine" pos="NN" surface="machine"/>
+        <token id="9" lemma="and" pos="CC" surface="and"/>
+        <token id="10" lemma="turn" pos="VB" surface="turn"/>
+        <token id="11" lemma="it" pos="PRP" surface="it"/>
+        <token id="12" lemma="on" pos="IN" surface="on"/>
+      </tokens>
+      <dependencies>
+        <dep from="3" to="1" type="aux"/>
+        <dep from="3" to="2" type="nsubj"/>
+        <dep from="0" to="3" type="root"/>
+        <dep from="3" to="4" type="dobj"/>
+        <dep from="4" to="5" type="prep"/>
+        <dep from="8" to="6" type="det"/>
+        <dep from="8" to="7" type="amod"/>
+        <dep from="5" to="8" type="pobj"/>
+        <dep from="3" to="9" type="cc"/>
+        <dep from="3" to="10" type="conj"/>
+        <dep from="10" to="11" type="dobj"/>
+        <dep from="10" to="12" type="prep"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Motion">
+            <lexicalUnit>
+              <token id="4"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="2"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Change_operational_state">
+            <lexicalUnit>
+              <token id="10"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Agent">
+                <token id="2"/>
+              </frameElement>
+              <frameElement type="Device">
+                <token id="11"/>
+              </frameElement>
+              <frameElement type="Operational_state">
+                <token id="12"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="mirror_1484050913249" type="Mirror">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>mirror</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="radio_1484050913260" type="Radio">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>radio</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="coffee_1484050913255" type="Coffee">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>coffee</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="jar_1484050913253" type="Jar">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>jar</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="robot_1484063748562" type="Robot">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>robot</value>
+            <value>you</value>
+            <value>yourself</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+  	<lexicalGrounding atom="robot_1484063748562" tokenId="2"/>
+    <lexicalGrounding atom="it_1484050913165" tokenId="11"/>
+  </lexicalGroundings>
+</huricExample>

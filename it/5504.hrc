@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="5504">
+  <commands>
+    <command>
+      <sentence>ci sono due lavandini nella cucina</sentence>
+      <tokens>
+        <token id="1" lemma="ci" pos="PC" surface="ci"/>
+        <token id="2" lemma="essere" pos="V" surface="sono"/>
+        <token id="3" lemma="due" pos="N" surface="due"/>
+        <token id="4" lemma="lavandino" pos="S" surface="lavandini"/>
+        <token id="5" lemma="in" pos="EA" surface="nella"/>
+        <token id="6" lemma="cucina" pos="S" surface="cucina"/>
+      </tokens>
+      <dependencies/>
+      <semantics>
+        <frames>
+          <frame name="Being_located">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+              <frameElement type="Location">
+                <token id="5"/>
+                <token id="6"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="sorella_1484051241451" type="Sorella">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>sorella</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="cucina_1484051241321" type="Cucina">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cucina</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="6.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="caffè_1484051241450" type="Caffè">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>caffè</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="specchio_1484051241448" type="Specchio">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>specchio</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="radio_1484051241454" type="Radio">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>radio</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="vasetto_1484051241449" type="Vasetto">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>vasetto</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="lavandino_1484051241320" type="Lavandino">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>lavandino</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="14.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>

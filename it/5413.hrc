@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="5413">
+  <commands>
+    <command>
+      <sentence>per favore segui mi al tavolo</sentence>
+      <tokens>
+        <token id="1" lemma="per" pos="E" surface="per"/>
+        <token id="2" lemma="favore" pos="S" surface="favore"/>
+        <token id="3" lemma="seguire" pos="V" surface="segui"/>
+        <token id="4" lemma="mi" pos="PC" surface="mi"/>
+        <token id="5" lemma="a" pos="EA" surface="al"/>
+        <token id="6" lemma="tavolo" pos="S" surface="tavolo"/>
+      </tokens>
+      <dependencies/>
+      <semantics>
+        <frames>
+          <frame name="Cotheme">
+            <lexicalUnit>
+              <token id="3"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Cotheme">
+                <token id="4"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="5"/>
+                <token id="6"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="me_1484051479171" type="Me">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>me</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="9.0" z="0.0"/>
+      </entity>
+      <entity atom="scaldabagno_1484051479279" type="Scaldabagno">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>scaldabagno</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="tavolo_1484051479172" type="Tavolo">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tavolo</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="13.0" y="7.0" z="0.0"/>
+      </entity>
+      <entity atom="tavola_1484051479270" type="Tavola">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tavola</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="acqua_1484051479269" type="Acqua">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>acqua</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="bibita_1484051479278" type="Bibita">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bibita</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="secchio_1484051479277" type="Secchio">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>secchio</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="sala_1484051479280" type="Sala">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>sala</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>

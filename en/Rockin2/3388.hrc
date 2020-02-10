@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3388">
+  <commands>
+    <command>
+      <sentence>turn on the light and go to the computer</sentence>
+      <tokens>
+        <token id="1" lemma="turn" pos="VB" surface="turn"/>
+        <token id="2" lemma="on" pos="RP" surface="on"/>
+        <token id="3" lemma="the" pos="DT" surface="the"/>
+        <token id="4" lemma="light" pos="NN" surface="light"/>
+        <token id="5" lemma="and" pos="CC" surface="and"/>
+        <token id="6" lemma="go" pos="VB" surface="go"/>
+        <token id="7" lemma="to" pos="TO" surface="to"/>
+        <token id="8" lemma="the" pos="DT" surface="the"/>
+        <token id="9" lemma="computer" pos="NN" surface="computer"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="prt"/>
+        <dep from="4" to="3" type="det"/>
+        <dep from="1" to="4" type="dobj"/>
+        <dep from="1" to="5" type="cc"/>
+        <dep from="1" to="6" type="conj"/>
+        <dep from="6" to="7" type="prep"/>
+        <dep from="9" to="8" type="det"/>
+        <dep from="7" to="9" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Change_operational_state">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Operational_state">
+                <token id="2"/>
+              </frameElement>
+              <frameElement type="Device">
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Motion">
+            <lexicalUnit>
+              <token id="6"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Goal">
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="computer_1484052287253" type="Computer">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>computer</value>
+            <value>pocketpc</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="light_1484052287246" type="Light">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>light</value>
+            <value>nightlight</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="oven_1484052287368" type="Oven">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>oven</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="bin_1484052287361" type="Bin">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bin</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="jacket_1484052287362" type="Jacket">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>jacket</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="paper_1484052287369" type="Paper">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>paper</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="table_1484052287360" type="Table">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>table</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="light_1484052287246" tokenId="4"/>
+    <lexicalGrounding atom="computer_1484052287253" tokenId="9"/>
+  </lexicalGroundings>
+</huricExample>

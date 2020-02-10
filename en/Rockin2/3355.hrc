@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3355">
+  <commands>
+    <command>
+      <sentence>put the plate on the counter</sentence>
+      <tokens>
+        <token id="1" lemma="put" pos="VB" surface="put"/>
+        <token id="2" lemma="the" pos="DT" surface="the"/>
+        <token id="3" lemma="plate" pos="NN" surface="plate"/>
+        <token id="4" lemma="on" pos="IN" surface="on"/>
+        <token id="5" lemma="the" pos="DT" surface="the"/>
+        <token id="6" lemma="counter" pos="NN" surface="counter"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="3" to="2" type="det"/>
+        <dep from="1" to="3" type="dobj"/>
+        <dep from="1" to="4" type="prep"/>
+        <dep from="6" to="5" type="det"/>
+        <dep from="4" to="6" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Placing">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="2"/>
+                <token id="3"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="window_1484052221526" type="Window">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>window</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="cupboard_1484052221519" type="Cupboard">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cupboard</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="cabinet_1484052221528" type="Cabinet">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cabinet</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="counter_1484052221402" type="Counter">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>counter</value>
+            <value>servery</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="13.0" y="7.0" z="0.0"/>
+      </entity>
+      <entity atom="plate_1484052221401" type="Plate">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>plate</value>
+            <value>dish</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="9.0" z="0.0"/>
+      </entity>
+      <entity atom="postcard_1484052221521" type="Postcard">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>postcard</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="bin_1484052221522" type="Bin">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bin</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="cereals_1484052221523" type="Cereals">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cereals</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="plate_1484052221401" tokenId="3"/>
+    <lexicalGrounding atom="counter_1484052221402" tokenId="6"/>
+  </lexicalGroundings>
+</huricExample>

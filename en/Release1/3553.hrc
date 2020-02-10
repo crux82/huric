@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3553">
+  <commands>
+    <command>
+      <sentence>take the box on the table on the couch</sentence>
+      <tokens>
+        <token id="1" lemma="take" pos="VB" surface="take"/>
+        <token id="2" lemma="the" pos="DT" surface="the"/>
+        <token id="3" lemma="box" pos="NN" surface="box"/>
+        <token id="4" lemma="on" pos="IN" surface="on"/>
+        <token id="5" lemma="the" pos="DT" surface="the"/>
+        <token id="6" lemma="table" pos="NN" surface="table"/>
+        <token id="7" lemma="on" pos="IN" surface="on"/>
+        <token id="8" lemma="the" pos="DT" surface="the"/>
+        <token id="9" lemma="couch" pos="NN" surface="couch"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="3" to="2" type="det"/>
+        <dep from="1" to="3" type="dobj"/>
+        <dep from="1" to="4" type="prep"/>
+        <dep from="6" to="5" type="det"/>
+        <dep from="4" to="6" type="pobj"/>
+        <dep from="6" to="7" type="prep"/>
+        <dep from="9" to="8" type="det"/>
+        <dep from="7" to="9" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="garden_1484051087777" type="Garden">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>garden</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="box_1484051087653" type="Box">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>box</value>
+            <value>crate</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="15.0" y="3.0" z="0.0"/>
+      </entity>
+      <entity atom="table_1484051087655" type="Table">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>table</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="15.0" y="4.0" z="0.0"/>
+      </entity>
+      <entity atom="couch_1484051087656" type="Couch">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>couch</value>
+            <value>settee</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="14.0" y="15.0" z="0.0"/>
+      </entity>
+      <entity atom="cup_1484051087776" type="Cup">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cup</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="bread_1484051087774" type="Bread">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bread</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="oven_1484051087779" type="Oven">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>oven</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="thermostat_1484051087780" type="Thermostat">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>thermostat</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="box_1484051087653" tokenId="3"/>
+    <lexicalGrounding atom="table_1484051087655" tokenId="6"/>
+    <lexicalGrounding atom="couch_1484051087656" tokenId="9"/>
+  </lexicalGroundings>
+</huricExample>

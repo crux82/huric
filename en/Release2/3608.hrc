@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3608">
+  <commands>
+    <command>
+      <sentence>connect the small wire to the wall</sentence>
+      <tokens>
+        <token id="1" lemma="connect" pos="VB" surface="connect"/>
+        <token id="2" lemma="the" pos="DT" surface="the"/>
+        <token id="3" lemma="small" pos="JJ" surface="small"/>
+        <token id="4" lemma="wire" pos="NN" surface="wire"/>
+        <token id="5" lemma="to" pos="TO" surface="to"/>
+        <token id="6" lemma="the" pos="DT" surface="the"/>
+        <token id="7" lemma="wall" pos="NN" surface="wall"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="4" to="2" type="det"/>
+        <dep from="4" to="3" type="amod"/>
+        <dep from="1" to="4" type="dobj"/>
+        <dep from="1" to="5" type="prep"/>
+        <dep from="7" to="6" type="det"/>
+        <dep from="5" to="7" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Attaching">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Item">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="bed_1484051119114" type="Bed">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bed</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="garbage_1484051119109" type="Garbage">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>garbage</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="tap_1484051119104" type="Tap">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tap</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="jar_1484051119111" type="Jar">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>jar</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="window_1484051119110" type="Window">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>window</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="wall_1484051118949" type="Wall">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>wall</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="room_1484051119113" type="Room">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>room</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="wall_1484051118949" tokenId="7"/>
+  </lexicalGroundings>
+</huricExample>

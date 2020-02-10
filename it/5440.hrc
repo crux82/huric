@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="5440">
+  <commands>
+    <command>
+      <sentence>prendi la tazza sul tavolo del soggiorno</sentence>
+      <tokens>
+        <token id="1" lemma="prendere" pos="V" surface="prendi"/>
+        <token id="2" lemma="la" pos="RD" surface="la"/>
+        <token id="3" lemma="tazza" pos="S" surface="tazza"/>
+        <token id="4" lemma="su" pos="EA" surface="sul"/>
+        <token id="5" lemma="tavolo" pos="S" surface="tavolo"/>
+        <token id="6" lemma="di" pos="EA" surface="del"/>
+        <token id="7" lemma="soggiorno" pos="S" surface="soggiorno"/>
+      </tokens>
+      <dependencies/>
+      <semantics>
+        <frames>
+          <frame name="Taking">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="soggiorno_1484052490344" type="Soggiorno">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>soggiorno</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="13.0" y="10.0" z="0.0"/>
+      </entity>
+      <entity atom="tavolo_1484052490343" type="Tavolo">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tavolo</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="12.0" y="10.0" z="0.0"/>
+      </entity>
+      <entity atom="tavola_1484052490518" type="Tavola">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tavola</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="pantofole_1484052490517" type="Pantofole">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>pantofole</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="cappotto_1484052490519" type="Cappotto">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cappotto</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="pantaloni_1484052490514" type="Pantaloni">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>pantaloni</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="libro_1484052490516" type="Libro">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>libro</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="tazza_1484052490342" type="Tazza">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tazza</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="13.0" y="9.0" z="0.0"/>
+      </entity>
+      <entity atom="penna_1484052490515" type="Penna">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>penna</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>

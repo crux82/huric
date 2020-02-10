@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2661">
+  <commands>
+    <command>
+      <sentence>search in the corridor for the jar</sentence>
+      <tokens>
+        <token id="1" lemma="search" pos="VB" surface="search"/>
+        <token id="2" lemma="in" pos="IN" surface="in"/>
+        <token id="3" lemma="the" pos="DT" surface="the"/>
+        <token id="4" lemma="corridor" pos="NN" surface="corridor"/>
+        <token id="5" lemma="for" pos="IN" surface="for"/>
+        <token id="6" lemma="the" pos="DT" surface="the"/>
+        <token id="7" lemma="jar" pos="NN" surface="jar"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="prep"/>
+        <dep from="4" to="3" type="det"/>
+        <dep from="2" to="4" type="pobj"/>
+        <dep from="1" to="5" type="prep"/>
+        <dep from="7" to="6" type="det"/>
+        <dep from="5" to="7" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Locating">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Ground">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+              <frameElement type="Sought_entity">
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="handle_1484052566172" type="Handle">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>handle</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="press_1484052566165" type="Press">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>press</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="jar_1484052565937" type="Jar">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>jar</value>
+            <value>beaker</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="6.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="bin_1484052566158" type="Bin">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bin</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="wristwatch_1484052566171" type="Wristwatch">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>wristwatch</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="keys_1484052566162" type="Keys">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>keys</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="corridor_1484052565936" type="Corridor">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>corridor</value>
+            <value>passageway</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="corner_1484052566169" type="Corner">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>corner</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="corridor_1484052565936" tokenId="4"/>
+    <lexicalGrounding atom="jar_1484052565937" tokenId="7"/>
+  </lexicalGroundings>
+</huricExample>

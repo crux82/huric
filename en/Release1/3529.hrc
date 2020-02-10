@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3529">
+  <commands>
+    <command>
+      <sentence>please turn right by 60 degrees quickly</sentence>
+      <tokens>
+        <token id="1" lemma="please" pos="VB" surface="please"/>
+        <token id="2" lemma="turn" pos="VB" surface="turn"/>
+        <token id="3" lemma="right" pos="RB" surface="right"/>
+        <token id="4" lemma="by" pos="IN" surface="by"/>
+        <token id="5" lemma="60" pos="CD" surface="60"/>
+        <token id="6" lemma="degree" pos="NNS" surface="degrees"/>
+        <token id="7" lemma="quickly" pos="RB" surface="quickly"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="dep"/>
+        <dep from="2" to="3" type="advmod"/>
+        <dep from="3" to="4" type="prep"/>
+        <dep from="6" to="5" type="num"/>
+        <dep from="7" to="6" type="npadvmod"/>
+        <dep from="4" to="7" type="pcomp"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Change_direction">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Direction">
+                <token id="3"/>
+              </frameElement>
+              <frameElement type="Angle">
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+              </frameElement>
+              <frameElement type="Speed">
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="closet_1484051028455" type="Closet">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>closet</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="juice_1484051028451" type="Juice">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>juice</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="utensil_1484051028457" type="Utensil">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>utensil</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>

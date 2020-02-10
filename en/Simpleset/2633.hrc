@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2633">
+  <commands>
+    <command>
+      <sentence>bring the paper near the television</sentence>
+      <tokens>
+        <token id="1" lemma="bring" pos="VB" surface="bring"/>
+        <token id="2" lemma="the" pos="DT" surface="the"/>
+        <token id="3" lemma="paper" pos="NN" surface="paper"/>
+        <token id="4" lemma="near" pos="IN" surface="near"/>
+        <token id="5" lemma="the" pos="DT" surface="the"/>
+        <token id="6" lemma="television" pos="NN" surface="television"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="3" to="2" type="det"/>
+        <dep from="1" to="3" type="dobj"/>
+        <dep from="1" to="4" type="prep"/>
+        <dep from="6" to="5" type="det"/>
+        <dep from="4" to="6" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="2"/>
+                <token id="3"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="kitchen_1484052507929" type="Kitchen">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>kitchen</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="message_1484052507932" type="Message">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>message</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="boiler_1484052507934" type="Boiler">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>boiler</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="television_1484052507809" type="Television">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>television</value>
+            <value>telly</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="13.0" y="7.0" z="0.0"/>
+      </entity>
+      <entity atom="wristwatch_1484052507927" type="Wristwatch">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>wristwatch</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="aspirin_1484052507933" type="Aspirin">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>aspirin</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="paper_1484052507808" type="Paper">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>paper</value>
+            <value>document</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="9.0" z="0.0"/>
+      </entity>
+      <entity atom="shower_1484052507930" type="Shower">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>shower</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="paper_1484052507808" tokenId="3"/>
+    <lexicalGrounding atom="television_1484052507809" tokenId="6"/>
+  </lexicalGroundings>
+</huricExample>

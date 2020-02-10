@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3322">
+  <commands>
+    <command>
+      <sentence>get me my jacket</sentence>
+      <tokens>
+        <token id="1" lemma="get" pos="VB" surface="get"/>
+        <token id="2" lemma="I" pos="PRP" surface="me"/>
+        <token id="3" lemma="my" pos="PRP$" surface="my"/>
+        <token id="4" lemma="jacket" pos="NN" surface="jacket"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="iobj"/>
+        <dep from="4" to="3" type="poss"/>
+        <dep from="1" to="4" type="dojb"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Beneficiary">
+                <token id="2"/>
+              </frameElement>
+              <frameElement type="Theme">
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="catalogue_1484052160124" type="Catalogue">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>catalogue</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="book_1484052160127" type="Book">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>book</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="jacket_1484052160021" type="Jacket">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>jacket</value>
+            <value>blouse</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="9.0" z="0.0"/>
+      </entity>
+      <entity atom="glass_1484052160129" type="Glass">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>glass</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="person_1484052160130" type="Person">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>person</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="me_1484052160020" type="Person">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>person</value>
+            <value>user</value>
+            <value>me</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="8.0" y="11.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="me_1484052160020" tokenId="2"/>
+    <lexicalGrounding atom="jacket_1484052160021" tokenId="4"/>
+  </lexicalGroundings>
+</huricExample>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2381">
+  <commands>
+    <command>
+      <sentence>this is a bedroom with one bed and two night stands</sentence>
+      <tokens>
+        <token id="1" lemma="this" pos="DT" surface="this"/>
+        <token id="2" lemma="be" pos="VBZ" surface="is"/>
+        <token id="3" lemma="a" pos="DT" surface="a"/>
+        <token id="4" lemma="bedroom" pos="NN" surface="bedroom"/>
+        <token id="5" lemma="with" pos="IN" surface="with"/>
+        <token id="6" lemma="one" pos="CD" surface="one"/>
+        <token id="7" lemma="bed" pos="NN" surface="bed"/>
+        <token id="8" lemma="and" pos="CC" surface="and"/>
+        <token id="9" lemma="two" pos="CD" surface="two"/>
+        <token id="10" lemma="night" pos="NN" surface="night"/>
+        <token id="11" lemma="stand" pos="NNS" surface="stands"/>
+      </tokens>
+      <dependencies>
+        <dep from="4" to="1" type="nsubj"/>
+        <dep from="4" to="2" type="cop"/>
+        <dep from="4" to="3" type="det"/>
+        <dep from="0" to="4" type="root"/>
+        <dep from="4" to="5" type="prep"/>
+        <dep from="7" to="6" type="num"/>
+        <dep from="5" to="7" type="pobj"/>
+        <dep from="7" to="8" type="cc"/>
+        <dep from="11" to="9" type="num"/>
+        <dep from="11" to="10" type="nn"/>
+        <dep from="7" to="11" type="conj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Being_in_category">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Item">
+                <token id="1"/>
+              </frameElement>
+              <frameElement type="Category">
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+                <token id="10"/>
+                <token id="11"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="bedroom_1484051461590" type="Bedroom">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bedroom</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="13.0" y="10.0" z="0.0"/>
+      </entity>
+      <entity atom="kitchen_1484051461736" type="Kitchen">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>kitchen</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="bedstand_1484051461592" type="Bedstand">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bedstand</value>
+            <value>night_stand</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="12.0" y="10.0" z="0.0"/>
+      </entity>
+      <entity atom="bed_1484051461591" type="Bed">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bed</value>
+            <value>fourposter</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="13.0" y="9.0" z="0.0"/>
+      </entity>
+      <entity atom="keys_1484051461733" type="Keys">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>keys</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="fork_1484051461735" type="Fork">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>fork</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="bag_1484051461729" type="Bag">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bag</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="message_1484051461730" type="Message">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>message</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="bedroom_1484051461590" tokenId="4"/>
+    <lexicalGrounding atom="bed_1484051461591" tokenId="7"/>
+    <lexicalGrounding atom="bedstand_1484051461592" tokenId="10"/>
+    <lexicalGrounding atom="bedstand_1484051461592" tokenId="11"/>
+  </lexicalGroundings>
+</huricExample>

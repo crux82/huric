@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3307">
+  <commands>
+    <command>
+      <sentence>could you hang my clothes on the cloth horse please</sentence>
+      <tokens>
+        <token id="1" lemma="could" pos="MD" surface="could"/>
+        <token id="2" lemma="you" pos="PRP" surface="you"/>
+        <token id="3" lemma="hang" pos="VB" surface="hang"/>
+        <token id="4" lemma="my" pos="PRP$" surface="my"/>
+        <token id="5" lemma="clothes" pos="NNS" surface="clothes"/>
+        <token id="6" lemma="on" pos="IN" surface="on"/>
+        <token id="7" lemma="the" pos="DT" surface="the"/>
+        <token id="8" lemma="cloth" pos="NN" surface="cloth"/>
+        <token id="9" lemma="horse" pos="NN" surface="horse"/>
+        <token id="10" lemma="please" pos="UH" surface="please"/>
+      </tokens>
+      <dependencies>
+        <dep from="3" to="1" type="aux"/>
+        <dep from="3" to="2" type="nsubj"/>
+        <dep from="0" to="3" type="root"/>
+        <dep from="5" to="4" type="poss"/>
+        <dep from="3" to="5" type="dojb"/>
+        <dep from="3" to="6" type="prep"/>
+        <dep from="9" to="7" type="det"/>
+        <dep from="9" to="8" type="nn"/>
+        <dep from="6" to="9" type="pobj"/>
+        <dep from="3" to="10" type="discourse"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Placing">
+            <lexicalUnit>
+              <token id="3"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Agent">
+                <token id="2"/>
+              </frameElement>
+              <frameElement type="Theme">
+                <token id="4"/>
+                <token id="5"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="pants_1484052132251" type="Pants">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>pants</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="clothes_1484052132017" type="Clothes">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>clothes</value>
+            <value>clothing</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="13.0" y="7.0" z="0.0"/>
+      </entity>
+      <entity atom="book_1484052132250" type="Book">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>book</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="fridge_1484052132247" type="Fridge">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>fridge</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="soap_1484052132249" type="Soap">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>soap</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="pantry_1484052132246" type="Pantry">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>pantry</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="robot_1484063748562" type="Robot">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>robot</value>
+            <value>you</value>
+            <value>yourself</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+  	<lexicalGrounding atom="robot_1484063748562" tokenId="2"/>
+    <lexicalGrounding atom="clothes_1484052132017" tokenId="5"/>
+    <lexicalGrounding atom="cloth_horse_1484052132064" tokenId="8"/>
+    <lexicalGrounding atom="cloth_horse_1484052132064" tokenId="9"/>
+  </lexicalGroundings>
+</huricExample>

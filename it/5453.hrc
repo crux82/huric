@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="5453">
+  <commands>
+    <command>
+      <sentence>ho bisogno di un po' di carta igenica puoi portar me ne un po'</sentence>
+      <tokens>
+        <token id="1" lemma="avere" pos="V" surface="ho"/>
+        <token id="2" lemma="bisogno" pos="S" surface="bisogno"/>
+        <token id="3" lemma="di" pos="E" surface="di"/>
+        <token id="4" lemma="un" pos="RI" surface="un"/>
+        <token id="5" lemma="pò" pos="B" surface="po'"/>
+        <token id="6" lemma="di" pos="E" surface="di"/>
+        <token id="7" lemma="carta" pos="S" surface="carta"/>
+        <token id="8" lemma="igenica" pos="A" surface="igenica"/>
+        <token id="9" lemma="potere" pos="VM" surface="puoi"/>
+        <token id="10" lemma="portare" pos="V" surface="portar"/>
+        <token id="11" lemma="me" pos="PC" surface="me"/>
+        <token id="12" lemma="ne" pos="PC" surface="ne"/>
+        <token id="13" lemma="un" pos="RI" surface="un"/>
+        <token id="14" lemma="pò" pos="B" surface="po'"/>
+      </tokens>
+      <dependencies/>
+      <semantics>
+        <frames>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="10"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Beneficiary">
+                <token id="11"/>
+              </frameElement>
+              <frameElement type="Theme">
+                <token id="12"/>
+                <token id="13"/>
+                <token id="14"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="penna_1484052172998" type="Penna">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>penna</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="maniglia_1484052173001" type="Maniglia">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>maniglia</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="pantofole_1484052173007" type="Pantofole">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>pantofole</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="me_1484052172901" type="Me">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>me</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="finestra_1484052172999" type="Finestra">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>finestra</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="sala_1484052173002" type="Sala">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>sala</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3362">
+  <commands>
+    <command>
+      <sentence>robot can you open the laundry room cabinet</sentence>
+      <tokens>
+        <token id="1" lemma="robot" pos="NN" surface="robot"/>
+        <token id="2" lemma="can" pos="MD" surface="can"/>
+        <token id="3" lemma="you" pos="PRP" surface="you"/>
+        <token id="4" lemma="open" pos="VB" surface="open"/>
+        <token id="5" lemma="the" pos="DT" surface="the"/>
+        <token id="6" lemma="laundry" pos="NN" surface="laundry"/>
+        <token id="7" lemma="room" pos="NN" surface="room"/>
+        <token id="8" lemma="cabinet" pos="NN" surface="cabinet"/>
+      </tokens>
+      <dependencies>
+        <dep from="4" to="1" type="discourse"/>
+        <dep from="4" to="2" type="aux"/>
+        <dep from="4" to="3" type="nsubj"/>
+        <dep from="0" to="4" type="root"/>
+        <dep from="8" to="5" type="det"/>
+        <dep from="8" to="6" type="nn"/>
+        <dep from="8" to="7" type="nn"/>
+        <dep from="4" to="8" type="dobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Closure">
+            <lexicalUnit>
+              <token id="4"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Agent">
+                <token id="3"/>
+              </frameElement>
+              <frameElement type="Containing_object">
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="cabinet_1484052239643" type="Cabinet">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cabinet</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="cellphone_1484052239830" type="Cellphone">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cellphone</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="handle_1484052239816" type="Handle">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>handle</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="plate_1484052239813" type="Plate">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>plate</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="water_1484052239815" type="Water">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>water</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="robot_1484063748562" type="Robot">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>robot</value>
+            <value>you</value>
+            <value>yourself</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+  	<lexicalGrounding atom="robot_1484063748562" tokenId="3"/>
+    <lexicalGrounding atom="cabinet_1484052239643" tokenId="6"/>
+    <lexicalGrounding atom="cabinet_1484052239643" tokenId="7"/>
+    <lexicalGrounding atom="cabinet_1484052239643" tokenId="8"/>
+  </lexicalGroundings>
+</huricExample>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3339">
+  <commands>
+    <command>
+      <sentence>i 'm tired switch off the light please</sentence>
+      <tokens>
+        <token id="1" lemma="I" pos="PRP" surface="i"/>
+        <token id="2" lemma="be" pos="VB" surface="'m"/>
+        <token id="3" lemma="tired" pos="JJ" surface="tired"/>
+        <token id="4" lemma="switch" pos="VB" surface="switch"/>
+        <token id="5" lemma="off" pos="RP" surface="off"/>
+        <token id="6" lemma="the" pos="DT" surface="the"/>
+        <token id="7" lemma="light" pos="JJ" surface="light"/>
+        <token id="8" lemma="please" pos="UH" surface="please"/>
+      </tokens>
+      <dependencies>
+        <dep from="3" to="1" type="nsubj"/>
+        <dep from="3" to="2" type="aux"/>
+        <dep from="0" to="3" type="root"/>
+        <dep from="3" to="4" type="conj"/>
+        <dep from="4" to="5" type="prt"/>
+        <dep from="7" to="6" type="det"/>
+        <dep from="4" to="7" type="dojb"/>
+        <dep from="3" to="8" type="discourse"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Change_operational_state">
+            <lexicalUnit>
+              <token id="4"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Operational_state">
+                <token id="5"/>
+              </frameElement>
+              <frameElement type="Device">
+                <token id="6"/>
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="can_1484052188556" type="Can">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>can</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="cabinet_1484052188559" type="Cabinet">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cabinet</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="deck_1484052188554" type="Deck">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>deck</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="bench_1484052188558" type="Bench">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bench</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="bread_1484052188557" type="Bread">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bread</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="apple_1484052188560" type="Apple">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>apple</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="light_1484052188475" type="Light">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>light</value>
+            <value>nightlight</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="light_1484052188475" tokenId="7"/>
+  </lexicalGroundings>
+</huricExample>

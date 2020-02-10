@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2375">
+  <commands>
+    <command>
+      <sentence>hey robot follow john everywhere he goes and keep the same pace as he has</sentence>
+      <tokens>
+        <token id="1" lemma="hey" pos="UH" surface="hey"/>
+        <token id="2" lemma="robot" pos="NN" surface="robot"/>
+        <token id="3" lemma="follow" pos="VB" surface="follow"/>
+        <token id="4" lemma="john" pos="NNP" surface="john"/>
+        <token id="5" lemma="everywhere" pos="RB" surface="everywhere"/>
+        <token id="6" lemma="he" pos="PRP" surface="he"/>
+        <token id="7" lemma="go" pos="VBZ" surface="goes"/>
+        <token id="8" lemma="and" pos="CC" surface="and"/>
+        <token id="9" lemma="keep" pos="VB" surface="keep"/>
+        <token id="10" lemma="the" pos="DT" surface="the"/>
+        <token id="11" lemma="same" pos="JJ" surface="same"/>
+        <token id="12" lemma="pace" pos="NN" surface="pace"/>
+        <token id="13" lemma="as" pos="RB" surface="as"/>
+        <token id="14" lemma="he" pos="PRP" surface="he"/>
+        <token id="15" lemma="have" pos="VBZ" surface="has"/>
+      </tokens>
+      <dependencies>
+        <dep from="3" to="1" type="discourse"/>
+        <dep from="3" to="2" type="nsubj"/>
+        <dep from="0" to="3" type="root"/>
+        <dep from="3" to="4" type="dobj"/>
+        <dep from="7" to="5" type="advmod"/>
+        <dep from="7" to="6" type="nsubj"/>
+        <dep from="3" to="7" type="ccomp"/>
+        <dep from="3" to="8" type="cc"/>
+        <dep from="3" to="9" type="conj"/>
+        <dep from="12" to="10" type="det"/>
+        <dep from="12" to="11" type="amod"/>
+        <dep from="9" to="12" type="dobj"/>
+        <dep from="15" to="13" type="mark"/>
+        <dep from="15" to="14" type="nsubj"/>
+        <dep from="9" to="15" type="advcl"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Cotheme">
+            <lexicalUnit>
+              <token id="3"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Cotheme">
+                <token id="4"/>
+              </frameElement>
+              <frameElement type="Area">
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="paper_1484051450106" type="Paper">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>paper</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="mirror_1484051450110" type="Mirror">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>mirror</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="drawer_1484051450112" type="Drawer">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>drawer</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="desk_1484051450108" type="Desk">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>desk</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="vase_1484051450109" type="Vase">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>vase</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="jar_1484051450111" type="Jar">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>jar</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="john_1484051449998" tokenId="4"/>
+    <lexicalGrounding atom="he_1484051449999" tokenId="6"/>
+  </lexicalGroundings>
+</huricExample>

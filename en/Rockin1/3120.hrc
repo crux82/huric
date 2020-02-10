@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3120">
+  <commands>
+    <command>
+      <sentence>robot listen go into the bedroom and find the black pen it should be on the nightstand</sentence>
+      <tokens>
+        <token id="1" lemma="robot" pos="NN" surface="robot"/>
+        <token id="2" lemma="listen" pos="VB" surface="listen"/>
+        <token id="3" lemma="go" pos="VB" surface="go"/>
+        <token id="4" lemma="into" pos="IN" surface="into"/>
+        <token id="5" lemma="the" pos="DT" surface="the"/>
+        <token id="6" lemma="bedroom" pos="NN" surface="bedroom"/>
+        <token id="7" lemma="and" pos="CC" surface="and"/>
+        <token id="8" lemma="find" pos="VB" surface="find"/>
+        <token id="9" lemma="the" pos="DT" surface="the"/>
+        <token id="10" lemma="black" pos="JJ" surface="black"/>
+        <token id="11" lemma="pen" pos="NN" surface="pen"/>
+        <token id="12" lemma="it" pos="PRP" surface="it"/>
+        <token id="13" lemma="shall" pos="MD" surface="should"/>
+        <token id="14" lemma="be" pos="VB" surface="be"/>
+        <token id="15" lemma="on" pos="IN" surface="on"/>
+        <token id="16" lemma="the" pos="DT" surface="the"/>
+        <token id="17" lemma="nightstand" pos="NN" surface="nightstand"/>
+      </tokens>
+      <dependencies>
+        <dep from="3" to="1" type="discourse"/>
+        <dep from="3" to="2" type="discourse"/>
+        <dep from="0" to="3" type="root"/>
+        <dep from="3" to="4" type="prep"/>
+        <dep from="6" to="5" type="det"/>
+        <dep from="4" to="6" type="pobj"/>
+        <dep from="3" to="7" type="cc"/>
+        <dep from="3" to="8" type="conj"/>
+        <dep from="11" to="9" type="det"/>
+        <dep from="11" to="10" type="amod"/>
+        <dep from="8" to="11" type="dobj"/>
+        <dep from="14" to="12" type="nsubj"/>
+        <dep from="14" to="13" type="aux"/>
+        <dep from="11" to="14" type="conj"/>
+        <dep from="14" to="15" type="prep"/>
+        <dep from="17" to="16" type="det"/>
+        <dep from="15" to="17" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Motion">
+            <lexicalUnit>
+              <token id="3"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Goal">
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Locating">
+            <lexicalUnit>
+              <token id="8"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Sought_entity">
+                <token id="9"/>
+                <token id="10"/>
+                <token id="11"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Being_located">
+            <lexicalUnit>
+              <token id="14"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="12"/>
+              </frameElement>
+              <frameElement type="Location">
+                <token id="15"/>
+                <token id="16"/>
+                <token id="17"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="bedroom_1484051982133" type="Bedroom">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bedroom</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="3.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="message_1484051982337" type="Message">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>message</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="cupboard_1484051982339" type="Cupboard">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cupboard</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="bedstand_1484051982146" type="Bedstand">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bedstand</value>
+            <value>nightstand</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="8.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="pen_1484051982139" type="Pen">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>pen</value>
+            <value>ballpoint</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="cereals_1484051982336" type="Cereals">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cereals</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="cutlery_1484051982334" type="Cutlery">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cutlery</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="tray_1484051982342" type="Tray">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tray</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="bedroom_1484051982133" tokenId="6"/>
+    <lexicalGrounding atom="pen_1484051982139" tokenId="10"/>
+    <lexicalGrounding atom="pen_1484051982139" tokenId="11"/>
+    <lexicalGrounding atom="it_1484051982145" tokenId="12"/>
+    <lexicalGrounding atom="bedstand_1484051982146" tokenId="17"/>
+  </lexicalGroundings>
+</huricExample>

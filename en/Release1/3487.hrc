@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3487">
+  <commands>
+    <command>
+      <sentence>check if the lights are turned on please</sentence>
+      <tokens>
+        <token id="1" lemma="check" pos="VB" surface="check"/>
+        <token id="2" lemma="if" pos="IN" surface="if"/>
+        <token id="3" lemma="the" pos="DT" surface="the"/>
+        <token id="4" lemma="light" pos="NNS" surface="lights"/>
+        <token id="5" lemma="be" pos="VBP" surface="are"/>
+        <token id="6" lemma="turn" pos="VBN" surface="turned"/>
+        <token id="7" lemma="on" pos="RP" surface="on"/>
+        <token id="8" lemma="please" pos="VB" surface="please"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="6" to="2" type="mark"/>
+        <dep from="4" to="3" type="det"/>
+        <dep from="6" to="4" type="nsubjpass"/>
+        <dep from="6" to="5" type="auxpass"/>
+        <dep from="1" to="6" type="dep"/>
+        <dep from="6" to="7" type="prt"/>
+        <dep from="6" to="8" type="ccomp"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Inspecting">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Ground">
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+              <frameElement type="Desired_state">
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="can_1484050882732" type="Can">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>can</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="bag_1484050882727" type="Bag">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bag</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="pasta_1484050882731" type="Pasta">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>pasta</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="light_1484050882562" type="Light">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>light</value>
+            <value>nightlight</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="plate_1484050882729" type="Plate">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>plate</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="stairs_1484050882734" type="Stairs">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>stairs</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="light_1484050882562" tokenId="4"/>
+  </lexicalGroundings>
+</huricExample>

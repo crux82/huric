@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="5470">
+  <commands>
+    <command>
+      <sentence>la spazzatura ha bisogno di essere buttata potresti portar la fuori</sentence>
+      <tokens>
+        <token id="1" lemma="la" pos="RD" surface="la"/>
+        <token id="2" lemma="spazzatura" pos="S" surface="spazzatura"/>
+        <token id="3" lemma="avere" pos="V" surface="ha"/>
+        <token id="4" lemma="bisogno" pos="S" surface="bisogno"/>
+        <token id="5" lemma="di" pos="E" surface="di"/>
+        <token id="6" lemma="essere" pos="VA" surface="essere"/>
+        <token id="7" lemma="buttare" pos="V" surface="buttata"/>
+        <token id="8" lemma="potere" pos="VM" surface="potresti"/>
+        <token id="9" lemma="portare" pos="V" surface="portar"/>
+        <token id="10" lemma="la" pos="PC" surface="la"/>
+        <token id="11" lemma="fuori" pos="B" surface="fuori"/>
+      </tokens>
+      <dependencies/>
+      <semantics>
+        <frames>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="9"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="10"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="11"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="asciugamano_1484052278103" type="Asciugamano">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>asciugamano</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="chiave_inglese_1484052278101" type="Chiave_inglese">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>chiave_inglese</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="sedia_1484052278102" type="Sedia">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>sedia</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="scatola_1484052278107" type="Scatola">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>scatola</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="me_1484052278105" type="Me">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>me</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="esso_1484052278022" type="Esso">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>esso</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="postino_1484052278106" type="Postino">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>postino</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>

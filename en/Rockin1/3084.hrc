@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3084">
+  <commands>
+    <command>
+      <sentence>i really need you to bring me my aspirin it is in one of the drawers of the bathroom</sentence>
+      <tokens>
+        <token id="1" lemma="I" pos="PRP" surface="i"/>
+        <token id="2" lemma="really" pos="RB" surface="really"/>
+        <token id="3" lemma="need" pos="VB" surface="need"/>
+        <token id="4" lemma="you" pos="PRP" surface="you"/>
+        <token id="5" lemma="to" pos="TO" surface="to"/>
+        <token id="6" lemma="bring" pos="VB" surface="bring"/>
+        <token id="7" lemma="I" pos="PRP" surface="me"/>
+        <token id="8" lemma="my" pos="PRP$" surface="my"/>
+        <token id="9" lemma="aspirin" pos="NN" surface="aspirin"/>
+        <token id="10" lemma="it" pos="PRP" surface="it"/>
+        <token id="11" lemma="be" pos="VBZ" surface="is"/>
+        <token id="12" lemma="in" pos="IN" surface="in"/>
+        <token id="13" lemma="one" pos="CD" surface="one"/>
+        <token id="14" lemma="of" pos="IN" surface="of"/>
+        <token id="15" lemma="the" pos="DT" surface="the"/>
+        <token id="16" lemma="drawer" pos="NNS" surface="drawers"/>
+        <token id="17" lemma="of" pos="IN" surface="of"/>
+        <token id="18" lemma="the" pos="DT" surface="the"/>
+        <token id="19" lemma="bathroom" pos="NN" surface="bathroom"/>
+      </tokens>
+      <dependencies>
+        <dep from="3" to="1" type="nsubj"/>
+        <dep from="3" to="2" type="advmod"/>
+        <dep from="0" to="3" type="root"/>
+        <dep from="6" to="4" type="nsubj"/>
+        <dep from="6" to="5" type="aux"/>
+        <dep from="3" to="6" type="xcomp"/>
+        <dep from="6" to="7" type="iobj"/>
+        <dep from="9" to="8" type="poss"/>
+        <dep from="6" to="9" type="dojb"/>
+        <dep from="11" to="10" type="nsubj"/>
+        <dep from="3" to="11" type="conj"/>
+        <dep from="11" to="12" type="prep"/>
+        <dep from="12" to="13" type="pobj"/>
+        <dep from="13" to="14" type="prep"/>
+        <dep from="16" to="15" type="det"/>
+        <dep from="14" to="16" type="pobj"/>
+        <dep from="16" to="17" type="prep"/>
+        <dep from="19" to="18" type="det"/>
+        <dep from="17" to="19" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="6"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Agent">
+                <token id="4"/>
+              </frameElement>
+              <frameElement type="Beneficiary">
+                <token id="7"/>
+              </frameElement>
+              <frameElement type="Theme">
+                <token id="8"/>
+                <token id="9"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Being_located">
+            <lexicalUnit>
+              <token id="11"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="10"/>
+              </frameElement>
+              <frameElement type="Location">
+                <token id="12"/>
+                <token id="13"/>
+                <token id="14"/>
+                <token id="15"/>
+                <token id="16"/>
+                <token id="17"/>
+                <token id="18"/>
+                <token id="19"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="bathroom_1484051880588" type="Bathroom">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bathroom</value>
+            <value>wc</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="3.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="utensil_1484051880755" type="Utensil">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>utensil</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="closet_1484051880753" type="Closet">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>closet</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="drawer_1484051880587" type="Drawer">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>drawer</value>
+            <value>dresser</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="3.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="aspirin_1484051880580" type="Aspirin">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>aspirin</value>
+            <value>nsaid</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="robot_1484063748562" type="Robot">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>robot</value>
+            <value>you</value>
+            <value>yourself</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="me_1484051880579" type="Person">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>person</value>
+            <value>user</value>
+            <value>me</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="8.0" y="11.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+  	<lexicalGrounding atom="robot_1484063748562" tokenId="4"/>
+    <lexicalGrounding atom="me_1484051880579" tokenId="7"/>
+    <lexicalGrounding atom="aspirin_1484051880580" tokenId="9"/>
+    <lexicalGrounding atom="it_1484051880586" tokenId="10"/>
+    <lexicalGrounding atom="drawer_1484051880587" tokenId="16"/>
+    <lexicalGrounding atom="bathroom_1484051880588" tokenId="19"/>
+  </lexicalGroundings>
+</huricExample>

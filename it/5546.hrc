@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="5546">
+  <commands>
+    <command>
+      <sentence>prendi il mio giacchetto dall' appendiabiti nella mia camera da letto</sentence>
+      <tokens>
+        <token id="1" lemma="prendere" pos="V" surface="prendi"/>
+        <token id="2" lemma="il" pos="RD" surface="il"/>
+        <token id="3" lemma="mio" pos="AP" surface="mio"/>
+        <token id="4" lemma="giacchetto" pos="S" surface="giacchetto"/>
+        <token id="5" lemma="da" pos="EA" surface="dall'"/>
+        <token id="6" lemma="appendiabiti" pos="S" surface="appendiabiti"/>
+        <token id="7" lemma="in" pos="EA" surface="nella"/>
+        <token id="8" lemma="mio" pos="AP" surface="mia"/>
+        <token id="9" lemma="camera" pos="S" surface="camera"/>
+        <token id="10" lemma="da" pos="E" surface="da"/>
+        <token id="11" lemma="letto" pos="S" surface="letto"/>
+      </tokens>
+      <dependencies/>
+      <semantics>
+        <frames>
+          <frame name="Taking">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+              <frameElement type="Source">
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+                <token id="10"/>
+                <token id="11"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="angolo_1484052069437" type="Angolo">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>angolo</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="camera_da_letto_1484052069177" type="Camera_da_letto">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>camera_da_letto</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="6.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="sala_1484052069439" type="Sala">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>sala</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="credenza_1484052069430" type="Credenza">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>credenza</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="telefono_1484052069429" type="Telefono">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>telefono</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="router_1484052069441" type="Router">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>router</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="giacca_1484052069175" type="Giacca">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>giacca</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="6.0" y="12.0" z="0.0"/>
+      </entity>
+      <entity atom="cappello_1484052069440" type="Cappello">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cappello</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>

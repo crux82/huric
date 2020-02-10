@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2267">
+  <commands>
+    <command>
+      <sentence>go along with them</sentence>
+      <tokens>
+        <token id="1" lemma="go" pos="VB" surface="go"/>
+        <token id="2" lemma="along" pos="RP" surface="along"/>
+        <token id="3" lemma="with" pos="IN" surface="with"/>
+        <token id="4" lemma="they" pos="PRP" surface="them"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="prt"/>
+        <dep from="1" to="3" type="prep"/>
+        <dep from="3" to="4" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Cotheme">
+            <lexicalUnit>
+              <token id="1"/>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Cotheme">
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="message_1484051302948" type="Message">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>message</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="utensil_1484051302946" type="Utensil">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>utensil</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="closet_1484051302945" type="Closet">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>closet</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="they_1484051302864" tokenId="4"/>
+  </lexicalGroundings>
+</huricExample>

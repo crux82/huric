@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3371">
+  <commands>
+    <command>
+      <sentence>robot can you turn my laptop on</sentence>
+      <tokens>
+        <token id="1" lemma="robot" pos="NN" surface="robot"/>
+        <token id="2" lemma="can" pos="MD" surface="can"/>
+        <token id="3" lemma="you" pos="PRP" surface="you"/>
+        <token id="4" lemma="turn" pos="VB" surface="turn"/>
+        <token id="5" lemma="my" pos="PRP$" surface="my"/>
+        <token id="6" lemma="laptop" pos="NN" surface="laptop"/>
+        <token id="7" lemma="on" pos="RP" surface="on"/>
+      </tokens>
+      <dependencies>
+        <dep from="4" to="1" type="discourse"/>
+        <dep from="4" to="2" type="aux"/>
+        <dep from="4" to="3" type="nsubj"/>
+        <dep from="0" to="4" type="root"/>
+        <dep from="6" to="5" type="poss"/>
+        <dep from="4" to="6" type="dobj"/>
+        <dep from="4" to="7" type="prt"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Change_operational_state">
+            <lexicalUnit>
+              <token id="4"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Agent">
+                <token id="3"/>
+              </frameElement>
+              <frameElement type="Device">
+                <token id="5"/>
+                <token id="6"/>
+              </frameElement>
+              <frameElement type="Operational_state">
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="wallet_1484052257735" type="Wallet">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>wallet</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="bag_1484052257742" type="Bag">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bag</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="recorder_1484052257736" type="Recorder">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>recorder</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="computer_1484052257654" type="Computer">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>computer</value>
+            <value>desktop</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="aspirin_1484052257741" type="Aspirin">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>aspirin</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="corner_1484052257738" type="Corner">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>corner</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="robot_1484063748562" type="Robot">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>robot</value>
+            <value>you</value>
+            <value>yourself</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+  	<lexicalGrounding atom="robot_1484063748562" tokenId="3"/>
+    <lexicalGrounding atom="computer_1484052257654" tokenId="6"/>
+  </lexicalGroundings>
+</huricExample>

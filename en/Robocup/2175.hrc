@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2175">
+  <commands>
+    <command>
+      <sentence>please carry the mug to the bathroom</sentence>
+      <tokens>
+        <token id="1" lemma="please" pos="UH" surface="please"/>
+        <token id="2" lemma="carry" pos="VB" surface="carry"/>
+        <token id="3" lemma="the" pos="DT" surface="the"/>
+        <token id="4" lemma="mug" pos="NN" surface="mug"/>
+        <token id="5" lemma="to" pos="TO" surface="to"/>
+        <token id="6" lemma="the" pos="DT" surface="the"/>
+        <token id="7" lemma="bathroom" pos="NN" surface="bathroom"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="discourse"/>
+        <dep from="0" to="2" type="root"/>
+        <dep from="4" to="3" type="det"/>
+        <dep from="2" to="4" type="dobj"/>
+        <dep from="2" to="5" type="prep"/>
+        <dep from="7" to="6" type="det"/>
+        <dep from="5" to="7" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="bathroom_1484051225506" type="Bathroom">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bathroom</value>
+            <value>shower_room</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="9.0" z="0.0"/>
+      </entity>
+      <entity atom="cup_1484051225505" type="Cup">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cup</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="13.0" y="7.0" z="0.0"/>
+      </entity>
+      <entity atom="plate_1484051225637" type="Plate">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>plate</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="cabinet_1484051225633" type="Cabinet">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cabinet</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="pasta_1484051225638" type="Pasta">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>pasta</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="can_1484051225677" type="Can">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>can</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="bag_1484051225635" type="Bag">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bag</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="cup_1484051225505" tokenId="4"/>
+    <lexicalGrounding atom="bathroom_1484051225506" tokenId="7"/>
+  </lexicalGroundings>
+</huricExample>

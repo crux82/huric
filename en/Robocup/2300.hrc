@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2300">
+  <commands>
+    <command>
+      <sentence>get my coat from the closet</sentence>
+      <tokens>
+        <token id="1" lemma="get" pos="VB" surface="get"/>
+        <token id="2" lemma="my" pos="PRP$" surface="my"/>
+        <token id="3" lemma="coat" pos="NN" surface="coat"/>
+        <token id="4" lemma="from" pos="IN" surface="from"/>
+        <token id="5" lemma="the" pos="DT" surface="the"/>
+        <token id="6" lemma="closet" pos="NN" surface="closet"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="3" to="2" type="poss"/>
+        <dep from="1" to="3" type="dobj"/>
+        <dep from="1" to="4" type="prep"/>
+        <dep from="6" to="5" type="det"/>
+        <dep from="4" to="6" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Taking">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="2"/>
+                <token id="3"/>
+              </frameElement>
+              <frameElement type="Source">
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="postcard_1484051358686" type="Postcard">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>postcard</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="coat_1484051358580" type="Coat">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>coat</value>
+            <value>raincoat</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="6.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="closet_1484051358581" type="Closet">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>closet</value>
+            <value>cloakroom</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="cupboard_1484051358682" type="Cupboard">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cupboard</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="bin_1484051358687" type="Bin">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bin</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="coat_1484051358580" tokenId="3"/>
+    <lexicalGrounding atom="closet_1484051358581" tokenId="6"/>
+  </lexicalGroundings>
+</huricExample>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3543">
+  <commands>
+    <command>
+      <sentence>robot please turn on the black radio on the table</sentence>
+      <tokens>
+        <token id="1" lemma="robot" pos="NN" surface="robot"/>
+        <token id="2" lemma="please" pos="VB" surface="please"/>
+        <token id="3" lemma="turn" pos="VB" surface="turn"/>
+        <token id="4" lemma="on" pos="RP" surface="on"/>
+        <token id="5" lemma="the" pos="DT" surface="the"/>
+        <token id="6" lemma="black" pos="JJ" surface="black"/>
+        <token id="7" lemma="radio" pos="NN" surface="radio"/>
+        <token id="8" lemma="on" pos="IN" surface="on"/>
+        <token id="9" lemma="the" pos="DT" surface="the"/>
+        <token id="10" lemma="table" pos="NN" surface="table"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="dep"/>
+        <dep from="2" to="3" type="xcomp"/>
+        <dep from="3" to="4" type="prt"/>
+        <dep from="7" to="5" type="det"/>
+        <dep from="7" to="6" type="amod"/>
+        <dep from="3" to="7" type="dobj"/>
+        <dep from="7" to="8" type="prep"/>
+        <dep from="10" to="9" type="det"/>
+        <dep from="8" to="10" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Change_operational_state">
+            <lexicalUnit>
+              <token id="3"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Operational_state">
+                <token id="4"/>
+              </frameElement>
+              <frameElement type="Device">
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+                <token id="10"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="hall_1484051058457" type="Hall">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>hall</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="table_1484051058378" type="Table">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>table</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="window_1484051058460" type="Window">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>window</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="flower_1484051058459" type="Flower">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>flower</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="plant_1484051058455" type="Plant">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>plant</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="table_1484051058378" tokenId="10"/>
+  </lexicalGroundings>
+</huricExample>

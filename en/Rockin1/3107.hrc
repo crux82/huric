@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3107">
+  <commands>
+    <command>
+      <sentence>put the mobile phone in the nightstand</sentence>
+      <tokens>
+        <token id="1" lemma="put" pos="VB" surface="put"/>
+        <token id="2" lemma="the" pos="DT" surface="the"/>
+        <token id="3" lemma="mobile" pos="JJ" surface="mobile"/>
+        <token id="4" lemma="phone" pos="NN" surface="phone"/>
+        <token id="5" lemma="in" pos="IN" surface="in"/>
+        <token id="6" lemma="the" pos="DT" surface="the"/>
+        <token id="7" lemma="nightstand" pos="NN" surface="nightstand"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="4" to="2" type="det"/>
+        <dep from="4" to="3" type="amod"/>
+        <dep from="1" to="4" type="dobj"/>
+        <dep from="1" to="5" type="prep"/>
+        <dep from="7" to="6" type="det"/>
+        <dep from="5" to="7" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Placing">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="bedstand_1484051939845" type="Bedstand">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bedstand</value>
+            <value>nightstand</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="13.0" y="7.0" z="0.0"/>
+      </entity>
+      <entity atom="mayo_1484051939953" type="Mayo">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>mayo</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="cup_1484051939957" type="Cup">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cup</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="cellphone_1484051939843" type="Cellphone">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cellphone</value>
+            <value>mobile</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="9.0" z="0.0"/>
+      </entity>
+      <entity atom="fridge_1484051939950" type="Fridge">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>fridge</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="handle_1484051939952" type="Handle">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>handle</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="bin_1484051939948" type="Bin">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bin</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="cellphone_1484051939843" tokenId="3"/>
+    <lexicalGrounding atom="cellphone_1484051939843" tokenId="4"/>
+    <lexicalGrounding atom="bedstand_1484051939845" tokenId="7"/>
+  </lexicalGroundings>
+</huricExample>

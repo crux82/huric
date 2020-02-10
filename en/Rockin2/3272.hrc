@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3272">
+  <commands>
+    <command>
+      <sentence>bring me a chair from the studio</sentence>
+      <tokens>
+        <token id="1" lemma="bring" pos="VB" surface="bring"/>
+        <token id="2" lemma="I" pos="PRP" surface="me"/>
+        <token id="3" lemma="a" pos="DT" surface="a"/>
+        <token id="4" lemma="chair" pos="NN" surface="chair"/>
+        <token id="5" lemma="from" pos="IN" surface="from"/>
+        <token id="6" lemma="the" pos="DT" surface="the"/>
+        <token id="7" lemma="studio" pos="NN" surface="studio"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="iobj"/>
+        <dep from="4" to="3" type="det"/>
+        <dep from="1" to="4" type="dobj"/>
+        <dep from="1" to="5" type="prep"/>
+        <dep from="7" to="6" type="det"/>
+        <dep from="5" to="7" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Beneficiary">
+                <token id="2"/>
+              </frameElement>
+              <frameElement type="Theme">
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+              <frameElement type="Source">
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="garbage_1484052074944" type="Garbage">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>garbage</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="jar_1484052074946" type="Jar">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>jar</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="tap_1484052074943" type="Tap">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tap</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="bed_1484052074948" type="Bed">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bed</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="chair_1484052074739" type="Chair">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>chair</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="14.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="studio_1484052074740" type="Studio">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>studio</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="13.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="room_1484052074947" type="Room">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>room</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="window_1484052074945" type="Window">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>window</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="me_1484052074738" type="Person">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>person</value>
+            <value>user</value>
+            <value>me</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="8.0" y="11.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="me_1484052074738" tokenId="2"/>
+    <lexicalGrounding atom="chair_1484052074739" tokenId="4"/>
+    <lexicalGrounding atom="studio_1484052074740" tokenId="7"/>
+  </lexicalGroundings>
+</huricExample>

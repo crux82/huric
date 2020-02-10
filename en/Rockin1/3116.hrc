@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3116">
+  <commands>
+    <command>
+      <sentence>robot can you find a pack of napkins</sentence>
+      <tokens>
+        <token id="1" lemma="robot" pos="NN" surface="robot"/>
+        <token id="2" lemma="can" pos="MD" surface="can"/>
+        <token id="3" lemma="you" pos="PRP" surface="you"/>
+        <token id="4" lemma="find" pos="VB" surface="find"/>
+        <token id="5" lemma="a" pos="DT" surface="a"/>
+        <token id="6" lemma="pack" pos="NN" surface="pack"/>
+        <token id="7" lemma="of" pos="IN" surface="of"/>
+        <token id="8" lemma="napkin" pos="NNS" surface="napkins"/>
+      </tokens>
+      <dependencies>
+        <dep from="4" to="1" type="discourse"/>
+        <dep from="4" to="2" type="aux"/>
+        <dep from="4" to="3" type="nsubj"/>
+        <dep from="0" to="4" type="root"/>
+        <dep from="6" to="5" type="det"/>
+        <dep from="4" to="6" type="dobj"/>
+        <dep from="6" to="7" type="prep"/>
+        <dep from="7" to="8" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Locating">
+            <lexicalUnit>
+              <token id="4"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Cognizer">
+                <token id="3"/>
+              </frameElement>
+              <frameElement type="Sought_entity">
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="phone_1484051970221" type="Phone">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>phone</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="tap_1484051970219" type="Tap">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tap</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="napkin_1484051970074" type="Napkin">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>napkin</value>
+            <value>handkerchief</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="bookshelf_1484051970222" type="Bookshelf">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bookshelf</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="drawer_1484051970220" type="Drawer">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>drawer</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="box_1484051970073" type="Box">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>box</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="6.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="flower_1484051970218" type="Flower">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>flower</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="robot_1484063748562" type="Robot">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>robot</value>
+            <value>you</value>
+            <value>yourself</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+  	<lexicalGrounding atom="robot_1484063748562" tokenId="3"/>
+    <lexicalGrounding atom="box_1484051970073" tokenId="6"/>
+    <lexicalGrounding atom="napkin_1484051970074" tokenId="8"/>
+  </lexicalGroundings>
+</huricExample>

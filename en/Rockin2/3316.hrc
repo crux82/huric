@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3316">
+  <commands>
+    <command>
+      <sentence>find the bottle of water and water the plant</sentence>
+      <tokens>
+        <token id="1" lemma="find" pos="VB" surface="find"/>
+        <token id="2" lemma="the" pos="DT" surface="the"/>
+        <token id="3" lemma="bottle" pos="NN" surface="bottle"/>
+        <token id="4" lemma="of" pos="IN" surface="of"/>
+        <token id="5" lemma="water" pos="NN" surface="water"/>
+        <token id="6" lemma="and" pos="CC" surface="and"/>
+        <token id="7" lemma="water" pos="NN" surface="water"/>
+        <token id="8" lemma="the" pos="DT" surface="the"/>
+        <token id="9" lemma="plant" pos="NN" surface="plant"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="3" to="2" type="det"/>
+        <dep from="1" to="3" type="dobj"/>
+        <dep from="3" to="4" type="prep"/>
+        <dep from="4" to="5" type="pobj"/>
+        <dep from="5" to="6" type="cc"/>
+        <dep from="5" to="7" type="conj"/>
+        <dep from="9" to="8" type="det"/>
+        <dep from="7" to="9" type="dojb"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Locating">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Sought_entity">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="pantry_1484052147892" type="Pantry">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>pantry</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="cereals_1484052147898" type="Cereals">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cereals</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="water_1484052147790" type="Water">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>water</value>
+            <value>freshwater</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="jacket_1484052147900" type="Jacket">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>jacket</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="radio_1484052147899" type="Radio">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>radio</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="bottle_1484052147789" type="Bottle">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bottle</value>
+            <value>flask</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="6.0" y="14.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="bottle_1484052147789" tokenId="3"/>
+    <lexicalGrounding atom="water_1484052147790" tokenId="5"/>
+  </lexicalGroundings>
+</huricExample>

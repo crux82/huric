@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="5432">
+  <commands>
+    <command>
+      <sentence>prendi tre tazze di caffè e porta me le</sentence>
+      <tokens>
+        <token id="1" lemma="prendere" pos="V" surface="prendi"/>
+        <token id="2" lemma="tre" pos="N" surface="tre"/>
+        <token id="3" lemma="tazza" pos="S" surface="tazze"/>
+        <token id="4" lemma="di" pos="E" surface="di"/>
+        <token id="5" lemma="caffÃ¨" pos="S" surface="caffè"/>
+        <token id="6" lemma="e" pos="CC" surface="e"/>
+        <token id="7" lemma="portare" pos="V" surface="porta"/>
+        <token id="8" lemma="me" pos="PC" surface="me"/>
+        <token id="9" lemma="le" pos="PC" surface="le"/>
+      </tokens>
+      <dependencies/>
+      <semantics>
+        <frames>
+          <frame name="Taking">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="7"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Beneficiary">
+                <token id="8"/>
+              </frameElement>
+              <frameElement type="Theme">
+                <token id="9"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="coca-cola_1484052045030" type="Coca-cola">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>coca-cola</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="foglio_1484052045029" type="Foglio">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>foglio</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="televisione_1484052045028" type="Televisione">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>televisione</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="luce_1484052045027" type="Luce">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>luce</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="tazza_1484052044898" type="Tazza">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tazza</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="3.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="comodino_1484052045031" type="Comodino">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>comodino</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="loro_1484052044904" type="Loro">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>loro</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="7.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="me_1484052044905" type="Me">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>me</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="madre_1484052045026" type="Madre">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>madre</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>

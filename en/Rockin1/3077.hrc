@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3077">
+  <commands>
+    <command>
+      <sentence>grab the beer pack near the kitchen door</sentence>
+      <tokens>
+        <token id="1" lemma="grab" pos="VB" surface="grab"/>
+        <token id="2" lemma="the" pos="DT" surface="the"/>
+        <token id="3" lemma="beer" pos="NN" surface="beer"/>
+        <token id="4" lemma="pack" pos="NN" surface="pack"/>
+        <token id="5" lemma="near" pos="IN" surface="near"/>
+        <token id="6" lemma="the" pos="DT" surface="the"/>
+        <token id="7" lemma="kitchen" pos="NN" surface="kitchen"/>
+        <token id="8" lemma="door" pos="NN" surface="door"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="4" to="2" type="det"/>
+        <dep from="4" to="3" type="nn"/>
+        <dep from="1" to="4" type="dobj"/>
+        <dep from="4" to="5" type="prep"/>
+        <dep from="8" to="6" type="det"/>
+        <dep from="8" to="7" type="nn"/>
+        <dep from="5" to="8" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Taking">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="towel_1484051868574" type="Towel">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>towel</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="beer_1484051868473" type="Beer">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>beer</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="6.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="router_1484051868577" type="Router">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>router</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="wifi_1484051868576" type="Wifi">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>wifi</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="kettle_1484051868575" type="Kettle">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>kettle</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="thermostat_1484051868573" type="Thermostat">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>thermostat</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="door_1484051868474" type="Door">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>door</value>
+            <value>entrance</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="13.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="beer_1484051868473" tokenId="3"/>
+    <lexicalGrounding atom="beer_1484051868473" tokenId="4"/>
+    <lexicalGrounding atom="door_1484051868474" tokenId="7"/>
+    <lexicalGrounding atom="door_1484051868474" tokenId="8"/>
+  </lexicalGroundings>
+</huricExample>

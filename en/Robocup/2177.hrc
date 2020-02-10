@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2177">
+  <commands>
+    <command>
+      <sentence>please bring the mobile phone to the livingroom</sentence>
+      <tokens>
+        <token id="1" lemma="please" pos="UH" surface="please"/>
+        <token id="2" lemma="bring" pos="VB" surface="bring"/>
+        <token id="3" lemma="the" pos="DT" surface="the"/>
+        <token id="4" lemma="mobile" pos="JJ" surface="mobile"/>
+        <token id="5" lemma="phone" pos="NN" surface="phone"/>
+        <token id="6" lemma="to" pos="TO" surface="to"/>
+        <token id="7" lemma="the" pos="DT" surface="the"/>
+        <token id="8" lemma="livingroom" pos="NN" surface="livingroom"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="discourse"/>
+        <dep from="0" to="2" type="root"/>
+        <dep from="5" to="3" type="det"/>
+        <dep from="5" to="4" type="amod"/>
+        <dep from="2" to="5" type="dobj"/>
+        <dep from="2" to="6" type="prep"/>
+        <dep from="8" to="7" type="det"/>
+        <dep from="6" to="8" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="garden_1484051229105" type="Garden">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>garden</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="tap_1484051229109" type="Tap">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tap</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="cellphone_1484051228996" type="Cellphone">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cellphone</value>
+            <value>mobile</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="9.0" z="0.0"/>
+      </entity>
+      <entity atom="towel_1484051229107" type="Towel">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>towel</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="message_1484051229110" type="Message">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>message</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="cellphone_1484051228996" tokenId="4"/>
+    <lexicalGrounding atom="cellphone_1484051228996" tokenId="5"/>
+    <lexicalGrounding atom="livingroom_1484051228997" tokenId="8"/>
+  </lexicalGroundings>
+</huricExample>

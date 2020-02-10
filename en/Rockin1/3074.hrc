@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3074">
+  <commands>
+    <command>
+      <sentence>go to the dining room take all the plates from the table and put them in the dishwasher</sentence>
+      <tokens>
+        <token id="1" lemma="go" pos="VB" surface="go"/>
+        <token id="2" lemma="to" pos="TO" surface="to"/>
+        <token id="3" lemma="the" pos="DT" surface="the"/>
+        <token id="4" lemma="dining" pos="NN" surface="dining"/>
+        <token id="5" lemma="room" pos="NN" surface="room"/>
+        <token id="6" lemma="take" pos="VB" surface="take"/>
+        <token id="7" lemma="all" pos="PDT" surface="all"/>
+        <token id="8" lemma="the" pos="DT" surface="the"/>
+        <token id="9" lemma="plate" pos="NNS" surface="plates"/>
+        <token id="10" lemma="from" pos="IN" surface="from"/>
+        <token id="11" lemma="the" pos="DT" surface="the"/>
+        <token id="12" lemma="table" pos="NN" surface="table"/>
+        <token id="13" lemma="and" pos="CC" surface="and"/>
+        <token id="14" lemma="put" pos="VB" surface="put"/>
+        <token id="15" lemma="they" pos="PRP" surface="them"/>
+        <token id="16" lemma="in" pos="IN" surface="in"/>
+        <token id="17" lemma="the" pos="DT" surface="the"/>
+        <token id="18" lemma="dishwasher" pos="NN" surface="dishwasher"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="prep"/>
+        <dep from="5" to="3" type="det"/>
+        <dep from="5" to="4" type="nn"/>
+        <dep from="2" to="5" type="pobj"/>
+        <dep from="1" to="6" type="conj"/>
+        <dep from="9" to="7" type="predet"/>
+        <dep from="9" to="8" type="det"/>
+        <dep from="6" to="9" type="dobj"/>
+        <dep from="6" to="10" type="prep"/>
+        <dep from="12" to="11" type="det"/>
+        <dep from="10" to="12" type="pobj"/>
+        <dep from="1" to="13" type="cc"/>
+        <dep from="1" to="14" type="conj"/>
+        <dep from="14" to="15" type="dobj"/>
+        <dep from="14" to="16" type="prep"/>
+        <dep from="18" to="17" type="det"/>
+        <dep from="16" to="18" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Motion">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Goal">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Taking">
+            <lexicalUnit>
+              <token id="6"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+              </frameElement>
+              <frameElement type="Source">
+                <token id="10"/>
+                <token id="11"/>
+                <token id="12"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Placing">
+            <lexicalUnit>
+              <token id="14"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="15"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="16"/>
+                <token id="17"/>
+                <token id="18"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="dishwasher_1484051862917" type="Dishwasher">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>dishwasher</value>
+            <value>washer</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="coat_1484051863075" type="Coat">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>coat</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="scissors_1484051863076" type="Scissors">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>scissors</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="wallet_1484051863074" type="Wallet">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>wallet</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="table_1484051862909" type="Table">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>table</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="8.0" y="3.0" z="0.0"/>
+      </entity>
+      <entity atom="plate_1484051862908" type="Plate">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>plate</value>
+            <value>dish</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="8.0" y="3.0" z="0.0"/>
+      </entity>
+      <entity atom="cutlery_1484051863078" type="Cutlery">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cutlery</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="dining_room_1484051862901" tokenId="4"/>
+    <lexicalGrounding atom="dining_room_1484051862901" tokenId="5"/>
+    <lexicalGrounding atom="plate_1484051862908" tokenId="9"/>
+    <lexicalGrounding atom="table_1484051862909" tokenId="12"/>
+    <lexicalGrounding atom="they_1484051862915" tokenId="15"/>
+    <lexicalGrounding atom="dishwasher_1484051862917" tokenId="18"/>
+  </lexicalGroundings>
+</huricExample>

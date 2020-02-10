@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3098">
+  <commands>
+    <command>
+      <sentence>please robot put the pan on the stove and control it</sentence>
+      <tokens>
+        <token id="1" lemma="please" pos="UH" surface="please"/>
+        <token id="2" lemma="robot" pos="NN" surface="robot"/>
+        <token id="3" lemma="put" pos="VB" surface="put"/>
+        <token id="4" lemma="the" pos="DT" surface="the"/>
+        <token id="5" lemma="pan" pos="NN" surface="pan"/>
+        <token id="6" lemma="on" pos="IN" surface="on"/>
+        <token id="7" lemma="the" pos="DT" surface="the"/>
+        <token id="8" lemma="stove" pos="NN" surface="stove"/>
+        <token id="9" lemma="and" pos="CC" surface="and"/>
+        <token id="10" lemma="control" pos="VB" surface="control"/>
+        <token id="11" lemma="it" pos="PRP" surface="it"/>
+      </tokens>
+      <dependencies>
+        <dep from="3" to="1" type="discourse"/>
+        <dep from="3" to="2" type="nsubj"/>
+        <dep from="0" to="3" type="root"/>
+        <dep from="5" to="4" type="det"/>
+        <dep from="3" to="5" type="dobj"/>
+        <dep from="3" to="6" type="prep"/>
+        <dep from="8" to="7" type="det"/>
+        <dep from="6" to="8" type="pobj"/>
+        <dep from="3" to="9" type="cc"/>
+        <dep from="3" to="10" type="conj"/>
+        <dep from="10" to="11" type="dobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Placing">
+            <lexicalUnit>
+              <token id="3"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="4"/>
+                <token id="5"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Inspecting">
+            <lexicalUnit>
+              <token id="10"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Ground">
+                <token id="11"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="window_1484051913679" type="Window">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>window</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="flower_1484051913678" type="Flower">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>flower</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="stove_1484051913502" type="Stove">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>stove</value>
+            <value>burner</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="case_1484051913683" type="Case">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>case</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="can_1484051913681" type="Can">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>can</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="pan_1484051913501" type="Pan">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>pan</value>
+            <value>skillet</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="7.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="hall_1484051913677" type="Hall">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>hall</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="pan_1484051913501" tokenId="5"/>
+    <lexicalGrounding atom="stove_1484051913502" tokenId="8"/>
+    <lexicalGrounding atom="it_1484051913509" tokenId="11"/>
+  </lexicalGroundings>
+</huricExample>

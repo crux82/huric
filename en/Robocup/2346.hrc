@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2346">
+  <commands>
+    <command>
+      <sentence>follow my friend into the living room</sentence>
+      <tokens>
+        <token id="1" lemma="follow" pos="VB" surface="follow"/>
+        <token id="2" lemma="my" pos="PRP$" surface="my"/>
+        <token id="3" lemma="friend" pos="NN" surface="friend"/>
+        <token id="4" lemma="into" pos="IN" surface="into"/>
+        <token id="5" lemma="the" pos="DT" surface="the"/>
+        <token id="6" lemma="living" pos="NN" surface="living"/>
+        <token id="7" lemma="room" pos="NN" surface="room"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="3" to="2" type="poss"/>
+        <dep from="1" to="3" type="dobj"/>
+        <dep from="1" to="4" type="prep"/>
+        <dep from="7" to="5" type="det"/>
+        <dep from="7" to="6" type="nn"/>
+        <dep from="4" to="7" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Cotheme">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Cotheme">
+                <token id="2"/>
+                <token id="3"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="shower_1484051391152" type="Shower">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>shower</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="glass_1484051391151" type="Glass">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>glass</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="hat_1484051391145" type="Hat">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>hat</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="cellphone_1484051391147" type="Cellphone">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cellphone</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="friend_1484051390987" tokenId="3"/>
+    <lexicalGrounding atom="livingroom_1484051390988" tokenId="6"/>
+    <lexicalGrounding atom="livingroom_1484051390988" tokenId="7"/>
+  </lexicalGroundings>
+</huricExample>

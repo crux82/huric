@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3533">
+  <commands>
+    <command>
+      <sentence>robot go near the tv and switch it off please</sentence>
+      <tokens>
+        <token id="1" lemma="robot" pos="NN" surface="robot"/>
+        <token id="2" lemma="go" pos="VB" surface="go"/>
+        <token id="3" lemma="near" pos="IN" surface="near"/>
+        <token id="4" lemma="the" pos="DT" surface="the"/>
+        <token id="5" lemma="tv" pos="NN" surface="tv"/>
+        <token id="6" lemma="and" pos="CC" surface="and"/>
+        <token id="7" lemma="switch" pos="VBP" surface="switch"/>
+        <token id="8" lemma="it" pos="PRP" surface="it"/>
+        <token id="9" lemma="off" pos="RP" surface="off"/>
+        <token id="10" lemma="please" pos="VB" surface="please"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="dep"/>
+        <dep from="2" to="3" type="prep"/>
+        <dep from="5" to="4" type="det"/>
+        <dep from="3" to="5" type="pobj"/>
+        <dep from="2" to="6" type="cc"/>
+        <dep from="2" to="7" type="conj"/>
+        <dep from="10" to="8" type="nsubj"/>
+        <dep from="10" to="9" type="advmod"/>
+        <dep from="7" to="10" type="ccomp"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Motion">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Goal">
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Change_operational_state">
+            <lexicalUnit>
+              <token id="7"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Device">
+                <token id="8"/>
+              </frameElement>
+              <frameElement type="Operational_state">
+                <token id="9"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="television_1484051036301" type="Television">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>television</value>
+            <value>telly</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="paper_1484051036427" type="Paper">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>paper</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="tray_1484051036429" type="Tray">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tray</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="towel_1484051036424" type="Towel">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>towel</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="bed_1484051036423" type="Bed">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bed</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="cup_1484051036425" type="Cup">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cup</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="television_1484051036301" tokenId="5"/>
+    <lexicalGrounding atom="it_1484051036309" tokenId="8"/>
+  </lexicalGroundings>
+</huricExample>

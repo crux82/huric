@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3132">
+  <commands>
+    <command>
+      <sentence>take my trousers on the bed and put them in the washing machine</sentence>
+      <tokens>
+        <token id="1" lemma="take" pos="VB" surface="take"/>
+        <token id="2" lemma="my" pos="PRP$" surface="my"/>
+        <token id="3" lemma="trousers" pos="NNS" surface="trousers"/>
+        <token id="4" lemma="on" pos="IN" surface="on"/>
+        <token id="5" lemma="the" pos="DT" surface="the"/>
+        <token id="6" lemma="bed" pos="NN" surface="bed"/>
+        <token id="7" lemma="and" pos="CC" surface="and"/>
+        <token id="8" lemma="put" pos="VB" surface="put"/>
+        <token id="9" lemma="they" pos="PRP" surface="them"/>
+        <token id="10" lemma="in" pos="IN" surface="in"/>
+        <token id="11" lemma="the" pos="DT" surface="the"/>
+        <token id="12" lemma="wash" pos="NN" surface="washing"/>
+        <token id="13" lemma="machine" pos="NN" surface="machine"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="3" to="2" type="poss"/>
+        <dep from="1" to="3" type="dobj"/>
+        <dep from="3" to="4" type="prep"/>
+        <dep from="6" to="5" type="det"/>
+        <dep from="4" to="6" type="pobj"/>
+        <dep from="1" to="7" type="cc"/>
+        <dep from="1" to="8" type="conj"/>
+        <dep from="8" to="9" type="dobj"/>
+        <dep from="8" to="10" type="prep"/>
+        <dep from="13" to="11" type="det"/>
+        <dep from="13" to="12" type="nn"/>
+        <dep from="10" to="13" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Taking">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Placing">
+            <lexicalUnit>
+              <token id="8"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="9"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="10"/>
+                <token id="11"/>
+                <token id="12"/>
+                <token id="13"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="corner_1484052003155" type="Corner">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>corner</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="aspirin_1484052003157" type="Aspirin">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>aspirin</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="mayo_1484052003160" type="Mayo">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>mayo</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="pants_1484052003010" type="Pants">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>pants</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="3.0" z="0.0"/>
+      </entity>
+      <entity atom="bag_1484052003158" type="Bag">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bag</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="bed_1484052003011" type="Bed">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bed</value>
+            <value>fourposter</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="3.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="pants_1484052003010" tokenId="3"/>
+    <lexicalGrounding atom="bed_1484052003011" tokenId="6"/>
+    <lexicalGrounding atom="they_1484052003017" tokenId="9"/>
+    <lexicalGrounding atom="washing_machine_1484052003018" tokenId="12"/>
+    <lexicalGrounding atom="washing_machine_1484052003018" tokenId="13"/>
+  </lexicalGroundings>
+</huricExample>

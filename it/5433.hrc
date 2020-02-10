@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="5433">
+  <commands>
+    <command>
+      <sentence>ci sono alcuni tovaglioli sul tavolo in cucina puoi portar li qui</sentence>
+      <tokens>
+        <token id="1" lemma="ci" pos="PI" surface="ci"/>
+        <token id="2" lemma="essere" pos="V" surface="sono"/>
+        <token id="3" lemma="alcuno" pos="DI" surface="alcuni"/>
+        <token id="4" lemma="tovaglioli" pos="S" surface="tovaglioli"/>
+        <token id="5" lemma="su" pos="EA" surface="sul"/>
+        <token id="6" lemma="tavolo" pos="S" surface="tavolo"/>
+        <token id="7" lemma="in" pos="E" surface="in"/>
+        <token id="8" lemma="cucina" pos="S" surface="cucina"/>
+        <token id="9" lemma="potere" pos="VM" surface="puoi"/>
+        <token id="10" lemma="portare" pos="V" surface="portar"/>
+        <token id="11" lemma="li" pos="PC" surface="li"/>
+        <token id="12" lemma="qui" pos="B" surface="qui"/>
+      </tokens>
+      <dependencies/>
+      <semantics>
+        <frames>
+          <frame name="Being_located">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+              <frameElement type="Location">
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="10"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="11"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="12"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="angolo_1484052051398" type="Angolo">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>angolo</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="sala_1484052051396" type="Sala">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>sala</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="fazzoletto_1484052051240" type="Fazzoletto">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>fazzoletto</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="10.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="tavolo_1484052051242" type="Tavolo">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tavolo</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="scaldabagno_1484052051393" type="Scaldabagno">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>scaldabagno</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="persiane_1484052051392" type="Persiane">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>persiane</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="fiore_1484052051395" type="Fiore">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>fiore</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="loro_1484052051250" type="Loro">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>loro</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="8.0" y="3.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>

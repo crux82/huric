@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="5481">
+  <commands>
+    <command>
+      <sentence>prendi il portatile che è sul tavolino sul divano</sentence>
+      <tokens>
+        <token id="1" lemma="prendere" pos="V" surface="prendi"/>
+        <token id="2" lemma="il" pos="RD" surface="il"/>
+        <token id="3" lemma="portatile" pos="A" surface="portatile"/>
+        <token id="4" lemma="che" pos="PR" surface="che"/>
+        <token id="5" lemma="essere" pos="V" surface="è"/>
+        <token id="6" lemma="su" pos="EA" surface="sul"/>
+        <token id="7" lemma="tavolo" pos="S" surface="tavolino"/>
+        <token id="8" lemma="su" pos="EA" surface="sul"/>
+        <token id="9" lemma="divano" pos="S" surface="divano"/>
+      </tokens>
+      <dependencies/>
+      <semantics>
+        <frames>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="2"/>
+                <token id="3"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="8"/>
+                <token id="9"/>
+              </frameElement>
+              <frameElement type="Theme">
+                <token id="5"/>
+                <token id="7"/>
+                <token id="4"/>
+                <token id="6"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Being_located">
+            <lexicalUnit>
+              <token id="5"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="4"/>
+              </frameElement>
+              <frameElement type="Location">
+                <token id="6"/>
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="tavolo_1484051102641" type="Tavolo">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tavolo</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="divano_1484051102628" type="Divano">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>divano</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="vino_1484051102789" type="Vino">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>vino</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="computer_1484051102627" type="Computer">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>computer</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="interruttore_1484051102781" type="Interruttore">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>interruttore</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="secchio_1484051102787" type="Secchio">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>secchio</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="asciugamano_1484051102783" type="Asciugamano">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>asciugamano</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="sorella_1484051102784" type="Sorella">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>sorella</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="amico_1484051102786" type="Amico">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>amico</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>

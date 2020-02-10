@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2298">
+  <commands>
+    <command>
+      <sentence>take my phone and place it on the bench in the kitchen</sentence>
+      <tokens>
+        <token id="1" lemma="take" pos="VB" surface="take"/>
+        <token id="2" lemma="my" pos="PRP$" surface="my"/>
+        <token id="3" lemma="phone" pos="NN" surface="phone"/>
+        <token id="4" lemma="and" pos="CC" surface="and"/>
+        <token id="5" lemma="place" pos="VB" surface="place"/>
+        <token id="6" lemma="it" pos="PRP" surface="it"/>
+        <token id="7" lemma="on" pos="IN" surface="on"/>
+        <token id="8" lemma="the" pos="DT" surface="the"/>
+        <token id="9" lemma="bench" pos="NN" surface="bench"/>
+        <token id="10" lemma="in" pos="IN" surface="in"/>
+        <token id="11" lemma="the" pos="DT" surface="the"/>
+        <token id="12" lemma="kitchen" pos="NN" surface="kitchen"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="3" to="2" type="poss"/>
+        <dep from="1" to="3" type="dep"/>
+        <dep from="1" to="4" type="cc"/>
+        <dep from="1" to="5" type="conj"/>
+        <dep from="5" to="6" type="dobj"/>
+        <dep from="5" to="7" type="prep"/>
+        <dep from="9" to="8" type="det"/>
+        <dep from="7" to="9" type="pobj"/>
+        <dep from="9" to="10" type="prep"/>
+        <dep from="12" to="11" type="det"/>
+        <dep from="10" to="12" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Taking">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="2"/>
+                <token id="3"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Placing">
+            <lexicalUnit>
+              <token id="5"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="6"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+                <token id="10"/>
+                <token id="11"/>
+                <token id="12"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="bathtub_1484051354108" type="Bathtub">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bathtub</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="phone_1484051353957" type="Phone">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>phone</value>
+            <value>handset</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="7.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="pan_1484051354105" type="Pan">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>pan</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="bench_1484051353965" type="Bench">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bench</value>
+            <value>seat</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="3.0" z="0.0"/>
+      </entity>
+      <entity atom="slippers_1484051354107" type="Slippers">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>slippers</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="blinds_1484051354106" type="Blinds">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>blinds</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="corner_1484051354103" type="Corner">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>corner</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="kitchen_1484051353966" type="Kitchen">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>kitchen</value>
+            <value>kitchenette</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="3.0" z="0.0"/>
+      </entity>
+      <entity atom="room_1484051354104" type="Room">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>room</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="phone_1484051353957" tokenId="3"/>
+    <lexicalGrounding atom="it_1484051353964" tokenId="6"/>
+    <lexicalGrounding atom="bench_1484051353965" tokenId="9"/>
+    <lexicalGrounding atom="kitchen_1484051353966" tokenId="12"/>
+  </lexicalGroundings>
+</huricExample>

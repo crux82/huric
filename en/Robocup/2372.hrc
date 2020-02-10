@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2372">
+  <commands>
+    <command>
+      <sentence>search for the bottle of wine on the table</sentence>
+      <tokens>
+        <token id="1" lemma="search" pos="VB" surface="search"/>
+        <token id="2" lemma="for" pos="IN" surface="for"/>
+        <token id="3" lemma="the" pos="DT" surface="the"/>
+        <token id="4" lemma="bottle" pos="NN" surface="bottle"/>
+        <token id="5" lemma="of" pos="IN" surface="of"/>
+        <token id="6" lemma="wine" pos="NN" surface="wine"/>
+        <token id="7" lemma="on" pos="IN" surface="on"/>
+        <token id="8" lemma="the" pos="DT" surface="the"/>
+        <token id="9" lemma="table" pos="NN" surface="table"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="prep"/>
+        <dep from="4" to="3" type="det"/>
+        <dep from="2" to="4" type="pobj"/>
+        <dep from="4" to="5" type="prep"/>
+        <dep from="5" to="6" type="pobj"/>
+        <dep from="1" to="7" type="prep"/>
+        <dep from="9" to="8" type="det"/>
+        <dep from="7" to="9" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Locating">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Sought_entity">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+              </frameElement>
+              <frameElement type="Ground">
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="couch_1484051443706" type="Couch">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>couch</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="table_1484051443557" type="Table">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>table</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="bottle_1484051443555" type="Bottle">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bottle</value>
+            <value>flask</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="6.0" y="12.0" z="0.0"/>
+      </entity>
+      <entity atom="head_1484051443707" type="Head">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>head</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="wine_1484051443556" type="Wine">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>wine</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="7.0" y="12.0" z="0.0"/>
+      </entity>
+      <entity atom="paper_1484051443704" type="Paper">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>paper</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="corner_1484051443709" type="Corner">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>corner</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="bottle_1484051443555" tokenId="4"/>
+    <lexicalGrounding atom="wine_1484051443556" tokenId="6"/>
+    <lexicalGrounding atom="table_1484051443557" tokenId="9"/>
+  </lexicalGroundings>
+</huricExample>

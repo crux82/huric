@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2425">
+  <commands>
+    <command>
+      <sentence>there are two couches facing one another</sentence>
+      <tokens>
+        <token id="1" lemma="there" pos="EX" surface="there"/>
+        <token id="2" lemma="be" pos="VB" surface="are"/>
+        <token id="3" lemma="two" pos="CD" surface="two"/>
+        <token id="4" lemma="couch" pos="NNS" surface="couches"/>
+        <token id="5" lemma="face" pos="VBG" surface="facing"/>
+        <token id="6" lemma="one" pos="CD" surface="one"/>
+        <token id="7" lemma="another" pos="DT" surface="another"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="expl"/>
+        <dep from="0" to="2" type="root"/>
+        <dep from="4" to="3" type="num"/>
+        <dep from="2" to="4" type="nsubj"/>
+        <dep from="4" to="5" type="partmod"/>
+        <dep from="5" to="6" type="dobj"/>
+        <dep from="6" to="7" type="dep"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Being_located">
+            <lexicalUnit>
+              <token id="1"/>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="fences_1484051510596" type="Fences">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>fences</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="mirror_1484051510599" type="Mirror">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>mirror</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="postcard_1484051510595" type="Postcard">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>postcard</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="napkin_1484051510593" type="Napkin">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>napkin</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="couch_1484051510510" type="Couch">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>couch</value>
+            <value>settee</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="hall_1484051510598" type="Hall">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>hall</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="couch_1484051510510" tokenId="4"/>
+  </lexicalGroundings>
+</huricExample>

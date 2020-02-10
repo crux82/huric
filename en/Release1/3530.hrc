@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3530">
+  <commands>
+    <command>
+      <sentence>robot check whether the oven is hot</sentence>
+      <tokens>
+        <token id="1" lemma="robot" pos="NN" surface="robot"/>
+        <token id="2" lemma="check" pos="NN" surface="check"/>
+        <token id="3" lemma="whether" pos="IN" surface="whether"/>
+        <token id="4" lemma="the" pos="DT" surface="the"/>
+        <token id="5" lemma="oven" pos="NN" surface="oven"/>
+        <token id="6" lemma="be" pos="VBZ" surface="is"/>
+        <token id="7" lemma="hot" pos="JJ" surface="hot"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="nn"/>
+        <dep from="0" to="2" type="root"/>
+        <dep from="7" to="3" type="mark"/>
+        <dep from="5" to="4" type="det"/>
+        <dep from="7" to="5" type="nsubj"/>
+        <dep from="7" to="6" type="cop"/>
+        <dep from="2" to="7" type="dep"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Inspecting">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Ground">
+                <token id="4"/>
+                <token id="5"/>
+              </frameElement>
+              <frameElement type="Desired_state">
+                <token id="6"/>
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="message_1484051029844" type="Message">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>message</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="desk_1484051029846" type="Desk">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>desk</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="bookshelf_1484051029840" type="Bookshelf">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bookshelf</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="tablecloth_1484051029845" type="Tablecloth">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tablecloth</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="fences_1484051029842" type="Fences">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>fences</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="oven_1484051029765" type="Oven">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>oven</value>
+            <value>stove</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="corn_1484051029841" type="Corn">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>corn</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="oven_1484051029765" tokenId="5"/>
+  </lexicalGroundings>
+</huricExample>

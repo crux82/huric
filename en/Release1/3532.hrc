@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3532">
+  <commands>
+    <command>
+      <sentence>robot could you please move to the washing machine and turn it on</sentence>
+      <tokens>
+        <token id="1" lemma="robot" pos="NN" surface="robot"/>
+        <token id="2" lemma="could" pos="MD" surface="could"/>
+        <token id="3" lemma="you" pos="PRP" surface="you"/>
+        <token id="4" lemma="please" pos="VB" surface="please"/>
+        <token id="5" lemma="move" pos="NN" surface="move"/>
+        <token id="6" lemma="to" pos="TO" surface="to"/>
+        <token id="7" lemma="the" pos="DT" surface="the"/>
+        <token id="8" lemma="wash" pos="VBG" surface="washing"/>
+        <token id="9" lemma="machine" pos="NN" surface="machine"/>
+        <token id="10" lemma="and" pos="CC" surface="and"/>
+        <token id="11" lemma="turn" pos="VB" surface="turn"/>
+        <token id="12" lemma="it" pos="PRP" surface="it"/>
+        <token id="13" lemma="on" pos="IN" surface="on"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="nsubj"/>
+        <dep from="0" to="2" type="root"/>
+        <dep from="2" to="3" type="dobj"/>
+        <dep from="2" to="4" type="dep"/>
+        <dep from="4" to="5" type="dobj"/>
+        <dep from="4" to="6" type="prep"/>
+        <dep from="9" to="7" type="det"/>
+        <dep from="9" to="8" type="amod"/>
+        <dep from="6" to="9" type="pobj"/>
+        <dep from="4" to="10" type="cc"/>
+        <dep from="4" to="11" type="conj"/>
+        <dep from="11" to="12" type="dobj"/>
+        <dep from="11" to="13" type="prep"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Motion">
+            <lexicalUnit>
+              <token id="5"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="3"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Change_operational_state">
+            <lexicalUnit>
+              <token id="11"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Agent">
+                <token id="3"/>
+              </frameElement>
+              <frameElement type="Device">
+                <token id="12"/>
+              </frameElement>
+              <frameElement type="Operational_state">
+                <token id="13"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="clothes_1484051033661" type="Clothes">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>clothes</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="folder_1484051033665" type="Folder">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>folder</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="computer_1484051033663" type="Computer">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>computer</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="corridor_1484051033664" type="Corridor">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>corridor</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="door_1484051033666" type="Door">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>door</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="door_1484051033667" type="Door">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>door</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="robot_1484063748562" type="Robot">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>robot</value>
+            <value>you</value>
+            <value>yourself</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+  	<lexicalGrounding atom="robot_1484063748562" tokenId="3"/>
+    <lexicalGrounding atom="it_1484051033580" tokenId="12"/>
+  </lexicalGroundings>
+</huricExample>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2171">
+  <commands>
+    <command>
+      <sentence>this is a table with a glass deck</sentence>
+      <tokens>
+        <token id="1" lemma="this" pos="DT" surface="this"/>
+        <token id="2" lemma="be" pos="VBZ" surface="is"/>
+        <token id="3" lemma="a" pos="DT" surface="a"/>
+        <token id="4" lemma="table" pos="NN" surface="table"/>
+        <token id="5" lemma="with" pos="IN" surface="with"/>
+        <token id="6" lemma="a" pos="DT" surface="a"/>
+        <token id="7" lemma="glass" pos="NN" surface="glass"/>
+        <token id="8" lemma="deck" pos="NN" surface="deck"/>
+      </tokens>
+      <dependencies>
+        <dep from="4" to="1" type="nsubj"/>
+        <dep from="4" to="2" type="cop"/>
+        <dep from="4" to="3" type="det"/>
+        <dep from="0" to="4" type="root"/>
+        <dep from="4" to="5" type="prep"/>
+        <dep from="8" to="6" type="det"/>
+        <dep from="8" to="7" type="nn"/>
+        <dep from="5" to="8" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Being_in_category">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Item">
+                <token id="1"/>
+              </frameElement>
+              <frameElement type="Category">
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="mayo_1484051220695" type="Mayo">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>mayo</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="bedstand_1484051220694" type="Bedstand">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bedstand</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="deck_1484051220561" type="Deck">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>deck</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="6.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="table_1484051220560" type="Table">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>table</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="glasses_1484051220691" type="Glasses">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>glasses</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="pan_1484051220697" type="Pan">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>pan</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="table_1484051220560" tokenId="4"/>
+    <lexicalGrounding atom="deck_1484051220561" tokenId="7"/>
+    <lexicalGrounding atom="deck_1484051220561" tokenId="8"/>
+  </lexicalGroundings>
+</huricExample>

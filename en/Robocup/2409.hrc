@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2409">
+  <commands>
+    <command>
+      <sentence>go to the bathroom take the rag go to the hall and clean the mirror</sentence>
+      <tokens>
+        <token id="1" lemma="go" pos="VB" surface="go"/>
+        <token id="2" lemma="to" pos="TO" surface="to"/>
+        <token id="3" lemma="the" pos="DT" surface="the"/>
+        <token id="4" lemma="bathroom" pos="NN" surface="bathroom"/>
+        <token id="5" lemma="take" pos="VB" surface="take"/>
+        <token id="6" lemma="the" pos="DT" surface="the"/>
+        <token id="7" lemma="rag" pos="NN" surface="rag"/>
+        <token id="8" lemma="go" pos="VB" surface="go"/>
+        <token id="9" lemma="to" pos="TO" surface="to"/>
+        <token id="10" lemma="the" pos="DT" surface="the"/>
+        <token id="11" lemma="hall" pos="NN" surface="hall"/>
+        <token id="12" lemma="and" pos="CC" surface="and"/>
+        <token id="13" lemma="clean" pos="VB" surface="clean"/>
+        <token id="14" lemma="the" pos="DT" surface="the"/>
+        <token id="15" lemma="mirror" pos="NN" surface="mirror"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="prep"/>
+        <dep from="4" to="3" type="det"/>
+        <dep from="2" to="4" type="pobj"/>
+        <dep from="1" to="5" type="conj"/>
+        <dep from="7" to="6" type="det"/>
+        <dep from="5" to="7" type="dojb"/>
+        <dep from="5" to="8" type="conj"/>
+        <dep from="8" to="9" type="prep"/>
+        <dep from="11" to="10" type="det"/>
+        <dep from="9" to="11" type="pobj"/>
+        <dep from="8" to="12" type="cc"/>
+        <dep from="8" to="13" type="conj"/>
+        <dep from="15" to="14" type="det"/>
+        <dep from="13" to="15" type="dep"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Motion">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Goal">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Taking">
+            <lexicalUnit>
+              <token id="5"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="6"/>
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Motion">
+            <lexicalUnit>
+              <token id="8"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Goal">
+                <token id="9"/>
+                <token id="10"/>
+                <token id="11"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="bathroom_1484051480956" type="Bathroom">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bathroom</value>
+            <value>shower_room</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="hall_1484051480968" type="Hall">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>hall</value>
+            <value>entrance</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="rag_1484051480962" type="Rag">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>rag</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="3.0" z="0.0"/>
+      </entity>
+      <entity atom="head_1484051481087" type="Head">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>head</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="bottle_1484051481090" type="Bottle">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bottle</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="wine_1484051481089" type="Wine">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>wine</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="wine_1484051481093" type="Wine">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>wine</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="glasses_1484051481092" type="Glasses">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>glasses</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="bathroom_1484051480956" tokenId="4"/>
+    <lexicalGrounding atom="rag_1484051480962" tokenId="7"/>
+    <lexicalGrounding atom="hall_1484051480968" tokenId="11"/>
+  </lexicalGroundings>
+</huricExample>

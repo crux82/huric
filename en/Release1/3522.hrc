@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3522">
+  <commands>
+    <command>
+      <sentence>please move towards the tv and turn it off</sentence>
+      <tokens>
+        <token id="1" lemma="please" pos="VB" surface="please"/>
+        <token id="2" lemma="move" pos="VB" surface="move"/>
+        <token id="3" lemma="towards" pos="IN" surface="towards"/>
+        <token id="4" lemma="the" pos="DT" surface="the"/>
+        <token id="5" lemma="tv" pos="NN" surface="tv"/>
+        <token id="6" lemma="and" pos="CC" surface="and"/>
+        <token id="7" lemma="turn" pos="VB" surface="turn"/>
+        <token id="8" lemma="it" pos="PRP" surface="it"/>
+        <token id="9" lemma="off" pos="RP" surface="off"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="dobj"/>
+        <dep from="1" to="3" type="prep"/>
+        <dep from="5" to="4" type="det"/>
+        <dep from="3" to="5" type="pobj"/>
+        <dep from="1" to="6" type="cc"/>
+        <dep from="1" to="7" type="conj"/>
+        <dep from="7" to="8" type="dobj"/>
+        <dep from="7" to="9" type="prt"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Motion">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Goal">
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Change_operational_state">
+            <lexicalUnit>
+              <token id="7"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Device">
+                <token id="8"/>
+              </frameElement>
+              <frameElement type="Operational_state">
+                <token id="9"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="bookshelf_1484051011657" type="Bookshelf">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bookshelf</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="wifi_1484051011666" type="Wifi">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>wifi</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="thermostat_1484051011660" type="Thermostat">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>thermostat</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="television_1484051011517" type="Television">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>television</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="kettle_1484051011663" type="Kettle">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>kettle</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="towel_1484051011662" type="Towel">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>towel</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="television_1484051011517" tokenId="5"/>
+    <lexicalGrounding atom="it_1484051011526" tokenId="8"/>
+  </lexicalGroundings>
+</huricExample>

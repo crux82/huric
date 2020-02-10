@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3517">
+  <commands>
+    <command>
+      <sentence>please go to the kitchen by crossing the bathroom door</sentence>
+      <tokens>
+        <token id="1" lemma="please" pos="VB" surface="please"/>
+        <token id="2" lemma="go" pos="VB" surface="go"/>
+        <token id="3" lemma="to" pos="TO" surface="to"/>
+        <token id="4" lemma="the" pos="DT" surface="the"/>
+        <token id="5" lemma="kitchen" pos="NN" surface="kitchen"/>
+        <token id="6" lemma="by" pos="IN" surface="by"/>
+        <token id="7" lemma="cross" pos="VBG" surface="crossing"/>
+        <token id="8" lemma="the" pos="DT" surface="the"/>
+        <token id="9" lemma="bathroom" pos="NN" surface="bathroom"/>
+        <token id="10" lemma="door" pos="NN" surface="door"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="dep"/>
+        <dep from="2" to="3" type="prep"/>
+        <dep from="5" to="4" type="det"/>
+        <dep from="3" to="5" type="pobj"/>
+        <dep from="2" to="6" type="prep"/>
+        <dep from="6" to="7" type="pcomp"/>
+        <dep from="10" to="8" type="det"/>
+        <dep from="10" to="9" type="nn"/>
+        <dep from="7" to="10" type="dobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Motion">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Goal">
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+              </frameElement>
+              <frameElement type="Path">
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+                <token id="10"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="bedstand_1484050999390" type="Bedstand">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bedstand</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="garbage_1484050999389" type="Garbage">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>garbage</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="kitchen_1484050999281" type="Kitchen">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>kitchen</value>
+            <value>kitchenette</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="bathroom_1484050999392" type="Bathroom">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bathroom</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="kitchen_1484050999281" tokenId="5"/>
+  </lexicalGroundings>
+</huricExample>

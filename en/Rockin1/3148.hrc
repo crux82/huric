@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3148">
+  <commands>
+    <command>
+      <sentence>take three coffee cups and bring them to me</sentence>
+      <tokens>
+        <token id="1" lemma="take" pos="VB" surface="take"/>
+        <token id="2" lemma="three" pos="CD" surface="three"/>
+        <token id="3" lemma="coffee" pos="NN" surface="coffee"/>
+        <token id="4" lemma="cup" pos="NNS" surface="cups"/>
+        <token id="5" lemma="and" pos="CC" surface="and"/>
+        <token id="6" lemma="bring" pos="VB" surface="bring"/>
+        <token id="7" lemma="they" pos="PRP" surface="them"/>
+        <token id="8" lemma="to" pos="TO" surface="to"/>
+        <token id="9" lemma="I" pos="PRP" surface="me"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="4" to="2" type="num"/>
+        <dep from="4" to="3" type="nn"/>
+        <dep from="1" to="4" type="dobj"/>
+        <dep from="1" to="5" type="cc"/>
+        <dep from="1" to="6" type="conj"/>
+        <dep from="6" to="7" type="dobj"/>
+        <dep from="6" to="8" type="prep"/>
+        <dep from="8" to="9" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Taking">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="6"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="7"/>
+              </frameElement>
+              <frameElement type="Beneficiary">
+                <token id="8"/>
+                <token id="9"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="coke_1484052045030" type="Coke">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>coke</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="paper_1484052045029" type="Paper">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>paper</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="television_1484052045028" type="Television">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>television</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="light_1484052045027" type="Light">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>light</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="cup_1484052044898" type="Cup">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cup</value>
+            <value>mug</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="3.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="bedstand_1484052045031" type="Bedstand">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bedstand</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="me_1484052044905" type="Person">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>person</value>
+            <value>user</value>
+            <value>me</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="8.0" y="11.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="cup_1484052044898" tokenId="3"/>
+    <lexicalGrounding atom="cup_1484052044898" tokenId="4"/>
+    <lexicalGrounding atom="they_1484052044904" tokenId="7"/>
+    <lexicalGrounding atom="me_1484052044905" tokenId="9"/>
+  </lexicalGroundings>
+</huricExample>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3126">
+  <commands>
+    <command>
+      <sentence>search for the scissors they should be in the blue drawer</sentence>
+      <tokens>
+        <token id="1" lemma="search" pos="VB" surface="search"/>
+        <token id="2" lemma="for" pos="IN" surface="for"/>
+        <token id="3" lemma="the" pos="DT" surface="the"/>
+        <token id="4" lemma="scissors" pos="NNS" surface="scissors"/>
+        <token id="5" lemma="they" pos="PRP" surface="they"/>
+        <token id="6" lemma="should" pos="MD" surface="should"/>
+        <token id="7" lemma="be" pos="VB" surface="be"/>
+        <token id="8" lemma="in" pos="IN" surface="in"/>
+        <token id="9" lemma="the" pos="DT" surface="the"/>
+        <token id="10" lemma="blue" pos="JJ" surface="blue"/>
+        <token id="11" lemma="drawer" pos="NN" surface="drawer"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="prep"/>
+        <dep from="4" to="3" type="det"/>
+        <dep from="2" to="4" type="pobj"/>
+        <dep from="7" to="5" type="nsubj"/>
+        <dep from="7" to="6" type="aux"/>
+        <dep from="1" to="7" type="conj"/>
+        <dep from="7" to="8" type="prep"/>
+        <dep from="11" to="9" type="det"/>
+        <dep from="11" to="10" type="amod"/>
+        <dep from="8" to="11" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Locating">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Sought_entity">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Being_located">
+            <lexicalUnit>
+              <token id="7"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="5"/>
+              </frameElement>
+              <frameElement type="Location">
+                <token id="8"/>
+                <token id="9"/>
+                <token id="10"/>
+                <token id="11"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="board_1484051993437" type="Board">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>board</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="drawer_1484051993307" type="Drawer">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>drawer</value>
+            <value>sideboard</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="14.0" y="3.0" z="0.0"/>
+      </entity>
+      <entity atom="coat_1484051993438" type="Coat">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>coat</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="pants_1484051993433" type="Pants">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>pants</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="slippers_1484051993436" type="Slippers">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>slippers</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="book_1484051993435" type="Book">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>book</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="pen_1484051993434" type="Pen">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>pen</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="scissors_1484051993274" type="Scissors">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>scissors</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="0.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="scissors_1484051993274" tokenId="4"/>
+    <lexicalGrounding atom="they_1484051993305" tokenId="5"/>
+    <lexicalGrounding atom="drawer_1484051993307" tokenId="10"/>
+    <lexicalGrounding atom="drawer_1484051993307" tokenId="11"/>
+  </lexicalGroundings>
+</huricExample>

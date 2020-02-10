@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2270">
+  <commands>
+    <command>
+      <sentence>the living room is very light and bright</sentence>
+      <tokens>
+        <token id="1" lemma="the" pos="DT" surface="the"/>
+        <token id="2" lemma="living" pos="NN" surface="living"/>
+        <token id="3" lemma="room" pos="NN" surface="room"/>
+        <token id="4" lemma="be" pos="VBZ" surface="is"/>
+        <token id="5" lemma="very" pos="RB" surface="very"/>
+        <token id="6" lemma="light" pos="JJ" surface="light"/>
+        <token id="7" lemma="and" pos="CC" surface="and"/>
+        <token id="8" lemma="bright" pos="JJ" surface="bright"/>
+      </tokens>
+      <dependencies>
+        <dep from="3" to="1" type="det"/>
+        <dep from="3" to="2" type="nn"/>
+        <dep from="6" to="3" type="nsubj"/>
+        <dep from="6" to="4" type="cop"/>
+        <dep from="6" to="5" type="advmod"/>
+        <dep from="0" to="6" type="root"/>
+        <dep from="6" to="7" type="cc"/>
+        <dep from="6" to="8" type="conj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Being_in_category">
+            <lexicalUnit>
+              <token id="4"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Item">
+                <token id="1"/>
+                <token id="2"/>
+                <token id="3"/>
+              </frameElement>
+              <frameElement type="Category">
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="oven_1484051307483" type="Oven">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>oven</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="light_1484051307364" type="Light">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>light</value>
+            <value>lamp</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="folder_1484051307480" type="Folder">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>folder</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="screwdriver_1484051307484" type="Screwdriver">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>screwdriver</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="corridor_1484051307478" type="Corridor">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>corridor</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="door_1484051307482" type="Door">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>door</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="door_1484051307481" type="Door">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>door</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="livingroom_1484051307363" tokenId="2"/>
+    <lexicalGrounding atom="livingroom_1484051307363" tokenId="3"/>
+    <lexicalGrounding atom="light_1484051307364" tokenId="6"/>
+  </lexicalGroundings>
+</huricExample>

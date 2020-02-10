@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3150">
+  <commands>
+    <command>
+      <sentence>there are some napkins on the kitchen table can you bring them here</sentence>
+      <tokens>
+        <token id="1" lemma="there" pos="EX" surface="there"/>
+        <token id="2" lemma="be" pos="VB" surface="are"/>
+        <token id="3" lemma="some" pos="DT" surface="some"/>
+        <token id="4" lemma="napkin" pos="NNS" surface="napkins"/>
+        <token id="5" lemma="on" pos="IN" surface="on"/>
+        <token id="6" lemma="the" pos="DT" surface="the"/>
+        <token id="7" lemma="kitchen" pos="NN" surface="kitchen"/>
+        <token id="8" lemma="table" pos="NN" surface="table"/>
+        <token id="9" lemma="can" pos="MD" surface="can"/>
+        <token id="10" lemma="you" pos="PRP" surface="you"/>
+        <token id="11" lemma="bring" pos="VB" surface="bring"/>
+        <token id="12" lemma="they" pos="PRP" surface="them"/>
+        <token id="13" lemma="here" pos="RB" surface="here"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="expl"/>
+        <dep from="0" to="2" type="root"/>
+        <dep from="4" to="3" type="det"/>
+        <dep from="2" to="4" type="nsubj"/>
+        <dep from="2" to="5" type="prep"/>
+        <dep from="8" to="6" type="det"/>
+        <dep from="8" to="7" type="nn"/>
+        <dep from="5" to="8" type="pobj"/>
+        <dep from="11" to="9" type="aux"/>
+        <dep from="11" to="10" type="nsubj"/>
+        <dep from="2" to="11" type="conj"/>
+        <dep from="11" to="12" type="dobj"/>
+        <dep from="11" to="13" type="advmod"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Being_located">
+            <lexicalUnit>
+              <token id="1"/>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+              <frameElement type="Location">
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="11"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Agent">
+                <token id="10"/>
+              </frameElement>
+              <frameElement type="Theme">
+                <token id="12"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="13"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="corner_1484052051398" type="Corner">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>corner</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="hall_1484052051396" type="Hall">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>hall</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="napkin_1484052051240" type="Napkin">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>napkin</value>
+            <value>teatowel</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="10.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="table_1484052051242" type="Table">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>table</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="boiler_1484052051393" type="Boiler">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>boiler</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="blinds_1484052051392" type="Blinds">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>blinds</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="flower_1484052051395" type="Flower">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>flower</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="robot_1484063748562" type="Robot">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>robot</value>
+            <value>you</value>
+            <value>yourself</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+  	<lexicalGrounding atom="robot_1484063748562" tokenId="10"/>
+    <lexicalGrounding atom="napkin_1484052051240" tokenId="4"/>
+    <lexicalGrounding atom="table_1484052051242" tokenId="7"/>
+    <lexicalGrounding atom="table_1484052051242" tokenId="8"/>
+    <lexicalGrounding atom="they_1484052051250" tokenId="12"/>
+  </lexicalGroundings>
+</huricExample>

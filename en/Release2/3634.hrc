@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3634">
+  <commands>
+    <command>
+      <sentence>please enter the bedroom slowly turn left and turn off the lights</sentence>
+      <tokens>
+        <token id="1" lemma="please" pos="VB" surface="please"/>
+        <token id="2" lemma="enter" pos="VB" surface="enter"/>
+        <token id="3" lemma="the" pos="DT" surface="the"/>
+        <token id="4" lemma="bedroom" pos="NN" surface="bedroom"/>
+        <token id="5" lemma="slowly" pos="RB" surface="slowly"/>
+        <token id="6" lemma="turn" pos="VB" surface="turn"/>
+        <token id="7" lemma="left" pos="JJ" surface="left"/>
+        <token id="8" lemma="and" pos="CC" surface="and"/>
+        <token id="9" lemma="turn" pos="VB" surface="turn"/>
+        <token id="10" lemma="off" pos="RP" surface="off"/>
+        <token id="11" lemma="the" pos="DT" surface="the"/>
+        <token id="12" lemma="light" pos="NNS" surface="lights"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="ccomp"/>
+        <dep from="4" to="3" type="det"/>
+        <dep from="2" to="4" type="dobj"/>
+        <dep from="2" to="5" type="advmod"/>
+        <dep from="2" to="6" type="dep"/>
+        <dep from="6" to="7" type="acomp"/>
+        <dep from="1" to="8" type="cc"/>
+        <dep from="1" to="9" type="conj"/>
+        <dep from="9" to="10" type="prt"/>
+        <dep from="12" to="11" type="det"/>
+        <dep from="9" to="12" type="dobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Arriving">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Goal">
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+              <frameElement type="Manner">
+                <token id="5"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Change_direction">
+            <lexicalUnit>
+              <token id="6"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Direction">
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Change_operational_state">
+            <lexicalUnit>
+              <token id="9"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Operational_state">
+                <token id="10"/>
+              </frameElement>
+              <frameElement type="Device">
+                <token id="11"/>
+                <token id="12"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="fork_1484051190487" type="Fork">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>fork</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="light_1484051190339" type="Light">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>light</value>
+            <value>lamp</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="fridge_1484051190490" type="Fridge">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>fridge</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="press_1484051190493" type="Press">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>press</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="bedroom_1484051190323" type="Bedroom">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bedroom</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="corner_1484051190492" type="Corner">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>corner</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="bedroom_1484051190323" tokenId="4"/>
+    <lexicalGrounding atom="light_1484051190339" tokenId="12"/>
+  </lexicalGroundings>
+</huricExample>

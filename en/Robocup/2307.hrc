@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2307">
+  <commands>
+    <command>
+      <sentence>this is a bathroom where the door is on the right</sentence>
+      <tokens>
+        <token id="1" lemma="this" pos="DT" surface="this"/>
+        <token id="2" lemma="be" pos="VBZ" surface="is"/>
+        <token id="3" lemma="a" pos="DT" surface="a"/>
+        <token id="4" lemma="bathroom" pos="NN" surface="bathroom"/>
+        <token id="5" lemma="where" pos="WRB" surface="where"/>
+        <token id="6" lemma="the" pos="DT" surface="the"/>
+        <token id="7" lemma="door" pos="NN" surface="door"/>
+        <token id="8" lemma="be" pos="VBZ" surface="is"/>
+        <token id="9" lemma="on" pos="IN" surface="on"/>
+        <token id="10" lemma="the" pos="DT" surface="the"/>
+        <token id="11" lemma="right" pos="NN" surface="right"/>
+      </tokens>
+      <dependencies>
+        <dep from="4" to="1" type="nsubj"/>
+        <dep from="4" to="2" type="cop"/>
+        <dep from="4" to="3" type="det"/>
+        <dep from="0" to="4" type="root"/>
+        <dep from="8" to="5" type="advmod"/>
+        <dep from="7" to="6" type="det"/>
+        <dep from="8" to="7" type="nsubj"/>
+        <dep from="4" to="8" type="rcmod"/>
+        <dep from="8" to="9" type="prep"/>
+        <dep from="11" to="10" type="det"/>
+        <dep from="9" to="11" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Being_in_category">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Item">
+                <token id="1"/>
+              </frameElement>
+              <frameElement type="Category">
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+                <token id="10"/>
+                <token id="11"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Being_located">
+            <lexicalUnit>
+              <token id="8"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="6"/>
+                <token id="7"/>
+              </frameElement>
+              <frameElement type="Place">
+                <token id="9"/>
+                <token id="10"/>
+                <token id="11"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="bathroom_1484051369435" type="Bathroom">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bathroom</value>
+            <value>wc</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="room_1484051369620" type="Room">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>room</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="water_1484051369622" type="Water">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>water</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="yogurt_1484051369617" type="Yogurt">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>yogurt</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="plate_1484051369621" type="Plate">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>plate</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="door_1484051369436" type="Door">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>door</value>
+            <value>gate</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="6.0" y="14.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="bathroom_1484051369435" tokenId="4"/>
+    <lexicalGrounding atom="door_1484051369436" tokenId="7"/>
+  </lexicalGroundings>
+</huricExample>

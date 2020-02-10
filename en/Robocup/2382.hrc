@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2382">
+  <commands>
+    <command>
+      <sentence>can you please search the book and bring it to me</sentence>
+      <tokens>
+        <token id="1" lemma="can" pos="MD" surface="can"/>
+        <token id="2" lemma="you" pos="PRP" surface="you"/>
+        <token id="3" lemma="please" pos="UH" surface="please"/>
+        <token id="4" lemma="search" pos="VB" surface="search"/>
+        <token id="5" lemma="the" pos="DT" surface="the"/>
+        <token id="6" lemma="book" pos="NN" surface="book"/>
+        <token id="7" lemma="and" pos="CC" surface="and"/>
+        <token id="8" lemma="bring" pos="VB" surface="bring"/>
+        <token id="9" lemma="it" pos="PRP" surface="it"/>
+        <token id="10" lemma="to" pos="TO" surface="to"/>
+        <token id="11" lemma="I" pos="PRP" surface="me"/>
+      </tokens>
+      <dependencies>
+        <dep from="4" to="1" type="aux"/>
+        <dep from="4" to="2" type="nsubj"/>
+        <dep from="4" to="3" type="discourse"/>
+        <dep from="0" to="4" type="root"/>
+        <dep from="6" to="5" type="det"/>
+        <dep from="4" to="6" type="dobj"/>
+        <dep from="4" to="7" type="cc"/>
+        <dep from="4" to="8" type="conj"/>
+        <dep from="8" to="9" type="dobj"/>
+        <dep from="8" to="10" type="prep"/>
+        <dep from="10" to="11" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Locating">
+            <lexicalUnit>
+              <token id="4"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Perceiver">
+                <token id="2"/>
+              </frameElement>
+              <frameElement type="Sought_entity">
+                <token id="5"/>
+                <token id="6"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="8"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="9"/>
+              </frameElement>
+              <frameElement type="Beneficiary">
+                <token id="10"/>
+                <token id="11"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="bed_1484051463930" type="Bed">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bed</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="bag_1484051463929" type="Bag">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bag</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="bathtub_1484051463933" type="Bathtub">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bathtub</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="light_1484051463931" type="Light">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>light</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="book_1484051463804" type="Book">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>book</value>
+            <value>autobiography</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="3.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="corner_1484051463928" type="Corner">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>corner</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="robot_1484063748562" type="Robot">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>robot</value>
+            <value>you</value>
+            <value>yourself</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="me_1484051463812" type="Person">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>person</value>
+            <value>user</value>
+            <value>me</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="8.0" y="11.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+  	<lexicalGrounding atom="robot_1484063748562" tokenId="2"/>
+    <lexicalGrounding atom="book_1484051463804" tokenId="6"/>
+    <lexicalGrounding atom="it_1484051463811" tokenId="9"/>
+    <lexicalGrounding atom="me_1484051463812" tokenId="11"/>
+  </lexicalGroundings>
+</huricExample>

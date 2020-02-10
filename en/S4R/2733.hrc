@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2733">
+  <commands>
+    <command>
+      <sentence>please move towards the living room</sentence>
+      <tokens>
+        <token id="1" lemma="please" pos="UH" surface="please"/>
+        <token id="2" lemma="move" pos="VB" surface="move"/>
+        <token id="3" lemma="towards" pos="IN" surface="towards"/>
+        <token id="4" lemma="the" pos="DT" surface="the"/>
+        <token id="5" lemma="living" pos="NN" surface="living"/>
+        <token id="6" lemma="room" pos="NN" surface="room"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="discourse"/>
+        <dep from="0" to="2" type="root"/>
+        <dep from="2" to="3" type="prep"/>
+        <dep from="6" to="4" type="det"/>
+        <dep from="6" to="5" type="nn"/>
+        <dep from="3" to="6" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Motion">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Goal">
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="corn_1484052440268" type="Corn">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>corn</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="glasses_1484052440265" type="Glasses">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>glasses</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="livingroom_1484052440177" tokenId="5"/>
+    <lexicalGrounding atom="livingroom_1484052440177" tokenId="6"/>
+  </lexicalGroundings>
+</huricExample>

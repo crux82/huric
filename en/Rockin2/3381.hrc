@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3381">
+  <commands>
+    <command>
+      <sentence>take the newspaper from the stand and put it on the coffee table</sentence>
+      <tokens>
+        <token id="1" lemma="take" pos="VB" surface="take"/>
+        <token id="2" lemma="the" pos="DT" surface="the"/>
+        <token id="3" lemma="newspaper" pos="NN" surface="newspaper"/>
+        <token id="4" lemma="from" pos="IN" surface="from"/>
+        <token id="5" lemma="the" pos="DT" surface="the"/>
+        <token id="6" lemma="stand" pos="NN" surface="stand"/>
+        <token id="7" lemma="and" pos="CC" surface="and"/>
+        <token id="8" lemma="put" pos="VBD" surface="put"/>
+        <token id="9" lemma="it" pos="PRP" surface="it"/>
+        <token id="10" lemma="on" pos="IN" surface="on"/>
+        <token id="11" lemma="the" pos="DT" surface="the"/>
+        <token id="12" lemma="coffee" pos="NN" surface="coffee"/>
+        <token id="13" lemma="table" pos="NN" surface="table"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="3" to="2" type="det"/>
+        <dep from="1" to="3" type="dobj"/>
+        <dep from="1" to="4" type="prep"/>
+        <dep from="6" to="5" type="det"/>
+        <dep from="4" to="6" type="pobj"/>
+        <dep from="1" to="7" type="cc"/>
+        <dep from="1" to="8" type="conj"/>
+        <dep from="8" to="9" type="dobj"/>
+        <dep from="8" to="10" type="prep"/>
+        <dep from="13" to="11" type="det"/>
+        <dep from="13" to="12" type="nn"/>
+        <dep from="10" to="13" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Taking">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="2"/>
+                <token id="3"/>
+              </frameElement>
+              <frameElement type="Source">
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Placing">
+            <lexicalUnit>
+              <token id="8"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="9"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="10"/>
+                <token id="11"/>
+                <token id="12"/>
+                <token id="13"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="newspaper_1484052274505" type="Newspaper">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>newspaper</value>
+            <value>periodical</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="12.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="table_1484052274513" type="Table">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>table</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="closet_1484052274654" type="Closet">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>closet</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="bedstand_1484052274506" type="Bedstand">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bedstand</value>
+            <value>stand</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="12.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="coat_1484052274653" type="Coat">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>coat</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="oven_1484052274656" type="Oven">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>oven</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="recorder_1484052274651" type="Recorder">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>recorder</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="hall_1484052274655" type="Hall">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>hall</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="newspaper_1484052274505" tokenId="3"/>
+    <lexicalGrounding atom="bedstand_1484052274506" tokenId="6"/>
+    <lexicalGrounding atom="it_1484052274512" tokenId="9"/>
+    <lexicalGrounding atom="table_1484052274513" tokenId="12"/>
+    <lexicalGrounding atom="table_1484052274513" tokenId="13"/>
+  </lexicalGroundings>
+</huricExample>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2358">
+  <commands>
+    <command>
+      <sentence>michael follow the guy with the red hoodie and the white shoes</sentence>
+      <tokens>
+        <token id="1" lemma="michael" pos="NNP" surface="michael"/>
+        <token id="2" lemma="follow" pos="VB" surface="follow"/>
+        <token id="3" lemma="the" pos="DT" surface="the"/>
+        <token id="4" lemma="guy" pos="NN" surface="guy"/>
+        <token id="5" lemma="with" pos="IN" surface="with"/>
+        <token id="6" lemma="the" pos="DT" surface="the"/>
+        <token id="7" lemma="red" pos="JJ" surface="red"/>
+        <token id="8" lemma="hoodie" pos="NN" surface="hoodie"/>
+        <token id="9" lemma="and" pos="CC" surface="and"/>
+        <token id="10" lemma="the" pos="DT" surface="the"/>
+        <token id="11" lemma="white" pos="JJ" surface="white"/>
+        <token id="12" lemma="shoe" pos="NNS" surface="shoes"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="nsubj"/>
+        <dep from="0" to="2" type="root"/>
+        <dep from="4" to="3" type="det"/>
+        <dep from="2" to="4" type="dobj"/>
+        <dep from="4" to="5" type="prep"/>
+        <dep from="8" to="6" type="det"/>
+        <dep from="8" to="7" type="amod"/>
+        <dep from="5" to="8" type="pobj"/>
+        <dep from="8" to="9" type="cc"/>
+        <dep from="12" to="10" type="det"/>
+        <dep from="12" to="11" type="amod"/>
+        <dep from="8" to="12" type="conj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Cotheme">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Cotheme">
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+                <token id="10"/>
+                <token id="11"/>
+                <token id="12"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="milk_1484051416217" type="Milk">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>milk</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="utensil_1484051416215" type="Utensil">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>utensil</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="bag_1484051416220" type="Bag">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bag</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="keys_1484051416218" type="Keys">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>keys</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="hoodie_1484051416100" type="Hoodie">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>hoodie</value>
+            <value>sweatshirt</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="12.0" y="10.0" z="0.0"/>
+      </entity>
+      <entity atom="shoes_1484051416101" type="Shoes">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>shoes</value>
+            <value>boots</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="13.0" y="10.0" z="0.0"/>
+      </entity>
+      <entity atom="bedroom_1484051416219" type="Bedroom">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bedroom</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="room_1484051416221" type="Room">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>room</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="guy_1484051416099" tokenId="4"/>
+    <lexicalGrounding atom="hoodie_1484051416100" tokenId="7"/>
+    <lexicalGrounding atom="hoodie_1484051416100" tokenId="8"/>
+    <lexicalGrounding atom="shoes_1484051416101" tokenId="11"/>
+    <lexicalGrounding atom="shoes_1484051416101" tokenId="12"/>
+  </lexicalGroundings>
+</huricExample>

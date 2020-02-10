@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="5419">
+  <commands>
+    <command>
+      <sentence>vai nella sala da pranzo prendi tutti i piatti dal tavolo e metti li nella lavastoviglie</sentence>
+      <tokens>
+        <token id="1" lemma="andare" pos="V" surface="vai"/>
+        <token id="2" lemma="in" pos="EA" surface="nella"/>
+        <token id="3" lemma="sala" pos="S" surface="sala"/>
+        <token id="4" lemma="da" pos="E" surface="da"/>
+        <token id="5" lemma="pranzo" pos="S" surface="pranzo"/>
+        <token id="6" lemma="prendere" pos="V" surface="prendi"/>
+        <token id="7" lemma="tutto" pos="T" surface="tutti"/>
+        <token id="8" lemma="i" pos="RD" surface="i"/>
+        <token id="9" lemma="piatto" pos="S" surface="piatti"/>
+        <token id="10" lemma="da" pos="EA" surface="dal"/>
+        <token id="11" lemma="tavolo" pos="S" surface="tavolo"/>
+        <token id="12" lemma="e" pos="CC" surface="e"/>
+        <token id="13" lemma="mettere" pos="V" surface="metti"/>
+        <token id="14" lemma="li" pos="PC" surface="li"/>
+        <token id="15" lemma="in" pos="EA" surface="nella"/>
+        <token id="16" lemma="lavastoviglie" pos="S" surface="lavastoviglie"/>
+      </tokens>
+      <dependencies/>
+      <semantics>
+        <frames>
+          <frame name="Motion">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Goal">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Taking">
+            <lexicalUnit>
+              <token id="6"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+              </frameElement>
+              <frameElement type="Source">
+                <token id="10"/>
+                <token id="11"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Placing">
+            <lexicalUnit>
+              <token id="13"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="14"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="15"/>
+                <token id="16"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="padre_1484051863079" type="Padre">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>padre</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="loro_1484051862915" type="Loro">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>loro</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="3.0" z="0.0"/>
+      </entity>
+      <entity atom="lavastoviglie_1484051862917" type="Lavastoviglie">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>lavastoviglie</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="cappotto_1484051863075" type="Cappotto">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cappotto</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="forbici_1484051863076" type="Forbici">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>forbici</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="portafoglio_1484051863074" type="Portafoglio">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>portafoglio</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="tavolo_1484051862909" type="Tavolo">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tavolo</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="8.0" y="3.0" z="0.0"/>
+      </entity>
+      <entity atom="piatto_1484051862908" type="Piatto">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>piatto</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="8.0" y="3.0" z="0.0"/>
+      </entity>
+      <entity atom="posate_1484051863078" type="Posate">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>posate</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>

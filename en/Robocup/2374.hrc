@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2374">
+  <commands>
+    <command>
+      <sentence>hey robot take the book and put it in the oven</sentence>
+      <tokens>
+        <token id="1" lemma="hey" pos="UH" surface="hey"/>
+        <token id="2" lemma="robot" pos="NN" surface="robot"/>
+        <token id="3" lemma="take" pos="VB" surface="take"/>
+        <token id="4" lemma="the" pos="DT" surface="the"/>
+        <token id="5" lemma="book" pos="NN" surface="book"/>
+        <token id="6" lemma="and" pos="CC" surface="and"/>
+        <token id="7" lemma="put" pos="VB" surface="put"/>
+        <token id="8" lemma="it" pos="PRP" surface="it"/>
+        <token id="9" lemma="in" pos="IN" surface="in"/>
+        <token id="10" lemma="the" pos="DT" surface="the"/>
+        <token id="11" lemma="oven" pos="NN" surface="oven"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="discourse"/>
+        <dep from="3" to="2" type="nsubj"/>
+        <dep from="0" to="3" type="root"/>
+        <dep from="5" to="4" type="det"/>
+        <dep from="3" to="5" type="dobj"/>
+        <dep from="3" to="6" type="cc"/>
+        <dep from="3" to="7" type="conj"/>
+        <dep from="7" to="8" type="dobj"/>
+        <dep from="7" to="9" type="prep"/>
+        <dep from="11" to="10" type="det"/>
+        <dep from="9" to="11" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Placing">
+            <lexicalUnit>
+              <token id="7"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="8"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="9"/>
+                <token id="10"/>
+                <token id="11"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Taking">
+            <lexicalUnit>
+              <token id="3"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="4"/>
+                <token id="5"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="cigarettes_1484051448023" type="Cigarettes">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cigarettes</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="bathtub_1484051448025" type="Bathtub">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bathtub</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="furniture_1484051448026" type="Furniture">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>furniture</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="book_1484051447900" type="Book">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>book</value>
+            <value>guidebook</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="7.0" z="0.0"/>
+      </entity>
+      <entity atom="oven_1484051447893" type="Oven">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>oven</value>
+            <value>microwave_oven</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="kettle_1484051448022" type="Kettle">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>kettle</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="hall_1484051448024" type="Hall">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>hall</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="book_1484051447900" tokenId="5"/>
+    <lexicalGrounding atom="it_1484051447892" tokenId="8"/>
+    <lexicalGrounding atom="oven_1484051447893" tokenId="11"/>
+  </lexicalGroundings>
+</huricExample>

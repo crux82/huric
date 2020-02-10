@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3395">
+  <commands>
+    <command>
+      <sentence>michael carry me the phone that is on the glass table in the dining room</sentence>
+      <tokens>
+        <token id="1" lemma="michael" pos="NN" surface="michael"/>
+        <token id="2" lemma="carry" pos="VB" surface="carry"/>
+        <token id="3" lemma="I" pos="PRP" surface="me"/>
+        <token id="4" lemma="the" pos="DT" surface="the"/>
+        <token id="5" lemma="phone" pos="NN" surface="phone"/>
+        <token id="6" lemma="that" pos="WDT" surface="that"/>
+        <token id="7" lemma="be" pos="VBZ" surface="is"/>
+        <token id="8" lemma="on" pos="IN" surface="on"/>
+        <token id="9" lemma="the" pos="DT" surface="the"/>
+        <token id="10" lemma="glass" pos="NN" surface="glass"/>
+        <token id="11" lemma="table" pos="NN" surface="table"/>
+        <token id="12" lemma="in" pos="IN" surface="in"/>
+        <token id="13" lemma="the" pos="DT" surface="the"/>
+        <token id="14" lemma="dining" pos="NN" surface="dining"/>
+        <token id="15" lemma="room" pos="NN" surface="room"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="nsubj"/>
+        <dep from="0" to="2" type="root"/>
+        <dep from="5" to="3" type="nsubj"/>
+        <dep from="5" to="4" type="det"/>
+        <dep from="2" to="5" type="xcomp"/>
+        <dep from="7" to="6" type="nsubj"/>
+        <dep from="5" to="7" type="rcmod"/>
+        <dep from="7" to="8" type="prep"/>
+        <dep from="11" to="9" type="det"/>
+        <dep from="11" to="10" type="nn"/>
+        <dep from="8" to="11" type="pobj"/>
+        <dep from="11" to="12" type="prep"/>
+        <dep from="15" to="13" type="det"/>
+        <dep from="15" to="14" type="nn"/>
+        <dep from="12" to="15" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Beneficiary">
+                <token id="3"/>
+              </frameElement>
+              <frameElement type="Theme">
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+                <token id="10"/>
+                <token id="11"/>
+                <token id="12"/>
+                <token id="13"/>
+                <token id="14"/>
+                <token id="15"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Being_located">
+            <lexicalUnit>
+              <token id="7"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="6"/>
+              </frameElement>
+              <frameElement type="Location">
+                <token id="8"/>
+                <token id="9"/>
+                <token id="10"/>
+                <token id="11"/>
+                <token id="12"/>
+                <token id="13"/>
+                <token id="14"/>
+                <token id="15"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="napkin_1484051783461" type="Napkin">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>napkin</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="towel_1484051783459" type="Towel">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>towel</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="scissors_1484051783462" type="Scissors">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>scissors</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="table_1484051783185" type="Table">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>table</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="bookshelf_1484051783460" type="Bookshelf">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bookshelf</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="mayo_1484051783464" type="Mayo">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>mayo</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="phone_1484051783184" type="Phone">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>phone</value>
+            <value>mobile</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="hair_1484051783463" type="Hair">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>hair</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="me_1484051783183" type="Person">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>person</value>
+            <value>user</value>
+            <value>me</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="8.0" y="11.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="me_1484051783183" tokenId="3"/>
+    <lexicalGrounding atom="phone_1484051783184" tokenId="5"/>
+    <lexicalGrounding atom="table_1484051783185" tokenId="10"/>
+    <lexicalGrounding atom="table_1484051783185" tokenId="11"/>
+    <lexicalGrounding atom="dining_room_1484051783186" tokenId="14"/>
+    <lexicalGrounding atom="dining_room_1484051783186" tokenId="15"/>
+  </lexicalGroundings>
+</huricExample>

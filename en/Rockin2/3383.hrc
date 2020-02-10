@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3383">
+  <commands>
+    <command>
+      <sentence>the trash needs to go out could you take it out please</sentence>
+      <tokens>
+        <token id="1" lemma="the" pos="DT" surface="the"/>
+        <token id="2" lemma="trash" pos="NN" surface="trash"/>
+        <token id="3" lemma="need" pos="VBZ" surface="needs"/>
+        <token id="4" lemma="to" pos="TO" surface="to"/>
+        <token id="5" lemma="go" pos="VB" surface="go"/>
+        <token id="6" lemma="out" pos="RP" surface="out"/>
+        <token id="7" lemma="could" pos="MD" surface="could"/>
+        <token id="8" lemma="you" pos="PRP" surface="you"/>
+        <token id="9" lemma="take" pos="VB" surface="take"/>
+        <token id="10" lemma="it" pos="PRP" surface="it"/>
+        <token id="11" lemma="out" pos="RP" surface="out"/>
+        <token id="12" lemma="please" pos="VB" surface="please"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="det"/>
+        <dep from="3" to="2" type="nsubj"/>
+        <dep from="0" to="3" type="root"/>
+        <dep from="5" to="4" type="mark"/>
+        <dep from="3" to="5" type="xcomp"/>
+        <dep from="5" to="6" type="prt"/>
+        <dep from="9" to="7" type="aux"/>
+        <dep from="9" to="8" type="nsubj"/>
+        <dep from="3" to="9" type="conj"/>
+        <dep from="9" to="10" type="dobj"/>
+        <dep from="9" to="11" type="prt"/>
+        <dep from="9" to="12" type="discourse"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="9"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Agent">
+                <token id="8"/>
+              </frameElement>
+              <frameElement type="Theme">
+                <token id="10"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="11"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="towel_1484052278103" type="Towel">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>towel</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="wrench_1484052278101" type="Wrench">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>wrench</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="chair_1484052278102" type="Chair">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>chair</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="case_1484052278107" type="Case">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>case</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="robot_1484063748562" type="Robot">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>robot</value>
+            <value>you</value>
+            <value>yourself</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+  	<lexicalGrounding atom="robot_1484063748562" tokenId="8"/>
+    <lexicalGrounding atom="it_1484052278022" tokenId="10"/>
+  </lexicalGroundings>
+</huricExample>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3151">
+  <commands>
+    <command>
+      <sentence>there are some plastic bags in the kitchen drawer can you take one and bring it here</sentence>
+      <tokens>
+        <token id="1" lemma="there" pos="EX" surface="there"/>
+        <token id="2" lemma="be" pos="VB" surface="are"/>
+        <token id="3" lemma="some" pos="DT" surface="some"/>
+        <token id="4" lemma="plastic" pos="JJ" surface="plastic"/>
+        <token id="5" lemma="bag" pos="NNS" surface="bags"/>
+        <token id="6" lemma="in" pos="IN" surface="in"/>
+        <token id="7" lemma="the" pos="DT" surface="the"/>
+        <token id="8" lemma="kitchen" pos="NN" surface="kitchen"/>
+        <token id="9" lemma="drawer" pos="NN" surface="drawer"/>
+        <token id="10" lemma="can" pos="MD" surface="can"/>
+        <token id="11" lemma="you" pos="PRP" surface="you"/>
+        <token id="12" lemma="take" pos="VB" surface="take"/>
+        <token id="13" lemma="one" pos="CD" surface="one"/>
+        <token id="14" lemma="and" pos="CC" surface="and"/>
+        <token id="15" lemma="bring" pos="VB" surface="bring"/>
+        <token id="16" lemma="it" pos="PRP" surface="it"/>
+        <token id="17" lemma="here" pos="RB" surface="here"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="expl"/>
+        <dep from="0" to="2" type="root"/>
+        <dep from="5" to="3" type="det"/>
+        <dep from="5" to="4" type="amod"/>
+        <dep from="2" to="5" type="nsubj"/>
+        <dep from="2" to="6" type="prep"/>
+        <dep from="9" to="7" type="det"/>
+        <dep from="9" to="8" type="nn"/>
+        <dep from="6" to="9" type="pobj"/>
+        <dep from="12" to="10" type="aux"/>
+        <dep from="12" to="11" type="nsubj"/>
+        <dep from="2" to="12" type="conj"/>
+        <dep from="12" to="13" type="dobj"/>
+        <dep from="12" to="14" type="cc"/>
+        <dep from="12" to="15" type="conj"/>
+        <dep from="15" to="16" type="dobj"/>
+        <dep from="15" to="17" type="advmod"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Being_located">
+            <lexicalUnit>
+              <token id="1"/>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+              </frameElement>
+              <frameElement type="Location">
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Taking">
+            <lexicalUnit>
+              <token id="12"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Agent">
+                <token id="11"/>
+              </frameElement>
+              <frameElement type="Theme">
+                <token id="13"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="15"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="16"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="17"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="drawer_1484052053563" type="Drawer">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>drawer</value>
+            <value>sideboard</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="10.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="router_1484052053692" type="Router">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>router</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="fork_1484052053691" type="Fork">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>fork</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="plate_1484052053696" type="Plate">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>plate</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="bag_1484052053562" type="Bag">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bag</value>
+            <value>daypack</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="cigarettes_1484052053694" type="Cigarettes">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cigarettes</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="catalogue_1484052053697" type="Catalogue">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>catalogue</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="robot_1484063748562" type="Robot">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>robot</value>
+            <value>you</value>
+            <value>yourself</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+  	<lexicalGrounding atom="robot_1484063748562" tokenId="11"/>
+    <lexicalGrounding atom="bag_1484052053562" tokenId="4"/>
+    <lexicalGrounding atom="bag_1484052053562" tokenId="5"/>
+    <lexicalGrounding atom="drawer_1484052053563" tokenId="8"/>
+    <lexicalGrounding atom="drawer_1484052053563" tokenId="9"/>
+    <lexicalGrounding atom="it_1484052053574" tokenId="16"/>
+  </lexicalGroundings>
+</huricExample>

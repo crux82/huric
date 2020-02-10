@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3644">
+  <commands>
+    <command>
+      <sentence>robot give me the remote controller and switch off the lights please</sentence>
+      <tokens>
+        <token id="1" lemma="robot" pos="NN" surface="robot"/>
+        <token id="2" lemma="give" pos="VB" surface="give"/>
+        <token id="3" lemma="I" pos="PRP" surface="me"/>
+        <token id="4" lemma="the" pos="DT" surface="the"/>
+        <token id="5" lemma="remote" pos="JJ" surface="remote"/>
+        <token id="6" lemma="controller" pos="NN" surface="controller"/>
+        <token id="7" lemma="and" pos="CC" surface="and"/>
+        <token id="8" lemma="switch" pos="VB" surface="switch"/>
+        <token id="9" lemma="off" pos="RP" surface="off"/>
+        <token id="10" lemma="the" pos="DT" surface="the"/>
+        <token id="11" lemma="light" pos="NNS" surface="lights"/>
+        <token id="12" lemma="please" pos="VB" surface="please"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="1" to="2" type="dep"/>
+        <dep from="2" to="3" type="iobj"/>
+        <dep from="6" to="4" type="det"/>
+        <dep from="6" to="5" type="amod"/>
+        <dep from="2" to="6" type="dobj"/>
+        <dep from="2" to="7" type="cc"/>
+        <dep from="2" to="8" type="conj"/>
+        <dep from="8" to="9" type="prt"/>
+        <dep from="11" to="10" type="det"/>
+        <dep from="8" to="11" type="dobj"/>
+        <dep from="8" to="12" type="dep"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Giving">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Recipient">
+                <token id="3"/>
+              </frameElement>
+              <frameElement type="Theme">
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Change_operational_state">
+            <lexicalUnit>
+              <token id="8"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Operational_state">
+                <token id="9"/>
+              </frameElement>
+              <frameElement type="Device">
+                <token id="10"/>
+                <token id="11"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="bathroom_1484051207412" type="Bathroom">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bathroom</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="cutlery_1484051207408" type="Cutlery">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cutlery</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="corn_1484051207414" type="Corn">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>corn</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="light_1484051207203" type="Light">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>light</value>
+            <value>nightlight</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="me_1484051207196" type="Person">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>person</value>
+            <value>user</value>
+            <value>me</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="8.0" y="11.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="me_1484051207196" tokenId="3"/>
+    <lexicalGrounding atom="light_1484051207203" tokenId="11"/>
+  </lexicalGroundings>
+</huricExample>

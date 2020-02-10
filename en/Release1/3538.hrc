@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3538">
+  <commands>
+    <command>
+      <sentence>robot move to your left and find a red book please</sentence>
+      <tokens>
+        <token id="1" lemma="robot" pos="NN" surface="robot"/>
+        <token id="2" lemma="move" pos="NN" surface="move"/>
+        <token id="3" lemma="to" pos="TO" surface="to"/>
+        <token id="4" lemma="you" pos="PRP$" surface="your"/>
+        <token id="5" lemma="left" pos="NN" surface="left"/>
+        <token id="6" lemma="and" pos="CC" surface="and"/>
+        <token id="7" lemma="find" pos="VB" surface="find"/>
+        <token id="8" lemma="a" pos="DT" surface="a"/>
+        <token id="9" lemma="red" pos="JJ" surface="red"/>
+        <token id="10" lemma="book" pos="NN" surface="book"/>
+        <token id="11" lemma="please" pos="VB" surface="please"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="nn"/>
+        <dep from="3" to="2" type="dep"/>
+        <dep from="0" to="3" type="root"/>
+        <dep from="5" to="4" type="poss"/>
+        <dep from="3" to="5" type="pobj"/>
+        <dep from="3" to="6" type="cc"/>
+        <dep from="3" to="7" type="conj"/>
+        <dep from="10" to="8" type="det"/>
+        <dep from="10" to="9" type="amod"/>
+        <dep from="11" to="10" type="nsubj"/>
+        <dep from="7" to="11" type="ccomp"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Motion">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Direction">
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Locating">
+            <lexicalUnit>
+              <token id="7"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Sought_entity">
+                <token id="8"/>
+                <token id="9"/>
+                <token id="10"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="corner_1484051048337" type="Corner">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>corner</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="towel_1484051048340" type="Towel">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>towel</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="bread_1484051048344" type="Bread">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bread</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="head_1484051048343" type="Head">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>head</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>

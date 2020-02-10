@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2351">
+  <commands>
+    <command>
+      <sentence>please pick my mobile phone and put it on the chair near the table</sentence>
+      <tokens>
+        <token id="1" lemma="please" pos="UH" surface="please"/>
+        <token id="2" lemma="pick" pos="VB" surface="pick"/>
+        <token id="3" lemma="my" pos="PRP$" surface="my"/>
+        <token id="4" lemma="mobile" pos="JJ" surface="mobile"/>
+        <token id="5" lemma="phone" pos="NN" surface="phone"/>
+        <token id="6" lemma="and" pos="CC" surface="and"/>
+        <token id="7" lemma="put" pos="VBD" surface="put"/>
+        <token id="8" lemma="it" pos="PRP" surface="it"/>
+        <token id="9" lemma="on" pos="IN" surface="on"/>
+        <token id="10" lemma="the" pos="DT" surface="the"/>
+        <token id="11" lemma="chair" pos="NN" surface="chair"/>
+        <token id="12" lemma="near" pos="IN" surface="near"/>
+        <token id="13" lemma="the" pos="DT" surface="the"/>
+        <token id="14" lemma="table" pos="NN" surface="table"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="discourse"/>
+        <dep from="0" to="2" type="root"/>
+        <dep from="5" to="3" type="poss"/>
+        <dep from="5" to="4" type="amod"/>
+        <dep from="2" to="5" type="dobj"/>
+        <dep from="2" to="6" type="cc"/>
+        <dep from="2" to="7" type="conj"/>
+        <dep from="7" to="8" type="dobj"/>
+        <dep from="7" to="9" type="prep"/>
+        <dep from="11" to="10" type="det"/>
+        <dep from="9" to="11" type="pobj"/>
+        <dep from="11" to="12" type="prep"/>
+        <dep from="14" to="13" type="det"/>
+        <dep from="12" to="14" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Taking">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Placing">
+            <lexicalUnit>
+              <token id="7"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="8"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="9"/>
+                <token id="10"/>
+                <token id="11"/>
+                <token id="12"/>
+                <token id="13"/>
+                <token id="14"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="deck_1484051400323" type="Deck">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>deck</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="chair_1484051400138" type="Chair">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>chair</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="1.0" y="5.0" z="0.0"/>
+      </entity>
+      <entity atom="table_1484051400139" type="Table">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>table</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="1.0" y="5.0" z="0.0"/>
+      </entity>
+      <entity atom="juice_1484051400325" type="Juice">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>juice</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="cellphone_1484051400130" type="Cellphone">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cellphone</value>
+            <value>mobile</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="wristwatch_1484051400327" type="Wristwatch">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>wristwatch</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="cellphone_1484051400130" tokenId="4"/>
+    <lexicalGrounding atom="cellphone_1484051400130" tokenId="5"/>
+    <lexicalGrounding atom="it_1484051400137" tokenId="8"/>
+    <lexicalGrounding atom="chair_1484051400138" tokenId="11"/>
+    <lexicalGrounding atom="table_1484051400139" tokenId="14"/>
+  </lexicalGroundings>
+</huricExample>

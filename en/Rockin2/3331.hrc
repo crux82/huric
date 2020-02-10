@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3331">
+  <commands>
+    <command>
+      <sentence>i want to go to sleep turn off the light</sentence>
+      <tokens>
+        <token id="1" lemma="i" pos="LS" surface="i"/>
+        <token id="2" lemma="want" pos="VB" surface="want"/>
+        <token id="3" lemma="to" pos="TO" surface="to"/>
+        <token id="4" lemma="go" pos="VB" surface="go"/>
+        <token id="5" lemma="to" pos="TO" surface="to"/>
+        <token id="6" lemma="sleep" pos="VB" surface="sleep"/>
+        <token id="7" lemma="turn" pos="VB" surface="turn"/>
+        <token id="8" lemma="off" pos="RP" surface="off"/>
+        <token id="9" lemma="the" pos="DT" surface="the"/>
+        <token id="10" lemma="light" pos="NN" surface="light"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="nsubj"/>
+        <dep from="0" to="2" type="root"/>
+        <dep from="4" to="3" type="aux"/>
+        <dep from="2" to="4" type="xcomp"/>
+        <dep from="6" to="5" type="aux"/>
+        <dep from="4" to="6" type="xcomp"/>
+        <dep from="2" to="7" type="conj"/>
+        <dep from="7" to="8" type="prt"/>
+        <dep from="10" to="9" type="det"/>
+        <dep from="7" to="10" type="dobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Change_operational_state">
+            <lexicalUnit>
+              <token id="7"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Operational_state">
+                <token id="8"/>
+              </frameElement>
+              <frameElement type="Device">
+                <token id="9"/>
+                <token id="10"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="bench_1484052176228" type="Bench">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bench</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="bookshelf_1484052176224" type="Bookshelf">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bookshelf</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="coffee_1484052176223" type="Coffee">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>coffee</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="router_1484052176225" type="Router">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>router</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="light_1484052176098" type="Light">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>light</value>
+            <value>lamp</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="shoes_1484052176227" type="Shoes">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>shoes</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="light_1484052176098" tokenId="10"/>
+  </lexicalGroundings>
+</huricExample>

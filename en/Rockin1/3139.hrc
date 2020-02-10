@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3139">
+  <commands>
+    <command>
+      <sentence>take the coffee mugs from the kitchen cabinet and put them on the table</sentence>
+      <tokens>
+        <token id="1" lemma="take" pos="VB" surface="take"/>
+        <token id="2" lemma="the" pos="DT" surface="the"/>
+        <token id="3" lemma="coffee" pos="NN" surface="coffee"/>
+        <token id="4" lemma="mug" pos="NNS" surface="mugs"/>
+        <token id="5" lemma="from" pos="IN" surface="from"/>
+        <token id="6" lemma="the" pos="DT" surface="the"/>
+        <token id="7" lemma="kitchen" pos="NN" surface="kitchen"/>
+        <token id="8" lemma="cabinet" pos="NN" surface="cabinet"/>
+        <token id="9" lemma="and" pos="CC" surface="and"/>
+        <token id="10" lemma="put" pos="VB" surface="put"/>
+        <token id="11" lemma="they" pos="PRP" surface="them"/>
+        <token id="12" lemma="on" pos="IN" surface="on"/>
+        <token id="13" lemma="the" pos="DT" surface="the"/>
+        <token id="14" lemma="table" pos="NN" surface="table"/>
+      </tokens>
+      <dependencies>
+        <dep from="0" to="1" type="root"/>
+        <dep from="4" to="2" type="det"/>
+        <dep from="4" to="3" type="nn"/>
+        <dep from="1" to="4" type="dobj"/>
+        <dep from="1" to="5" type="prep"/>
+        <dep from="8" to="6" type="det"/>
+        <dep from="8" to="7" type="nn"/>
+        <dep from="5" to="8" type="pobj"/>
+        <dep from="1" to="9" type="cc"/>
+        <dep from="1" to="10" type="conj"/>
+        <dep from="10" to="11" type="dobj"/>
+        <dep from="10" to="12" type="prep"/>
+        <dep from="14" to="13" type="det"/>
+        <dep from="12" to="14" type="pobj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Taking">
+            <lexicalUnit>
+              <token id="1"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="2"/>
+                <token id="3"/>
+                <token id="4"/>
+              </frameElement>
+              <frameElement type="Source">
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Placing">
+            <lexicalUnit>
+              <token id="10"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="11"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="12"/>
+                <token id="13"/>
+                <token id="14"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="stairs_1484052025648" type="Stairs">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>stairs</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="bathroom_1484052025647" type="Bathroom">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bathroom</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="cabinet_1484052025454" type="Cabinet">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cabinet</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="12.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="table_1484052025462" type="Table">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>table</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="catalogue_1484052025646" type="Catalogue">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>catalogue</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="cup_1484052025453" type="Cup">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cup</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="12.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="shoes_1484052025650" type="Shoes">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>shoes</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="cup_1484052025453" tokenId="3"/>
+    <lexicalGrounding atom="cup_1484052025453" tokenId="4"/>
+    <lexicalGrounding atom="cabinet_1484052025454" tokenId="7"/>
+    <lexicalGrounding atom="cabinet_1484052025454" tokenId="8"/>
+    <lexicalGrounding atom="they_1484052025461" tokenId="11"/>
+    <lexicalGrounding atom="table_1484052025462" tokenId="14"/>
+  </lexicalGroundings>
+</huricExample>

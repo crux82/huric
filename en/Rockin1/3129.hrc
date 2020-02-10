@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3129">
+  <commands>
+    <command>
+      <sentence>sorry robot can you go to the kitchen and turn on the coffee machine</sentence>
+      <tokens>
+        <token id="1" lemma="sorry" pos="UH" surface="sorry"/>
+        <token id="2" lemma="robot" pos="NN" surface="robot"/>
+        <token id="3" lemma="can" pos="MD" surface="can"/>
+        <token id="4" lemma="you" pos="PRP" surface="you"/>
+        <token id="5" lemma="go" pos="VB" surface="go"/>
+        <token id="6" lemma="to" pos="TO" surface="to"/>
+        <token id="7" lemma="the" pos="DT" surface="the"/>
+        <token id="8" lemma="kitchen" pos="NN" surface="kitchen"/>
+        <token id="9" lemma="and" pos="CC" surface="and"/>
+        <token id="10" lemma="turn" pos="VB" surface="turn"/>
+        <token id="11" lemma="on" pos="RP" surface="on"/>
+        <token id="12" lemma="the" pos="DT" surface="the"/>
+        <token id="13" lemma="coffee" pos="NN" surface="coffee"/>
+        <token id="14" lemma="machine" pos="NN" surface="machine"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="discourse"/>
+        <dep from="5" to="2" type="discourse"/>
+        <dep from="5" to="3" type="aux"/>
+        <dep from="5" to="4" type="nsubj"/>
+        <dep from="0" to="5" type="root"/>
+        <dep from="5" to="6" type="prep"/>
+        <dep from="8" to="7" type="det"/>
+        <dep from="6" to="8" type="pobj"/>
+        <dep from="5" to="9" type="cc"/>
+        <dep from="5" to="10" type="conj"/>
+        <dep from="10" to="11" type="prt"/>
+        <dep from="14" to="12" type="det"/>
+        <dep from="14" to="13" type="nn"/>
+        <dep from="10" to="14" type="dojb"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Motion">
+            <lexicalUnit>
+              <token id="5"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="4"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="6"/>
+                <token id="7"/>
+                <token id="8"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Change_operational_state">
+            <lexicalUnit>
+              <token id="10"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Operational_state">
+                <token id="11"/>
+              </frameElement>
+              <frameElement type="Device">
+                <token id="12"/>
+                <token id="13"/>
+                <token id="14"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="kitchen_1484051998817" type="Kitchen">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>kitchen</value>
+            <value>kitchenette</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="wall_1484051998940" type="Wall">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>wall</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="light_1484051998946" type="Light">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>light</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="slippers_1484051998941" type="Slippers">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>slippers</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="water_1484051998938" type="Water">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>water</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="robot_1484063748562" type="Robot">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>robot</value>
+            <value>you</value>
+            <value>yourself</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+  	<lexicalGrounding atom="robot_1484063748562" tokenId="4"/>
+    <lexicalGrounding atom="kitchen_1484051998817" tokenId="8"/>
+    <lexicalGrounding atom="coffee_machine_1484051998823" tokenId="13"/>
+    <lexicalGrounding atom="coffee_machine_1484051998823" tokenId="14"/>
+  </lexicalGroundings>
+</huricExample>

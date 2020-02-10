@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="2429">
+  <commands>
+    <command>
+      <sentence>this is a bed room where we can find a bed and few pillows and two clops</sentence>
+      <tokens>
+        <token id="1" lemma="this" pos="DT" surface="this"/>
+        <token id="2" lemma="be" pos="VBZ" surface="is"/>
+        <token id="3" lemma="a" pos="DT" surface="a"/>
+        <token id="4" lemma="bed" pos="NN" surface="bed"/>
+        <token id="5" lemma="room" pos="NN" surface="room"/>
+        <token id="6" lemma="where" pos="WRB" surface="where"/>
+        <token id="7" lemma="we" pos="PRP" surface="we"/>
+        <token id="8" lemma="can" pos="MD" surface="can"/>
+        <token id="9" lemma="find" pos="VB" surface="find"/>
+        <token id="10" lemma="a" pos="DT" surface="a"/>
+        <token id="11" lemma="bed" pos="NN" surface="bed"/>
+        <token id="12" lemma="and" pos="CC" surface="and"/>
+        <token id="13" lemma="few" pos="JJ" surface="few"/>
+        <token id="14" lemma="pillow" pos="NNS" surface="pillows"/>
+        <token id="15" lemma="and" pos="CC" surface="and"/>
+        <token id="16" lemma="two" pos="CD" surface="two"/>
+        <token id="17" lemma="clop" pos="NNS" surface="clops"/>
+      </tokens>
+      <dependencies>
+        <dep from="5" to="1" type="nsubj"/>
+        <dep from="5" to="2" type="cop"/>
+        <dep from="5" to="3" type="det"/>
+        <dep from="5" to="4" type="nn"/>
+        <dep from="0" to="5" type="root"/>
+        <dep from="9" to="6" type="advmod"/>
+        <dep from="9" to="7" type="nsubj"/>
+        <dep from="9" to="8" type="aux"/>
+        <dep from="5" to="9" type="rcmod"/>
+        <dep from="11" to="10" type="det"/>
+        <dep from="9" to="11" type="dobj"/>
+        <dep from="11" to="12" type="cc"/>
+        <dep from="14" to="13" type="amod"/>
+        <dep from="11" to="14" type="conj"/>
+        <dep from="14" to="15" type="cc"/>
+        <dep from="17" to="16" type="num"/>
+        <dep from="14" to="17" type="conj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Being_in_category">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Item">
+                <token id="1"/>
+              </frameElement>
+              <frameElement type="Category">
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="bedroom_1484051514732" type="Bedroom">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>bedroom</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="corridor_1484051514814" type="Corridor">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>corridor</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="shower_1484051514818" type="Shower">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>shower</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="computer_1484051514815" type="Computer">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>computer</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="table_1484051514819" type="Table">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>table</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="orange_1484051514816" type="Orange">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>orange</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="bedroom_1484051514732" tokenId="4"/>
+    <lexicalGrounding atom="bedroom_1484051514732" tokenId="5"/>
+  </lexicalGroundings>
+</huricExample>

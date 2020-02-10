@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="4643">
+  <commands>
+    <command>
+      <sentence>robot ascolta vai nella camera da letto e cerca la penna nera dovrebbe essere sul comodino</sentence>
+      <tokens>
+        <token id="1" lemma="robot" pos="S" surface="robot"/>
+        <token id="2" lemma="ascoltare" pos="V" surface="ascolta"/>
+        <token id="3" lemma="andare" pos="V" surface="vai"/>
+        <token id="4" lemma="in" pos="EA" surface="nella"/>
+        <token id="5" lemma="camera" pos="S" surface="camera"/>
+        <token id="6" lemma="da" pos="E" surface="da"/>
+        <token id="7" lemma="letto" pos="S" surface="letto"/>
+        <token id="8" lemma="e" pos="CC" surface="e"/>
+        <token id="9" lemma="cercare" pos="V" surface="cerca"/>
+        <token id="10" lemma="la" pos="RD" surface="la"/>
+        <token id="11" lemma="penna" pos="S" surface="penna"/>
+        <token id="12" lemma="nero" pos="A" surface="nera"/>
+        <token id="13" lemma="dovere" pos="VM" surface="dovrebbe"/>
+        <token id="14" lemma="essere" pos="V" surface="essere"/>
+        <token id="15" lemma="su" pos="EA" surface="sul"/>
+        <token id="16" lemma="comodino" pos="S" surface="comodino"/>
+      </tokens>
+      <dependencies/>
+      <semantics>
+        <frames>
+          <frame name="Motion">
+            <lexicalUnit>
+              <token id="3"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Goal">
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+                <token id="7"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Locating">
+            <lexicalUnit>
+              <token id="9"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Phenomenon">
+                <token id="10"/>
+                <token id="11"/>
+                <token id="12"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Being_located">
+            <lexicalUnit>
+              <token id="14"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Location">
+                <token id="15"/>
+                <token id="16"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="camera_da_letto_1484051982133" type="Camera_da_letto">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>camera_da_letto</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="3.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="esso_1484051982145" type="Esso">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>esso</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="8.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="ragazzo_1484051982340" type="Ragazzo">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>ragazzo</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="messaggio_1484051982337" type="Messaggio">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>messaggio</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="credenza_1484051982339" type="Credenza">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>credenza</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="comodino_1484051982146" type="Comodino">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>comodino</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="8.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="penna_1484051982139" type="Penna">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>penna</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="cereali_1484051982336" type="Cereali">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cereali</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="posate_1484051982334" type="Posate">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>posate</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="vassoio_1484051982342" type="Vassoio">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>vassoio</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>

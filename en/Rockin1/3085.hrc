@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="3085">
+  <commands>
+    <command>
+      <sentence>i want some fruit bring me an apple or an orange</sentence>
+      <tokens>
+        <token id="1" lemma="I" pos="PRP" surface="i"/>
+        <token id="2" lemma="want" pos="VB" surface="want"/>
+        <token id="3" lemma="some" pos="DT" surface="some"/>
+        <token id="4" lemma="fruit" pos="NN" surface="fruit"/>
+        <token id="5" lemma="bring" pos="VB" surface="bring"/>
+        <token id="6" lemma="I" pos="PRP" surface="me"/>
+        <token id="7" lemma="a" pos="DT" surface="an"/>
+        <token id="8" lemma="apple" pos="NN" surface="apple"/>
+        <token id="9" lemma="or" pos="CC" surface="or"/>
+        <token id="10" lemma="a" pos="DT" surface="an"/>
+        <token id="11" lemma="orange" pos="NN" surface="orange"/>
+      </tokens>
+      <dependencies>
+        <dep from="2" to="1" type="nsubj"/>
+        <dep from="0" to="2" type="root"/>
+        <dep from="4" to="3" type="det"/>
+        <dep from="5" to="4" type="nsubj"/>
+        <dep from="2" to="5" type="conj"/>
+        <dep from="8" to="6" type="nsubj"/>
+        <dep from="8" to="7" type="det"/>
+        <dep from="5" to="8" type="xcomp"/>
+        <dep from="8" to="9" type="cc"/>
+        <dep from="11" to="10" type="det"/>
+        <dep from="8" to="11" type="conj"/>
+      </dependencies>
+      <semantics>
+        <frames>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="5"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Beneficiary">
+                <token id="6"/>
+              </frameElement>
+              <frameElement type="Theme">
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+                <token id="10"/>
+                <token id="11"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="tablecloth_1484051884526" type="Tablecloth">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>tablecloth</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="desk_1484051884527" type="Desk">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>desk</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="corn_1484051884523" type="Corn">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>corn</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="apple_1484051884382" type="Apple">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>apple</value>
+            <value>fruit</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="14.0" y="15.0" z="0.0"/>
+      </entity>
+      <entity atom="orange_1484051884382" type="Orange">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>orange</value>
+            <value>tangerine</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="14.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="fences_1484051884524" type="Fences">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>fences</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="message_1484051884525" type="Message">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>message</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="me_1484051884380" type="Person">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>person</value>
+            <value>user</value>
+            <value>me</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="8.0" y="11.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings>
+    <lexicalGrounding atom="me_1484051884380" tokenId="6"/>
+    <lexicalGrounding atom="apple_1484051884382" tokenId="8"/>
+    <lexicalGrounding atom="orange_1484051884382" tokenId="11"/>
+  </lexicalGroundings>
+</huricExample>

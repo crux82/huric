@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huricExample id="5434">
+  <commands>
+    <command>
+      <sentence>ci sono alcuni sacchetti di plastica nel cassetto della cucina ne puoi prendere uno e portar lo qui</sentence>
+      <tokens>
+        <token id="1" lemma="ci" pos="PI" surface="ci"/>
+        <token id="2" lemma="essere" pos="V" surface="sono"/>
+        <token id="3" lemma="alcuno" pos="DI" surface="alcuni"/>
+        <token id="4" lemma="sacchetto" pos="S" surface="sacchetti"/>
+        <token id="5" lemma="di" pos="E" surface="di"/>
+        <token id="6" lemma="plastica" pos="S" surface="plastica"/>
+        <token id="7" lemma="in" pos="EA" surface="nel"/>
+        <token id="8" lemma="cassetto" pos="S" surface="cassetto"/>
+        <token id="9" lemma="di" pos="EA" surface="della"/>
+        <token id="10" lemma="cucina" pos="S" surface="cucina"/>
+        <token id="11" lemma="ne" pos="PE" surface="ne"/>
+        <token id="12" lemma="potere" pos="VM" surface="puoi"/>
+        <token id="13" lemma="prendere" pos="V" surface="prendere"/>
+        <token id="14" lemma="uno" pos="PI" surface="uno"/>
+        <token id="15" lemma="e" pos="CC" surface="e"/>
+        <token id="16" lemma="portare" pos="V" surface="portar"/>
+        <token id="17" lemma="lo" pos="PC" surface="lo"/>
+        <token id="18" lemma="qui" pos="B" surface="qui"/>
+      </tokens>
+      <dependencies/>
+      <semantics>
+        <frames>
+          <frame name="Being_located">
+            <lexicalUnit>
+              <token id="2"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="3"/>
+                <token id="4"/>
+                <token id="5"/>
+                <token id="6"/>
+              </frameElement>
+              <frameElement type="Location">
+                <token id="7"/>
+                <token id="8"/>
+                <token id="9"/>
+                <token id="10"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Taking">
+            <lexicalUnit>
+              <token id="13"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="14"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Bringing">
+            <lexicalUnit>
+              <token id="16"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme">
+                <token id="17"/>
+              </frameElement>
+              <frameElement type="Goal">
+                <token id="18"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+        </frames>
+      </semantics>
+    </command>
+  </commands>
+  <semanticMap>
+    <entities>
+      <entity atom="postino_1484052053693" type="Postino">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>postino</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="esso_1484052053574" type="Esso">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>esso</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="8.0" y="3.0" z="0.0"/>
+      </entity>
+      <entity atom="cassetto_1484052053563" type="Cassetto">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cassetto</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="10.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="router_1484052053692" type="Router">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>router</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="forchetta_1484052053691" type="Forchetta">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>forchetta</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="piatto_1484052053696" type="Piatto">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>piatto</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="borsa_1484052053562" type="Borsa">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>borsa</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="sigarette_1484052053694" type="Sigarette">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>sigarette</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="catalogo_1484052053697" type="Catalogo">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>catalogo</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+    </entities>
+  </semanticMap>
+  <lexicalGroundings/>
+</huricExample>
