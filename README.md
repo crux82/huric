@@ -1,4 +1,4 @@
-# HUman Robot Interaction Corpus (HuRIC)
+# HUman Robot Interaction Corpus (HuRIC 2.0)
 
 HuRIC (HUman Robot Interaction Corpus) is a resource that has been gathered  as a collaboration between the [Semantic Analytics Group (SAG)](http://sag.art.uniroma2.it) and the [Laboratory of Cognitive Cooperating Robots (Lab.Ro.Co.Co.)](http://lab.it) at Sapienza, University of Rome. The basic idea of this project is to build a corpus for Human Robot Interaction in Natural Language containing information that are yet oriented to a specific application domain, e.g. the house service robotics, but at the same time inspired by sound linguistic theories, that are by definition decoupled from such a domain.
 
@@ -220,18 +220,33 @@ The targeted command is *"take the mug next to the keyboard"*
 
 Hence, for each command, the following information are provided:
 
-1. the whole sentence (i.e., `<sentence/>` tag);
-2. the list of tokens composing it, along with the corresponding lemma and POS tag (i.e., `<tokens/>` tag);
-3. the dependency relations among tokens (i.e., `<dependencies/>` tag);
-4. the semantics, expressed in terms of Frames and Frame elements (i.e., `<frames/>` tag);
-5. the configuration of the environment, in terms of entities populating the Semantic Map (*SM*), along with their semantic attributes (i.e., `semanticMap` tag). Each entity is:
-	* identified by a unique id (`atom`),
-	* characterized by a `type`,
-	* extended through semantic or lexical `<attributes/>`, and
-	* localized within the environment through `<coordinate/>`;
+1. the whole sentence (i.e., `<sentence/>` tag), like the command above `take the mug next to the keyboard`.
+2. the list of tokens composing the command, along with the corresponding lemma and POS tags (i.e., the `<tokens/>` XML tag)
+	* notice that each `token` is referred with an `id`which is used in the rest of the file to refer to it. 
+3. the syntactic information, in terms of dependency relations among tokens (i.e., the `<dependencies/>` tag)
+	* in the example above a row like `<dep from="1" to="3" type="dobj" />` means that the third word referred by `<token id="3" lemma="mug" pos="NN" surface="mug" />` expresses the direct object (i.e., the `dobj`) of the main verb  `<token id="1" lemma="take" pos="VB" surface="take" />`;
+4. the semantics, based on the Frame Semantics Theory and expressed by Frames (i.e., the `<frames/>` tag) and Frame elements (i.e., the `<frameElements/>` tag):
+	* even though a sentence may express an arbitrary number of frames, in the example above only the frame `Bringing` is expressed with two frame elements, i.e., the `Theme` role spanning between the second and the third token (`the mug`) and the `Goal` role, instead spanning between the forth and the seventh token (`next to the keyboard`);
+5. the configuration of the environment, in terms of entities populating the Semantic Map (*SM*), along with their semantic attributes (i.e., `semanticMap` tag):
+	* each entity is identified by a unique id (`atom`) and characterized by a `type`; in the example above, two objects are in the Semantic Map, such as the object `p1` which is an instance of the class `Cup`;
+	* entities are extended through semantic or lexical `<attributes/>`; in the example above an instance of the class `Cup` may contain other entities, so that the `containability` property is `true`; these attributes also encode the multiple lexical references that can be used to refer to the entitie, such as `cup`, `mug` or `bowl`. 
+	* entities are localized within the environment through `<coordinate/>` which refer to an ideal gridmap.
 6. the gold groundings, providing gold mapping between linguistic symbols (namely, words of the sentence) and entities of the semantic map (i.e., `lexicalGroundings` tag). In the example, the token with id `3` (*mug*) refers to the entity `p1` (`Cup`), while token `7` (*keyboard*) to entity `k1` (`Keyboard`).
 
-### Citation
+## Version
+
+This repository contains the **HuRIC 2.0**. 
+The previous version of Huric is available at the following link: [http://sag.art.uniroma2.it/demo-software/huric/](http://sag.art.uniroma2.it/demo-software/huric/)
+
+###Main changelogs with respect to HuRIC 1.0: 
+* Added additioanl annotated examples for English.
+* Added brand new examples for Italian.
+* Each sentence is now paired with a corresponding Semantic Map. 
+
+
+
+
+## How to cite HuRIC
 
 If you use HuRIC for your research, please cite the following paper: 
 
@@ -257,7 +272,7 @@ If you use HuRIC for your research, please cite the following paper:
 ```
 
 
-### References
+## References
 
 *Andrea Vanzo, Danilo Croce, Emanuele Bastianelli, Roberto Basili, Daniele Nardi* (2020): **Grounded language interpretation of robotic commands through structured learnin**g. In: Artificial Intelligence Volume 278, January 2020, 103181, 278, 2020.
 
