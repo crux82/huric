@@ -10,6 +10,8 @@ about situations and events expressed in sentences. The most interesting feature
 
 In order to enable Grounded Language Interpretation processes, each command is paired with a Semantic Map, reflecting the naming and disposition of entities matching the interpretation. 
 
+HuRIC is released as an open source resource under the Apache 2.0 license.
+
 
 
 ## Corpus Definition
