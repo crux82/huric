@@ -233,6 +233,8 @@ Hence, for each command, the following information are provided:
 	* entities are localized within the environment through `<coordinate/>` which refer to an ideal gridmap.
 6. the gold groundings, providing gold mapping between linguistic symbols (namely, words of the sentence) and entities of the semantic map (i.e., `lexicalGroundings` tag). In the example, the token with id `3` (*mug*) refers to the entity `p1` (`Cup`), while token `7` (*keyboard*) to entity `k1` (`Keyboard`).
 
+
+
 ## Version
 
 This repository contains the **HuRIC 2.0**. 
@@ -243,6 +245,15 @@ The previous version of Huric is available at the following link: [http://sag.ar
 * Added brand new examples for Italian.
 * Each sentence is now paired with a corresponding Semantic Map. 
 
+
+## Where can I found a processing chain trained over HuRIC?
+
+Together with the corpus, we developed a Spoken Language Understanding system called
+LU4R, based on a cascade of sequential labelers, whose models have been trained over HuRIC.
+It has been designed also for a context-aware interpretation of spoken commands, consistently with
+the corpus. 
+
+More details on LU4R can be found at the following link:: [http://sag.art.uniroma2.it/lu4r.html](http://sag.art.uniroma2.it/lu4r.html)
 
 
 
