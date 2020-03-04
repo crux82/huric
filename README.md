@@ -241,7 +241,7 @@ Hence, for each command, the following information are provided:
 This repository contains the **HuRIC 2.0**. 
 The previous version of Huric is available at the following link: [http://sag.art.uniroma2.it/demo-software/huric/](http://sag.art.uniroma2.it/demo-software/huric/)
 
-###Main changelogs with respect to HuRIC 1.0: 
+**Main changelogs** with respect to HuRIC 1.0: 
 * Added additioanl annotated examples for English.
 * Added brand new examples for Italian.
 * Each sentence is now paired with a corresponding Semantic Map. 
