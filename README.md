@@ -1,27 +1,25 @@
-# HUman Robot Interaction Corpus (HuRIC 2.0)
+# <u>Hu</u>man <u>R</u>obot <u>I</u>nteraction <u>C</u>orpus (HuRIC 2.0)
 
-HuRIC (HUman Robot Interaction Corpus) is a resource that has been gathered  as a collaboration between the [Semantic Analytics Group (SAG)](http://sag.art.uniroma2.it) from the University of Roma, Tor Vergata, and the [Laboratory of Cognitive Cooperating Robots (Lab.Ro.Co.Co.)](http://lab.it) at Sapienza, University of Rome. The basic idea of this project is to build a corpus for Human Robot Interaction in Natural Language containing information that are yet oriented to a specific application domain, e.g. the house service robotics, but at the same time inspired by sound linguistic theories, that are by definition decoupled from such a domain.
+HuRIC (<u>Hu</u>man <u>R</u>obot <u>I</u>nteraction <u>C</u>orpus) is a resource that has been gathered  as a collaboration between the [Semantic Analytics Group (SAG)](http://sag.art.uniroma2.it) from the University of Roma, Tor Vergata, and the [Laboratory of Cognitive Cooperating Robots (Lab.Ro.Co.Co.)](http://labrococo.dis.uniroma1.it/) at Sapienza, University of Rome. The basic idea of this project is to build a corpus for Human Robot Interaction in Natural Language containing information that are yet oriented to a specific application domain, e.g. the house service robotics, but at the same time inspired by sound linguistic theories, that are by definition decoupled from such a domain.
 
-HuRIC is designed to enable the **Grounded Language Interpretation** of robotic commands, i.e., make the interpretation process of a robotic command dependent from the environment where the utterance is expressed.  In fact, without any contestual information a command such as *"take the mug next to the keyboard"* is ambiguous: it may express the need of *picking up the mug that is near the keyboard* or to *bring the mug which position is not expressed in a position near the keyboard*. Whithout knowing the actual position of the ``mug`` and the ``keyboard``, it is not possible to assign the correct interpretation.
+HuRIC is designed to enable the **Grounded Language Interpretation** of robotic commands, i.e., make the interpretation process of a robotic command dependent from the specific environment where the utterance is expressed.  Without any contestual information, a command such as *"take the mug next to the keyboard"* is ambiguous: it may in fact express the need of *picking up the mug that is near the keyboard* or to *bring the mug whose position is not expressed toward a new position near the keyboard*. Whithout knowing the actual placement of the ``mug`` and the ``keyboard``in the environment, it is not possible to decide the suitable interpretation, i.e. correctly assign the intended meaning to the command.
 
 
-HuRIC is based on HuRIC is based on the theory of [Frame Semantics](https://framenet.icsi.berkeley.edu/fndrupal/) and captures cognitive information
-about situations and events expressed in sentences. The most interesting feature is that HuRIC is not system or robot dependent both with respect to the surface of sentences and the adopted formalism for representing and extracting the interpretation of the command. 
+HuRIC is based on the theory of [Frame Semantics](https://framenet.icsi.berkeley.edu/fndrupal/) and captures cognitive information about the real-world situations and events expressed in sentences. The most interesting feature is that HuRIC is not system or robot dependent and these regards the type of accepted sentences and the adopted formalism for representing and extracting their interpretation. 
 
-In order to enable Grounded Language Interpretation processes, each command is paired with a Semantic Map, reflecting the naming and disposition of entities matching the interpretation. 
+In order to enable the learning of Grounded Language Interpretation processes, each command in HuRIC is paired with a Semantic Map, reflecting the naming and disposition of entities in the environment that are referred by the interpretation. 
 
-HuRIC is released as an open source resource under the Apache 2.0 license.
+HuRIC is released as an open source resource, under the Apache 2.0 license.
 
 
 
 ## Corpus Definition
 
 
-HuRIC exploits different situations representing possible commands given to a robot in a house environment. The corpus is composed of different subsets, characterized by different order of complexity and designed to differently stress a labeling architecture.
-Each sentence is annotated with lemmas, POS tags, dependency trees, and Frame Semantics. Semantic frames and frame elements are used to represent the meaning of commands, reflecting the actions a robot can accomplish in a home environment.
+HuRIC exploits different situations representing possible commands given to a robot in a house environment. The corpus is composed of different subsets, characterized by different order of complexity and designed to differently stress the language recognition architecture.
+Each sentence is annotated linguistically as well as conceptually. In linguistic terms lemmas, POS tags, dependency trees, and Frame Semantics are annotated over the sentence. Semantic frames and frame elements are associated to sentence fragments (e.g. verbs and their syntactic arguments) and correspoind to the adopted meaning representation formalisms for the underlying command: they also conceptually reflect the actions requested to a robot, that are usually the actions it can carry out in a home environment.
 
 HuRIC provides commands in **two different languages**: English and Italian. While the English subset contains 656 sentences, 241 commands are available in Italian. Almost all Italian sentences are translations of the original commands in English and the corpus keeps an alignment between them. 
-
 
 The number of annotated sentences, number of frames, and further statistics are reported in Table 1.
 
@@ -288,7 +286,7 @@ If you use HuRIC for your research, please cite the following paper:
 
 ## References
 
-*Andrea Vanzo, Danilo Croce, Emanuele Bastianelli, Roberto Basili, Daniele Nardi* (2020): **Grounded language interpretation of robotic commands through structured learnin**g. In: Artificial Intelligence Volume 278, January 2020, 103181, 278, 2020.
+*Andrea Vanzo, Danilo Croce, Emanuele Bastianelli, Roberto Basili, Daniele Nardi* (2020): **Grounded language interpretation of robotic commands through structured learnin**g. In: Artificial Intelligence, Volume 278, January 2020, 103181, 278, 2020.
 
 *Emanuele Bastianelli and Giuseppe Castellucci and Danilo Croce and Roberto Basili and Daniele Nardi* (2017): **Structured learning for spoken language understanding in human-robot interaction.** In: International Journal of Robotics Research, 36 (5-7), pp. 660–683, 2017.
 
