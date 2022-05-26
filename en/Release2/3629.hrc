@@ -4,7 +4,7 @@
     <command>
       <sentence>look at the table and leave the box on it</sentence>
       <tokens>
-        <token id="1" lemma="look" pos="NN" surface="look"/>
+        <token id="1" lemma="look" pos="VB" surface="look"/>
         <token id="2" lemma="at" pos="IN" surface="at"/>
         <token id="3" lemma="the" pos="DT" surface="the"/>
         <token id="4" lemma="table" pos="NN" surface="table"/>
@@ -21,7 +21,7 @@
         <dep from="4" to="3" type="det"/>
         <dep from="2" to="4" type="pobj"/>
         <dep from="4" to="5" type="cc"/>
-        <dep from="4" to="6" type="conj"/>
+        <dep from="1" to="6" type="conj"/>
         <dep from="8" to="7" type="det"/>
         <dep from="6" to="8" type="dobj"/>
         <dep from="6" to="9" type="prep"/>
