@@ -24,11 +24,11 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Beneficiary">
+              <frameElement type="Beneficiary" semanticHead="5">
                 <token id="4"/>
                 <token id="5"/>
               </frameElement>
@@ -64,6 +64,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>keys</value>
+            <value>key</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
@@ -109,6 +110,21 @@
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="13.0" y="7.0" z="0.0"/>
+      </entity>
+      <entity atom="daniele_1484052587415" type="Person">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>person</value>
+              <value>daniele</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
       </entity>
     </entities>
   </semanticMap>

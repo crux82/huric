@@ -30,7 +30,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="4">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
@@ -38,7 +38,7 @@
                 <token id="6"/>
                 <token id="7"/>
               </frameElement>
-              <frameElement type="Manner">
+              <frameElement type="Manner" semanticHead="8">
                 <token id="8"/>
               </frameElement>
             </frameElements>
@@ -59,6 +59,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>bedroom</value>
+            <value>bed room</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="6.0" y="14.0" z="0.0"/>
@@ -88,6 +89,7 @@
           <attribute name="lexical_references">
             <value>couch</value>
             <value>settee</value>
+            <value>sofa</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="5.0" y="13.0" z="0.0"/>
