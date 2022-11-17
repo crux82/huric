@@ -22,10 +22,10 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Operational_state">
+              <frameElement type="Operational_state" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Device">
+              <frameElement type="Device" semanticHead="4">
                 <token id="3"/>
                 <token id="4"/>
               </frameElement>
@@ -47,6 +47,8 @@
           </attribute>
           <attribute name="lexical_references">
             <value>television</value>
+            <value>telly</value>
+            <value>tv</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
@@ -61,6 +63,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>light</value>
+            <value>lamp</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>

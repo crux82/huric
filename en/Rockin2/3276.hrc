@@ -36,18 +36,18 @@
               <token id="4"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="3">
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Beneficiary">
+              <frameElement type="Beneficiary" semanticHead="5">
                 <token id="5"/>
               </frameElement>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="8">
                 <token id="6"/>
                 <token id="7"/>
                 <token id="8"/>
               </frameElement>
-              <frameElement type="Source">
+              <frameElement type="Source" semanticHead="11">
                 <token id="9"/>
                 <token id="10"/>
                 <token id="11"/>
@@ -112,6 +112,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>glasses</value>
+            <value>eye glass</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="13.0" y="10.0" z="0.0"/>
@@ -168,6 +169,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>bedroom</value>
+            <value>bed room</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="14.0" y="10.0" z="0.0"/>

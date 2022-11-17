@@ -34,14 +34,14 @@
               <token id="3"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="5">
                 <token id="4"/>
                 <token id="5"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="9">
                 <token id="6"/>
                 <token id="7"/>
                 <token id="8"/>
@@ -155,6 +155,22 @@
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="cloth_horse_1484052132064" type="Cloth_horse">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>true</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>cloth horse</value>
+              <value>clothes rack</value>
+              <value>drying horse</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="0.0" z="0.0"/>
       </entity>
     </entities>
   </semanticMap>

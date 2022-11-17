@@ -26,10 +26,10 @@
               <token id="4"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="3">
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Containing_object">
+              <frameElement type="Containing_object" semanticHead="6">
                 <token id="5"/>
                 <token id="6"/>
               </frameElement>

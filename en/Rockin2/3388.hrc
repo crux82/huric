@@ -32,10 +32,10 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Operational_state">
+              <frameElement type="Operational_state" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Device">
+              <frameElement type="Device" semanticHead="4">
                 <token id="3"/>
                 <token id="4"/>
               </frameElement>
@@ -69,6 +69,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>computer</value>
+            <value>laptop</value>
             <value>pocketpc</value>
           </attribute>
         </attributes>
@@ -84,6 +85,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>light</value>
+            <value>lamp</value>
             <value>nightlight</value>
           </attribute>
         </attributes>

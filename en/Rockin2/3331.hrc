@@ -34,10 +34,10 @@
               <token id="7"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Operational_state">
+              <frameElement type="Operational_state" semanticHead="8">
                 <token id="8"/>
               </frameElement>
-              <frameElement type="Device">
+              <frameElement type="Device" semanticHead="10">
                 <token id="9"/>
                 <token id="10"/>
               </frameElement>

@@ -30,13 +30,13 @@
               <token id="5"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="3">
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Degree">
+              <frameElement type="Degree" semanticHead="4">
                 <token id="4"/>
               </frameElement>
-              <frameElement type="Container_portal">
+              <frameElement type="Container_portal" semanticHead="8">
                 <token id="6"/>
                 <token id="7"/>
                 <token id="8"/>

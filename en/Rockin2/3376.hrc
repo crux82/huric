@@ -28,12 +28,12 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Ground">
+              <frameElement type="Ground" semanticHead="5">
                 <token id="3"/>
                 <token id="4"/>
                 <token id="5"/>
               </frameElement>
-              <frameElement type="Desired_state">
+              <frameElement type="Desired_state" semanticHead="7">
                 <token id="6"/>
                 <token id="7"/>
               </frameElement>
@@ -97,6 +97,21 @@
           </attribute>
           <attribute name="lexical_references">
             <value>flower</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="washing_machine_1484052265136" type="Washing_machine">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>washer</value>
+            <value>washing machine</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>

@@ -26,10 +26,10 @@
               <token id="4"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="3">
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Containing_object">
+              <frameElement type="Containing_object" semanticHead="6">
                 <token id="5"/>
                 <token id="6"/>
               </frameElement>
@@ -79,6 +79,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>glasses</value>
+            <value>eye glass</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
@@ -107,6 +108,8 @@
           </attribute>
           <attribute name="lexical_references">
             <value>phone</value>
+            <value>telephone</value>
+            <value>cellphone</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
@@ -139,6 +142,22 @@
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="robot_1484063748562" type="Robot">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>robot</value>
+            <value>you</value>
+            <value>yourself</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
       </entity>
     </entities>
   </semanticMap>

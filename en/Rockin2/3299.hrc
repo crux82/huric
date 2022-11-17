@@ -26,14 +26,14 @@
               <token id="3"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Device">
+              <frameElement type="Device" semanticHead="5">
                 <token id="4"/>
                 <token id="5"/>
               </frameElement>
-              <frameElement type="Operational_state">
+              <frameElement type="Operational_state" semanticHead="6">
                 <token id="6"/>
               </frameElement>
             </frameElements>
@@ -111,6 +111,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>light</value>
+            <value>lamp</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>

@@ -34,7 +34,7 @@
               <token id="4"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="6">
                 <token id="5"/>
                 <token id="6"/>
                 <token id="7"/>

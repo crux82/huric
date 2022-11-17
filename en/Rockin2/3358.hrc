@@ -28,13 +28,13 @@
               <token id="4"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="3">
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Beneficiary">
+              <frameElement type="Beneficiary" semanticHead="5">
                 <token id="5"/>
               </frameElement>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="7">
                 <token id="6"/>
                 <token id="7"/>
               </frameElement>
@@ -99,6 +99,7 @@
           <attribute name="lexical_references">
             <value>phone</value>
             <value>cellphone</value>
+            <value>telephone</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="5.0" y="9.0" z="0.0"/>

@@ -30,15 +30,15 @@
               <token id="4"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="3">
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Device">
+              <frameElement type="Device" semanticHead="7">
                 <token id="5"/>
                 <token id="6"/>
                 <token id="7"/>
               </frameElement>
-              <frameElement type="Operational_state">
+              <frameElement type="Operational_state" semanticHead="8">
                 <token id="8"/>
               </frameElement>
             </frameElements>
@@ -116,6 +116,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>cellphone</value>
+            <value>mobile</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>

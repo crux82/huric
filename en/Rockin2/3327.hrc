@@ -24,7 +24,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="5">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
@@ -107,6 +107,20 @@
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="laundry_room_1484052168875" type="Laundry_room">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>laundry room</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="0.0" z="0.0"/>
       </entity>
     </entities>
   </semanticMap>

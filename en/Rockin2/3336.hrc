@@ -40,13 +40,13 @@
               <token id="11"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="10">
                 <token id="10"/>
               </frameElement>
-              <frameElement type="Beneficiary">
+              <frameElement type="Beneficiary" semanticHead="12">
                 <token id="12"/>
               </frameElement>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="13">
                 <token id="13"/>
               </frameElement>
             </frameElements>

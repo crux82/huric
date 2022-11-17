@@ -34,7 +34,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
@@ -106,6 +106,7 @@
           <attribute name="lexical_references">
             <value>computer</value>
             <value>desktop</value>
+            <value>laptop</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="12.0" y="10.0" z="0.0"/>

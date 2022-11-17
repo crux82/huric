@@ -28,12 +28,12 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Ground">
+              <frameElement type="Ground" semanticHead="4">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
               </frameElement>
-              <frameElement type="Unwanted_entity">
+              <frameElement type="Unwanted_entity" semanticHead="7">
                 <token id="5"/>
                 <token id="6"/>
                 <token id="7"/>
@@ -101,6 +101,20 @@
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="6.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="answer_machine_1484052122352" type="Answer_machine">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>answer machine</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
       </entity>
     </entities>
   </semanticMap>

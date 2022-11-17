@@ -32,7 +32,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Ground">
+              <frameElement type="Ground" semanticHead="9">
                 <token id="3"/>
                 <token id="4"/>
                 <token id="5"/>
@@ -49,10 +49,10 @@
               <token id="4"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="5">
                 <token id="5"/>
               </frameElement>
-              <frameElement type="Location">
+              <frameElement type="Location" semanticHead="9">
                 <token id="6"/>
                 <token id="7"/>
                 <token id="8"/>
@@ -150,6 +150,21 @@
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="washing_machine_1484052120377" type="Washing_machine">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>washer</value>
+            <value>washing machine</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
       </entity>
     </entities>
   </semanticMap>

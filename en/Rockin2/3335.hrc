@@ -40,13 +40,13 @@
               <token id="9"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="8">
                 <token id="8"/>
               </frameElement>
-              <frameElement type="Beneficiary">
+              <frameElement type="Beneficiary" semanticHead="10">
                 <token id="10"/>
               </frameElement>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="13">
                 <token id="11"/>
                 <token id="12"/>
                 <token id="13"/>
@@ -160,6 +160,22 @@
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="8.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="toilet_paper_1484052182339" type="ToiletPaper">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>paper</value>
+              <value>toilet paper</value>
+              <value>loo roll</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="0.0" z="0.0"/>
       </entity>
     </entities>
   </semanticMap>

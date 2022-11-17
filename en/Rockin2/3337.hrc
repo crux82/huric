@@ -42,14 +42,14 @@
               <token id="11"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="10">
                 <token id="10"/>
               </frameElement>
-              <frameElement type="Device">
+              <frameElement type="Device" semanticHead="13">
                 <token id="12"/>
                 <token id="13"/>
               </frameElement>
-              <frameElement type="Operational_state">
+              <frameElement type="Operational_state" semanticHead="14">
                 <token id="14"/>
               </frameElement>
             </frameElements>

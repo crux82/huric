@@ -30,11 +30,11 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Cotheme">
+              <frameElement type="Cotheme" semanticHead="4">
                 <token id="3"/>
                 <token id="4"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="8">
                 <token id="5"/>
                 <token id="6"/>
                 <token id="7"/>
@@ -105,6 +105,22 @@
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="8.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="livingroom_1484052262184" type="LivingRoom">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>livingroom</value>
+              <value>living room</value>
+              <value>lounge</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="0.0" z="0.0"/>
       </entity>
     </entities>
   </semanticMap>

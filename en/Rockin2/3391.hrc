@@ -20,7 +20,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Device">
+              <frameElement type="Device" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
               </frameElement>
@@ -57,6 +57,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>keys</value>
+            <value>key</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>

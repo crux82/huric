@@ -32,10 +32,10 @@
               <token id="6"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Beneficiary">
+              <frameElement type="Beneficiary" semanticHead="7">
                 <token id="7"/>
               </frameElement>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="9">
                 <token id="8"/>
                 <token id="9"/>
               </frameElement>
@@ -118,6 +118,24 @@
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="8.0" y="11.0" z="0.0"/>
+      </entity>
+      <entity atom="remote_control_1484052179040" type="Controller">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>controller</value>
+              <value>remote controller</value>
+              <value>remote control</value>
+              <value>television remote</value>
+              <value>remote</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="0.0" z="0.0"/>
       </entity>
     </entities>
   </semanticMap>

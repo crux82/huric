@@ -38,13 +38,13 @@
               <token id="10"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="9">
                 <token id="9"/>
               </frameElement>
-              <frameElement type="Device">
+              <frameElement type="Device" semanticHead="11">
                 <token id="11"/>
               </frameElement>
-              <frameElement type="Operational_state">
+              <frameElement type="Operational_state" semanticHead="12">
                 <token id="12"/>
               </frameElement>
             </frameElements>
@@ -107,6 +107,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>couch</value>
+            <value>sofa</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>

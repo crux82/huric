@@ -28,10 +28,10 @@
               <token id="3"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="7">
                 <token id="4"/>
                 <token id="5"/>
                 <token id="6"/>
@@ -55,6 +55,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>bedroom</value>
+            <value>bed room</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
@@ -111,6 +112,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>cellphone</value>
+            <value>mobile</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>

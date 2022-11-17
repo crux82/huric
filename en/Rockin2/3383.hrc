@@ -38,13 +38,13 @@
               <token id="9"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="8">
                 <token id="8"/>
               </frameElement>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="10">
                 <token id="10"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="11">
                 <token id="11"/>
               </frameElement>
             </frameElements>
