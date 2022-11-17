@@ -32,14 +32,14 @@
               <token id="4"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Inspector">
+              <frameElement type="Inspector" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Ground">
+              <frameElement type="Ground" semanticHead="7">
                 <token id="6"/>
                 <token id="7"/>
               </frameElement>
-              <frameElement type="Desired_state">
+              <frameElement type="Desired_state" semanticHead="9">
                 <token id="8"/>
                 <token id="9"/>
               </frameElement>

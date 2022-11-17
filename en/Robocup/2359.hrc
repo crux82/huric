@@ -30,13 +30,13 @@
               <token id="4"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Cotheme">
+              <frameElement type="Cotheme" semanticHead="5">
                 <token id="5"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="8">
                 <token id="6"/>
                 <token id="7"/>
                 <token id="8"/>

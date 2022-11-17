@@ -24,7 +24,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Cotheme">
+              <frameElement type="Cotheme" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>

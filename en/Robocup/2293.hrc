@@ -28,11 +28,11 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Cotheme">
+              <frameElement type="Cotheme" semanticHead="4">
                 <token id="3"/>
                 <token id="4"/>
               </frameElement>
-              <frameElement type="Path">
+              <frameElement type="Path" semanticHead="7">
                 <token id="5"/>
                 <token id="6"/>
                 <token id="7"/>
@@ -69,6 +69,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>cup</value>
+            <value>mug</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
@@ -115,9 +116,43 @@
         </attributes>
         <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
       </entity>
+      <entity atom="sister_1484051344154" type="Person">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>person</value>
+              <value>sister</value>
+              <value>mother</value>
+              <value>guy</value>
+              <value>friend</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="house_1484052297635" type="House">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>house</value>
+              <value>home</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="0.0" z="0.0"/>
+      </entity>
     </entities>
   </semanticMap>
   <lexicalGroundings>
     <lexicalGrounding atom="sister_1484051344154" tokenId="4"/>
+    <lexicalGrounding atom="house_1484052297635" tokenId="7"/>
   </lexicalGroundings>
 </huricExample>

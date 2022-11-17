@@ -26,13 +26,13 @@
               <token id="4"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Manner">
+              <frameElement type="Manner" semanticHead="3">
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Cotheme">
+              <frameElement type="Cotheme" semanticHead="6">
                 <token id="5"/>
                 <token id="6"/>
               </frameElement>
@@ -68,6 +68,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>cup</value>
+            <value>mug</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>

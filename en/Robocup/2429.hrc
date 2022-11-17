@@ -48,13 +48,34 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Item">
+              <frameElement type="Item" semanticHead="1">
                 <token id="1"/>
               </frameElement>
-              <frameElement type="Category">
+              <frameElement type="Category" semanticHead="5">
                 <token id="3"/>
                 <token id="4"/>
                 <token id="5"/>
+              </frameElement>
+            </frameElements>
+          </frame>
+          <frame name="Being_located">
+            <lexicalUnit>
+              <token id="8"/>
+              <token id="9"/>
+            </lexicalUnit>
+            <frameElements>
+              <frameElement type="Theme" semanticHead="11">
+                <token id="10"/>
+                <token id="11"/>
+                <token id="12"/>
+                <token id="13"/>
+                <token id="14"/>
+                <token id="15"/>
+                <token id="16"/>
+                <token id="17"/>
+              </frameElement>
+              <frameElement type="Location" semanticHead="10">
+                <token id="6"/>
               </frameElement>
             </frameElements>
           </frame>
@@ -74,6 +95,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>bedroom</value>
+            <value>bed room</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>

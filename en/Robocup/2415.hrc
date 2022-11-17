@@ -34,7 +34,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="7">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
@@ -49,7 +49,7 @@
               <token id="9"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Container_portal">
+              <frameElement type="Container_portal" semanticHead="10">
                 <token id="10"/>
               </frameElement>
             </frameElements>
@@ -85,6 +85,8 @@
           </attribute>
           <attribute name="lexical_references">
             <value>television</value>
+            <value>telly</value>
+            <value>tv</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>

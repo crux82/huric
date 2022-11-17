@@ -26,11 +26,11 @@
               <token id="3"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="2">
                 <token id="1"/>
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Location">
+              <frameElement type="Location" semanticHead="6">
                 <token id="4"/>
                 <token id="5"/>
                 <token id="6"/>

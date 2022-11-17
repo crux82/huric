@@ -38,10 +38,10 @@
               <token id="4"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="7">
                 <token id="5"/>
                 <token id="6"/>
                 <token id="7"/>
@@ -53,7 +53,7 @@
               <token id="9"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Device">
+              <frameElement type="Device" semanticHead="12">
                 <token id="10"/>
                 <token id="11"/>
                 <token id="12"/>
@@ -161,6 +161,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>glasses</value>
+            <value>eye glass</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>

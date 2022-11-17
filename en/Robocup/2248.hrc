@@ -28,11 +28,11 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="7">
                 <token id="4"/>
                 <token id="5"/>
                 <token id="6"/>
@@ -46,7 +46,7 @@
   </commands>
   <semanticMap>
     <entities>
-      <entity atom="room_1484051268751" type="Room">
+      <entity atom="dining_room_1484051268617" type="Diningroom">
         <attributes>
           <attribute name="contain_ability">
             <value>false</value>
@@ -55,7 +55,8 @@
             <value>false</value>
           </attribute>
           <attribute name="lexical_references">
-            <value>room</value>
+            <value>diningroom</value>
+            <value>dining room</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
@@ -84,6 +85,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>glasses</value>
+            <value>eye glass</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
@@ -112,6 +114,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>cup</value>
+            <value>mug</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="5.0" y="9.0" z="0.0"/>

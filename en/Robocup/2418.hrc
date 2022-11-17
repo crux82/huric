@@ -40,20 +40,20 @@
               <token id="4"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="7">
                 <token id="5"/>
                 <token id="6"/>
                 <token id="7"/>
               </frameElement>
-              <frameElement type="Source">
+              <frameElement type="Source" semanticHead="10">
                 <token id="8"/>
                 <token id="9"/>
                 <token id="10"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="13">
                 <token id="11"/>
                 <token id="12"/>
                 <token id="13"/>

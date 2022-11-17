@@ -32,7 +32,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
@@ -44,10 +44,10 @@
               <token id="6"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Operational_state">
+              <frameElement type="Operational_state" semanticHead="7">
                 <token id="7"/>
               </frameElement>
-              <frameElement type="Device">
+              <frameElement type="Device" semanticHead="9">
                 <token id="8"/>
                 <token id="9"/>
               </frameElement>
@@ -112,6 +112,7 @@
           <attribute name="lexical_references">
             <value>television</value>
             <value>telly</value>
+            <value>tv</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="11.0" y="2.0" z="0.0"/>
@@ -126,6 +127,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>cellphone</value>
+            <value>mobile</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
@@ -143,6 +145,24 @@
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="remote_control_1484051492955" type="Controller">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>controller</value>
+              <value>remote controller</value>
+              <value>remote control</value>
+              <value>television remote</value>
+              <value>remote</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="0.0" z="0.0"/>
       </entity>
     </entities>
   </semanticMap>

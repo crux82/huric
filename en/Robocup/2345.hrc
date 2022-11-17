@@ -30,14 +30,14 @@
               <token id="3"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Cotheme">
+              <frameElement type="Cotheme" semanticHead="5">
                 <token id="4"/>
                 <token id="5"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="8">
                 <token id="6"/>
                 <token id="7"/>
                 <token id="8"/>
@@ -60,6 +60,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>couch</value>
+            <value>sofa</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
@@ -150,6 +151,24 @@
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="mother_1484051388796" type="Person">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>person</value>
+              <value>sister</value>
+              <value>mother</value>
+              <value>guy</value>
+              <value>friend</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
       </entity>
     </entities>
   </semanticMap>

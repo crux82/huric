@@ -30,10 +30,10 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Item">
+              <frameElement type="Item" semanticHead="1">
                 <token id="1"/>
               </frameElement>
-              <frameElement type="Category">
+              <frameElement type="Category" semanticHead="5">
                 <token id="3"/>
                 <token id="4"/>
                 <token id="5"/>

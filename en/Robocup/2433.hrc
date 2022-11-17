@@ -29,12 +29,12 @@
               <token id="5"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Location">
+              <frameElement type="Location" semanticHead="3">
                 <token id="1"/>
                 <token id="2"/>
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="7">
                 <token id="6"/>
                 <token id="7"/>
               </frameElement>

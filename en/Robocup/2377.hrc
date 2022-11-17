@@ -36,7 +36,7 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Sought_entity">
+              <frameElement type="Sought_entity" semanticHead="6">
                 <token id="4"/>
                 <token id="5"/>
                 <token id="6"/>
@@ -53,10 +53,10 @@
               <token id="8"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="7">
                 <token id="7"/>
               </frameElement>
-              <frameElement type="Location">
+              <frameElement type="Location" semanticHead="11">
                 <token id="9"/>
                 <token id="10"/>
                 <token id="11"/>

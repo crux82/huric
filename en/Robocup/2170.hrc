@@ -20,7 +20,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Cotheme">
+              <frameElement type="Cotheme" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
               </frameElement>
@@ -112,6 +112,22 @@
           </attribute>
           <attribute name="lexical_references">
             <value>bed</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="guy_1484051218649" type="Person">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>person</value>
+            <value>guy</value>
+            <value>friend</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>

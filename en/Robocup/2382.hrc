@@ -36,10 +36,10 @@
               <token id="4"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Perceiver">
+              <frameElement type="Perceiver" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Sought_entity">
+              <frameElement type="Sought_entity" semanticHead="6">
                 <token id="5"/>
                 <token id="6"/>
               </frameElement>
@@ -50,10 +50,10 @@
               <token id="8"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="9">
                 <token id="9"/>
               </frameElement>
-              <frameElement type="Beneficiary">
+              <frameElement type="Beneficiary" semanticHead="11">
                 <token id="10"/>
                 <token id="11"/>
               </frameElement>
@@ -117,6 +117,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>light</value>
+            <value>lamp</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>

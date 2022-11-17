@@ -38,10 +38,10 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="1">
                 <token id="1"/>
               </frameElement>
-              <frameElement type="Location">
+              <frameElement type="Location" semanticHead="5">
                 <token id="3"/>
                 <token id="4"/>
                 <token id="5"/>
@@ -53,11 +53,11 @@
               <token id="9"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="8">
                 <token id="7"/>
                 <token id="8"/>
               </frameElement>
-              <frameElement type="Location">
+              <frameElement type="Location" semanticHead="12">
                 <token id="10"/>
                 <token id="11"/>
                 <token id="12"/>
@@ -94,6 +94,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>light</value>
+            <value>lamp</value>
             <value>nightlight</value>
           </attribute>
         </attributes>
@@ -166,6 +167,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>bedroom</value>
+            <value>bed room</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="9.0" y="0.0" z="0.0"/>

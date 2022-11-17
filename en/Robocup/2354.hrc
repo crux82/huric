@@ -54,10 +54,10 @@
               <token id="4"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="3">
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="6">
                 <token id="5"/>
                 <token id="6"/>
                 <token id="7"/>
@@ -71,10 +71,10 @@
               <token id="11"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="12">
                 <token id="12"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="18">
                 <token id="13"/>
                 <token id="14"/>
                 <token id="15"/>
@@ -129,7 +129,9 @@
           </attribute>
           <attribute name="lexical_references">
             <value>cup</value>
+            <value>coffee cup</value>
             <value>bowl</value>
+            <value>mug</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="2.0" y="3.0" z="0.0"/>
