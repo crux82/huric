@@ -38,11 +38,11 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="4">
                 <token id="3"/>
                 <token id="4"/>
               </frameElement>
-              <frameElement type="Manner">
+              <frameElement type="Manner" semanticHead="5">
                 <token id="5"/>
               </frameElement>
             </frameElements>
@@ -52,7 +52,7 @@
               <token id="6"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Direction">
+              <frameElement type="Direction" semanticHead="7">
                 <token id="7"/>
               </frameElement>
             </frameElements>
@@ -62,10 +62,10 @@
               <token id="9"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Operational_state">
+              <frameElement type="Operational_state" semanticHead="10">
                 <token id="10"/>
               </frameElement>
-              <frameElement type="Device">
+              <frameElement type="Device" semanticHead="12">
                 <token id="11"/>
                 <token id="12"/>
               </frameElement>
@@ -144,6 +144,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>bedroom</value>
+            <value>bed room</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="11.0" y="0.0" z="0.0"/>

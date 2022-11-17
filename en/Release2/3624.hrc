@@ -34,7 +34,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
@@ -105,6 +105,22 @@
           </attribute>
           <attribute name="lexical_references">
             <value>couch</value>
+            <value>sofa</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="cover_14840511679061" type="Cover">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>cover</value>
+            <value>blanket</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="5.0" y="13.0" z="0.0"/>

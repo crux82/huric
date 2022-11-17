@@ -20,7 +20,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Phenomenon">
+              <frameElement type="Phenomenon" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
               </frameElement>
@@ -42,6 +42,8 @@
           </attribute>
           <attribute name="lexical_references">
             <value>phone</value>
+            <value>telephone</value>
+            <value>cellphone</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
@@ -56,6 +58,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>light</value>
+            <value>lamp</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
@@ -102,7 +105,27 @@
         </attributes>
         <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
       </entity>
+      <entity atom="marco_1484051344154" type="Person">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>person</value>
+              <value>marco</value>
+              <value>mother</value>
+              <value>guy</value>
+              <value>friend</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
     </entities>
   </semanticMap>
-  <lexicalGroundings/>
+  <lexicalGroundings>
+    <lexicalGrounding atom="marco_1484051344154" tokenId="3"/>
+  </lexicalGroundings>
 </huricExample>

@@ -36,7 +36,7 @@
               <token id="3"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Entity">
+              <frameElement type="Entity" semanticHead="5">
                 <token id="4"/>
                 <token id="5"/>
                 <token id="6"/>
@@ -121,6 +121,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>cup</value>
+            <value>mug</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>

@@ -38,10 +38,10 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Recipient">
+              <frameElement type="Recipient" semanticHead="3">
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="5">
                 <token id="4"/>
                 <token id="5"/>
                 <token id="6"/>
@@ -120,6 +120,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>light</value>
+            <value>lamp</value>
             <value>nightlight</value>
           </attribute>
         </attributes>
@@ -141,10 +142,30 @@
         </attributes>
         <coordinate angle="0.0" x="8.0" y="11.0" z="0.0"/>
       </entity>
+      <entity atom="remote_controller_1484052297635" type="Controller">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>controller</value>
+              <value>remote controller</value>
+              <value>remote control</value>
+              <value>television remote</value>
+              <value>remote</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="0.0" z="0.0"/>
+      </entity>
     </entities>
   </semanticMap>
   <lexicalGroundings>
     <lexicalGrounding atom="me_1484051207196" tokenId="3"/>
+    <lexicalGrounding atom="remote_controller_1484052297635" tokenId="5"/>
+    <lexicalGrounding atom="remote_controller_1484052297635" tokenId="6"/>
     <lexicalGrounding atom="light_1484051207203" tokenId="11"/>
   </lexicalGroundings>
 </huricExample>

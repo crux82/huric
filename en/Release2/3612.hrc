@@ -24,11 +24,11 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Path">
+              <frameElement type="Path" semanticHead="5">
                 <token id="4"/>
                 <token id="5"/>
               </frameElement>
@@ -110,7 +110,25 @@
         </attributes>
         <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
       </entity>
+      <entity atom="building_148405229763" type="Building">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>building</value>
+              <value>home</value>
+              <value>house</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="0.0" z="0.0"/>
+      </entity>
     </entities>
   </semanticMap>
-  <lexicalGroundings/>
+  <lexicalGroundings>
+    <lexicalGrounding atom="building_148405229763" tokenId="3"/>
+  </lexicalGroundings>
 </huricExample>

@@ -24,10 +24,10 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Recipient">
+              <frameElement type="Recipient" semanticHead="3">
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="5">
                 <token id="4"/>
                 <token id="5"/>
               </frameElement>
@@ -49,6 +49,8 @@
           </attribute>
           <attribute name="lexical_references">
             <value>phone</value>
+            <value>telephone</value>
+            <value>cellphone</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>

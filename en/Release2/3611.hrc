@@ -22,10 +22,9 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
-                <token id="4"/>
               </frameElement>
             </frameElements>
           </frame>

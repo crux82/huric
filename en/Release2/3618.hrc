@@ -42,7 +42,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="4">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
@@ -54,11 +54,11 @@
               <token id="6"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="8">
                 <token id="7"/>
                 <token id="8"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="11">
                 <token id="9"/>
                 <token id="10"/>
                 <token id="11"/>
@@ -160,10 +160,25 @@
         </attributes>
         <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
       </entity>
+      <entity atom="ruler_1484052297635" type="Ruler">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>ruler</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="0.0" z="0.0"/>
+      </entity>
     </entities>
   </semanticMap>
   <lexicalGroundings>
     <lexicalGrounding atom="corridor_1484051144401" tokenId="4"/>
+    <lexicalGrounding atom="ruler_1484052297635" tokenId="8"/>
     <lexicalGrounding atom="box_1484051144417" tokenId="11"/>
   </lexicalGroundings>
 </huricExample>

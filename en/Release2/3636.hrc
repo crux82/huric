@@ -30,11 +30,11 @@
               <token id="3"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Item">
+              <frameElement type="Item" semanticHead="5">
                 <token id="4"/>
                 <token id="5"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="8">
                 <token id="6"/>
                 <token id="7"/>
                 <token id="8"/>
@@ -117,7 +117,40 @@
         </attributes>
         <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
       </entity>
+      <entity atom="microwave_1484052297635" type="Microwave">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>microwave</value>
+              <value>oven</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="socket_1484052297635" type="Socket">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>socket</value>
+              <value>power socket</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="0.0" z="0.0"/>
+      </entity>
     </entities>
   </semanticMap>
-  <lexicalGroundings/>
+  <lexicalGroundings>
+    <lexicalGrounding atom="microwave_1484052297635" tokenId="5"/>
+    <lexicalGrounding atom="socket_1484052297688" tokenId="8"/>
+  </lexicalGroundings>
 </huricExample>

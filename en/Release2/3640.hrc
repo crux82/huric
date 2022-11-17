@@ -28,11 +28,11 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Item">
+              <frameElement type="Item" semanticHead="4">
                 <token id="3"/>
                 <token id="4"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="4">
                 <token id="5"/>
                 <token id="6"/>
                 <token id="7"/>
@@ -83,6 +83,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>television</value>
+            <value>tv</value>
             <value>flat_screen</value>
           </attribute>
         </attributes>
