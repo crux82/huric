@@ -1,6 +1,7 @@
 # <u>Hu</u>man <u>R</u>obot <u>I</u>nteraction <u>C</u>orpus (HuRIC 2.1)
 
-## *** UPDATE November 17th, 2022: Semantic Heads in HuRIC ***
+*** **UPDATE November 17th, 2022: Semantic Heads in HuRIC** ***  
+
 The linguistic interpretation of commands are extended to make the Semantic Head of each argument explicit.  
 In a command, e.g. *"take the red mug next to the keyboard"*, where *"the red mug"* corresponds to the argument `Theme`, the Semantic Head is useful in recognizing only the semantic category of a phrase, i.e. *"mug"*, which is the main carier of the meaning, instead of the entire span. This allows to define an additional evaluation type, in which only the Semantic Heads are considered, enabling a wider usage of robotic action primitives. For a robotic function only the Semantic Head (*"mug"*) may be required to execute an action. The example below was updated accordingly.  
 
