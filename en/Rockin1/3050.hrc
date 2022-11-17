@@ -32,15 +32,15 @@
               <token id="3"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Perceiver">
+              <frameElement type="Perceiver" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Sought_entity">
+              <frameElement type="Sought_entity" semanticHead="6">
                 <token id="4"/>
                 <token id="5"/>
                 <token id="6"/>
               </frameElement>
-              <frameElement type="Ground">
+              <frameElement type="Ground" semanticHead="9">
                 <token id="7"/>
                 <token id="8"/>
                 <token id="9"/>

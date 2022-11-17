@@ -30,12 +30,12 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Ground">
+              <frameElement type="Ground" semanticHead="4">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
               </frameElement>
-              <frameElement type="Sought_entity">
+              <frameElement type="Sought_entity" semanticHead="7">
                 <token id="5"/>
                 <token id="6"/>
                 <token id="7"/>
@@ -104,6 +104,40 @@
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="livingroom_1484051997289" type="LivingRoom">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>livingroom</value>
+              <value>living room</value>
+              <value>lounge</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="remote_control_1484051997290" type="Controller">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>controller</value>
+              <value>remote controller</value>
+              <value>remote control</value>
+              <value>television remote</value>
+              <value>remote</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="12.0" y="0.0" z="0.0"/>
       </entity>
     </entities>
   </semanticMap>

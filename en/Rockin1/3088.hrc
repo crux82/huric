@@ -30,13 +30,13 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Sought_entity">
+              <frameElement type="Sought_entity" semanticHead="5">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
                 <token id="5"/>
               </frameElement>
-              <frameElement type="Ground">
+              <frameElement type="Ground" semanticHead="8">
                 <token id="6"/>
                 <token id="7"/>
                 <token id="8"/>
@@ -116,9 +116,26 @@
           </attribute>
           <attribute name="lexical_references">
             <value>cup</value>
+            <value>mug</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
+      </entity>
+      <entity atom="livingroom_1484051890786" type="LivingRoom">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>livingroom</value>
+              <value>living room</value>
+              <value>lounge</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="13.0" z="0.0"/>
       </entity>
     </entities>
   </semanticMap>

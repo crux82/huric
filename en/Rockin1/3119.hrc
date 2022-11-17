@@ -34,7 +34,7 @@
               <token id="8"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="9">
                 <token id="9"/>
               </frameElement>
             </frameElements>

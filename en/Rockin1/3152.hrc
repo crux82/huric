@@ -45,11 +45,11 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="4">
                 <token id="3"/>
                 <token id="4"/>
               </frameElement>
-              <frameElement type="Location">
+              <frameElement type="Location" semanticHead="9">
                 <token id="5"/>
                 <token id="6"/>
                 <token id="7"/>
@@ -63,13 +63,13 @@
               <token id="12"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="11">
                 <token id="11"/>
               </frameElement>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="13">
                 <token id="13"/>
               </frameElement>
-              <frameElement type="Beneficiary">
+              <frameElement type="Beneficiary" semanticHead="15">
                 <token id="14"/>
                 <token id="15"/>
               </frameElement>
@@ -134,6 +134,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>keys</value>
+            <value>key</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>

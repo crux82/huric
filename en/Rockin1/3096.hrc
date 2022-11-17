@@ -24,7 +24,7 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Sought_entity">
+              <frameElement type="Sought_entity" semanticHead="5">
                 <token id="3"/>
                 <token id="4"/>
                 <token id="5"/>
@@ -120,6 +120,22 @@
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
+      <entity atom="toilet_paper_1484051908417" type="ToiletPaper">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>paper</value>
+              <value>toilet paper</value>
+              <value>loo roll</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="0.0" z="0.0"/>
       </entity>
     </entities>
   </semanticMap>

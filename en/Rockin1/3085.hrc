@@ -36,10 +36,10 @@
               <token id="5"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Beneficiary">
+              <frameElement type="Beneficiary" semanticHead="6">
                 <token id="6"/>
               </frameElement>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="8">
                 <token id="7"/>
                 <token id="8"/>
                 <token id="9"/>

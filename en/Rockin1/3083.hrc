@@ -28,7 +28,7 @@
               <token id="5"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Sought_entity">
+              <frameElement type="Sought_entity" semanticHead="6">
                 <token id="6"/>
               </frameElement>
             </frameElements>

@@ -46,13 +46,13 @@
               <token id="8"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="7">
                 <token id="7"/>
               </frameElement>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="9">
                 <token id="9"/>
               </frameElement>
-              <frameElement type="Source">
+              <frameElement type="Source" semanticHead="12">
                 <token id="10"/>
                 <token id="11"/>
                 <token id="12"/>
@@ -64,10 +64,10 @@
               <token id="14"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="15">
                 <token id="15"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="16">
                 <token id="16"/>
               </frameElement>
             </frameElements>
@@ -103,6 +103,7 @@
           <attribute name="lexical_references">
             <value>fridge</value>
             <value>freezer</value>
+            <value>refrigerator</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="11.0" y="0.0" z="0.0"/>

@@ -48,13 +48,13 @@
               <token id="3"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Beneficiary">
+              <frameElement type="Beneficiary" semanticHead="4">
                 <token id="4"/>
               </frameElement>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="6">
                 <token id="5"/>
                 <token id="6"/>
               </frameElement>
@@ -65,13 +65,13 @@
               <token id="9"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Perceiver">
+              <frameElement type="Perceiver" semanticHead="7">
                 <token id="7"/>
               </frameElement>
-              <frameElement type="Sought_entity">
+              <frameElement type="Sought_entity" semanticHead="10">
                 <token id="10"/>
               </frameElement>
-              <frameElement type="Ground">
+              <frameElement type="Ground" semanticHead="13">
                 <token id="11"/>
                 <token id="12"/>
                 <token id="13"/>
@@ -126,6 +126,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>glasses</value>
+            <value>eye glass</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="12.0" y="0.0" z="0.0"/>

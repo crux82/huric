@@ -29,7 +29,7 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="5">
                 <token id="3"/>
                 <token id="4"/>
                 <token id="5"/>

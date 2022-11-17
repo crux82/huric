@@ -38,10 +38,10 @@
               <token id="6"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="5">
                 <token id="5"/>
               </frameElement>
-              <frameElement type="Area">
+              <frameElement type="Area" semanticHead="7">
                 <token id="7"/>
               </frameElement>
             </frameElements>
@@ -51,7 +51,7 @@
               <token id="9"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Sought_entity">
+              <frameElement type="Sought_entity" semanticHead="12">
                 <token id="10"/>
                 <token id="11"/>
                 <token id="12"/>
@@ -74,6 +74,8 @@
           </attribute>
           <attribute name="lexical_references">
             <value>phone</value>
+            <value>telephone</value>
+            <value>cellphone</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>

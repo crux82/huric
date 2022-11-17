@@ -50,7 +50,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="5">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
@@ -63,12 +63,12 @@
               <token id="6"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="9">
                 <token id="7"/>
                 <token id="8"/>
                 <token id="9"/>
               </frameElement>
-              <frameElement type="Source">
+              <frameElement type="Source" semanticHead="12">
                 <token id="10"/>
                 <token id="11"/>
                 <token id="12"/>
@@ -80,10 +80,10 @@
               <token id="14"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="15">
                 <token id="15"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="18">
                 <token id="16"/>
                 <token id="17"/>
                 <token id="18"/>
@@ -195,6 +195,21 @@
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
+      </entity>
+      <entity atom="dining_room_1484051862901" type="DiningRoom">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>diningroom</value>
+              <value>dining room</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="9.0" y="3.0" z="0.0"/>
       </entity>
     </entities>
   </semanticMap>

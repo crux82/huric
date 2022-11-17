@@ -30,12 +30,12 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Ground">
+              <frameElement type="Ground" semanticHead="4">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
               </frameElement>
-              <frameElement type="Sought_entity">
+              <frameElement type="Sought_entity" semanticHead="8">
                 <token id="5"/>
                 <token id="6"/>
                 <token id="7"/>
@@ -131,6 +131,22 @@
             <value>cellphone</value>
             <value>mobile</value>
           </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="livingroom_1484051995770" type="LivingRoom">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>livingroom</value>
+              <value>living room</value>
+              <value>lounge</value>
+            </attribute>
         </attributes>
         <coordinate angle="0.0" x="5.0" y="14.0" z="0.0"/>
       </entity>

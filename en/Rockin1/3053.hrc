@@ -26,10 +26,10 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Manner">
+              <frameElement type="Manner" semanticHead="1">
                 <token id="1"/>
               </frameElement>
-              <frameElement type="Sought_entity">
+              <frameElement type="Sought_entity" semanticHead="5">
                 <token id="3"/>
                 <token id="4"/>
                 <token id="5"/>

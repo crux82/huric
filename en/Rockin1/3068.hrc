@@ -40,7 +40,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="4">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
@@ -52,10 +52,10 @@
               <token id="6"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Operational_state">
+              <frameElement type="Operational_state" semanticHead="7">
                 <token id="7"/>
               </frameElement>
-              <frameElement type="Device">
+              <frameElement type="Device" semanticHead="10">
                 <token id="8"/>
                 <token id="9"/>
                 <token id="10"/>

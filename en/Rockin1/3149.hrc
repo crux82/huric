@@ -44,11 +44,11 @@
               <token id="4"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="2">
                 <token id="1"/>
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Location">
+              <frameElement type="Location" semanticHead="7">
                 <token id="5"/>
                 <token id="6"/>
                 <token id="7"/>
@@ -164,6 +164,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>keys</value>
+            <value>key</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="9.0" y="11.0" z="0.0"/>

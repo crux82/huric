@@ -30,10 +30,10 @@
               <token id="6"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Cognizer">
+              <frameElement type="Cognizer" semanticHead="4">
                 <token id="4"/>
               </frameElement>
-              <frameElement type="Sought_entity">
+              <frameElement type="Sought_entity" semanticHead="8">
                 <token id="7"/>
                 <token id="8"/>
               </frameElement>

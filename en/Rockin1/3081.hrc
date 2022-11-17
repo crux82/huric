@@ -20,7 +20,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
               </frameElement>
@@ -84,7 +84,9 @@
           </attribute>
           <attribute name="lexical_references">
             <value>cup</value>
+            <value>coffee cup</value>
             <value>bowl</value>
+            <value>mug</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>

@@ -52,10 +52,10 @@
               <token id="11"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Cognizer">
+              <frameElement type="Cognizer" semanticHead="10">
                 <token id="10"/>
               </frameElement>
-              <frameElement type="Sought_entity">
+              <frameElement type="Sought_entity" semanticHead="13">
                 <token id="12"/>
                 <token id="13"/>
               </frameElement>
@@ -66,10 +66,10 @@
               <token id="16"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="15">
                 <token id="15"/>
               </frameElement>
-              <frameElement type="Location">
+              <frameElement type="Location" semanticHead="19">
                 <token id="17"/>
                 <token id="18"/>
                 <token id="19"/>
@@ -92,6 +92,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>bedroom</value>
+            <value>bed room</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="0.0" y="13.0" z="0.0"/>
@@ -107,6 +108,7 @@
           <attribute name="lexical_references">
             <value>couch</value>
             <value>settee</value>
+            <value>sofa</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="9.0" y="8.0" z="0.0"/>

@@ -42,10 +42,10 @@
               <token id="5"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="4">
                 <token id="4"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="8">
                 <token id="6"/>
                 <token id="7"/>
                 <token id="8"/>
@@ -57,10 +57,10 @@
               <token id="10"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Operational_state">
+              <frameElement type="Operational_state" semanticHead="11">
                 <token id="11"/>
               </frameElement>
-              <frameElement type="Device">
+              <frameElement type="Device" semanticHead="14">
                 <token id="12"/>
                 <token id="13"/>
                 <token id="14"/>
@@ -112,6 +112,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>light</value>
+            <value>lamp</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
@@ -159,6 +160,21 @@
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="coffee_machine_1484051998823" type="CoffeeMachine">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>true</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>coffee machine</value>
+              <value>moka</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="2.0" z="0.0"/>
       </entity>
     </entities>
   </semanticMap>
