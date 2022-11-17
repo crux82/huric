@@ -36,11 +36,11 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="11">
                 <token id="9"/>
                 <token id="10"/>
                 <token id="11"/>
@@ -52,10 +52,10 @@
               <token id="5"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="4">
                 <token id="4"/>
               </frameElement>
-              <frameElement type="Location">
+              <frameElement type="Location" semanticHead="8">
                 <token id="6"/>
                 <token id="7"/>
                 <token id="8"/>
@@ -93,6 +93,7 @@
           <attribute name="lexical_references">
             <value>couch</value>
             <value>settee</value>
+            <value>sofa</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="9.0" y="6.0" z="0.0"/>
@@ -121,6 +122,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>computer</value>
+            <value>laptop</value>
             <value>pocketpc</value>
           </attribute>
         </attributes>

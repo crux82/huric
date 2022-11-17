@@ -44,7 +44,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="4">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
@@ -56,11 +56,11 @@
               <token id="6"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="8">
                 <token id="7"/>
                 <token id="8"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="11">
                 <token id="9"/>
                 <token id="10"/>
                 <token id="11"/>
@@ -116,6 +116,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>light</value>
+            <value>lamp</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
@@ -191,11 +192,27 @@
         </attributes>
         <coordinate angle="0.0" x="2.0" y="7.0" z="0.0"/>
       </entity>
+      <entity atom="table_1484050846038" type="Table">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>table</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="0.0" z="0.0"/>
+      </entity>
     </entities>
   </semanticMap>
   <lexicalGroundings>
     <lexicalGrounding atom="kitchen_1484050955451" tokenId="4"/>
     <lexicalGrounding atom="glass_1484050955460" tokenId="8"/>
     <lexicalGrounding atom="book_1484050955461" tokenId="11"/>
+    <lexicalGrounding atom="table_1484050846038" tokenId="14"/>
+    <lexicalGrounding atom="table_1484050846038" tokenId="15"/>
   </lexicalGroundings>
 </huricExample>

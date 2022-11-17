@@ -34,14 +34,14 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
                 <token id="5"/>
                 <token id="6"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="10">
                 <token id="7"/>
                 <token id="8"/>
                 <token id="9"/>
@@ -154,9 +154,40 @@
         </attributes>
         <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
       </entity>
+      <entity atom="livingroom_1484051091784" type="LivingRoom">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>livingroom</value>
+              <value>living room</value>
+              <value>lounge</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="cover_1484052297635" type="Cover">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>cover</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="2.0" z="0.0"/>
+      </entity>
     </entities>
   </semanticMap>
   <lexicalGroundings>
+    <lexicalGrounding atom="cover_1484052297635" tokenId="3"/>
     <lexicalGrounding atom="bed_1484051091783" tokenId="6"/>
     <lexicalGrounding atom="livingroom_1484051091784" tokenId="9"/>
     <lexicalGrounding atom="livingroom_1484051091784" tokenId="10"/>

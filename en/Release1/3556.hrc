@@ -38,7 +38,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
@@ -48,7 +48,7 @@
                 <token id="8"/>
                 <token id="9"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="12">
                 <token id="10"/>
                 <token id="11"/>
                 <token id="12"/>
@@ -186,6 +186,7 @@
           <attribute name="lexical_references">
             <value>computer</value>
             <value>personal_computer</value>
+            <value>laptop</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="0.0" y="6.0" z="0.0"/>

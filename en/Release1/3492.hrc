@@ -30,10 +30,10 @@
               <token id="3"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Inspector">
+              <frameElement type="Inspector" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Ground">
+              <frameElement type="Ground" semanticHead="5">
                 <token id="4"/>
                 <token id="5"/>
                 <token id="6"/>
@@ -100,6 +100,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>television</value>
+            <value>tv</value>
             <value>flat_screen</value>
           </attribute>
         </attributes>

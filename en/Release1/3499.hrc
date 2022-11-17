@@ -18,7 +18,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Direction">
+              <frameElement type="Direction" semanticHead="2">
                 <token id="2"/>
               </frameElement>
             </frameElements>

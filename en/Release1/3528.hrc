@@ -34,10 +34,10 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Operational_state">
+              <frameElement type="Operational_state" semanticHead="3">
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Device">
+              <frameElement type="Device" semanticHead="5">
                 <token id="4"/>
                 <token id="5"/>
               </frameElement>
@@ -48,10 +48,10 @@
               <token id="7"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="6">
                 <token id="6"/>
               </frameElement>
-              <frameElement type="Location">
+              <frameElement type="Location" semanticHead="10">
                 <token id="8"/>
                 <token id="9"/>
                 <token id="10"/>
@@ -74,6 +74,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>television</value>
+            <value>tv</value>
             <value>flat_screen</value>
           </attribute>
         </attributes>

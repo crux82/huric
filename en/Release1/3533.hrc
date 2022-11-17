@@ -34,7 +34,7 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="5">
                 <token id="3"/>
                 <token id="4"/>
                 <token id="5"/>
@@ -46,10 +46,10 @@
               <token id="7"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Device">
+              <frameElement type="Device" semanticHead="8">
                 <token id="8"/>
               </frameElement>
-              <frameElement type="Operational_state">
+              <frameElement type="Operational_state" semanticHead="9">
                 <token id="9"/>
               </frameElement>
             </frameElements>
@@ -71,6 +71,7 @@
           <attribute name="lexical_references">
             <value>television</value>
             <value>telly</value>
+            <value>tv</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="11.0" y="2.0" z="0.0"/>
@@ -141,6 +142,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>cup</value>
+            <value>mug</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>

@@ -34,11 +34,11 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="7">
                 <token id="4"/>
                 <token id="5"/>
                 <token id="6"/>
@@ -136,6 +136,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>couch</value>
+            <value>sofa</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="15.0" y="4.0" z="0.0"/>

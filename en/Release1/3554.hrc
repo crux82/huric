@@ -32,11 +32,11 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="6">
                 <token id="4"/>
                 <token id="5"/>
                 <token id="6"/>
@@ -62,6 +62,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>bedroom</value>
+            <value>bed room</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="5.0" y="13.0" z="0.0"/>
@@ -76,6 +77,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>cup</value>
+            <value>mug</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
@@ -137,9 +139,24 @@
         </attributes>
         <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
       </entity>
+      <entity atom="cover_1484052297635" type="Cover">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>cover</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="6.0" y="14.0" z="0.0"/>
+      </entity>
     </entities>
   </semanticMap>
   <lexicalGroundings>
+    <lexicalGrounding atom="cover_1484052297635" tokenId="3"/>
     <lexicalGrounding atom="bed_1484051089383" tokenId="6"/>
     <lexicalGrounding atom="bedroom_1484051089384" tokenId="9"/>
   </lexicalGroundings>

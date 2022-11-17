@@ -24,10 +24,10 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Operational_state">
+              <frameElement type="Operational_state" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Device">
+              <frameElement type="Device" semanticHead="5">
                 <token id="3"/>
                 <token id="4"/>
                 <token id="5"/>
@@ -92,6 +92,8 @@
           </attribute>
           <attribute name="lexical_references">
             <value>television</value>
+            <value>telly</value>
+            <value>tv</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
@@ -120,11 +122,29 @@
           </attribute>
           <attribute name="lexical_references">
             <value>glasses</value>
+            <value>eye glass</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
       </entity>
+      <entity atom="radio_1484052297635" type="Radio">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>radio</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="0.0" z="0.0"/>
+      </entity>
     </entities>
   </semanticMap>
-  <lexicalGroundings/>
+  <lexicalGroundings>
+    <lexicalGrounding atom="radio_1484052297635" tokenId="4"/>
+    <lexicalGrounding atom="radio_1484052297635" tokenId="5"/>
+  </lexicalGroundings>
 </huricExample>

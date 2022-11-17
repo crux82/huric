@@ -36,10 +36,10 @@
               <token id="3"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="6">
                 <token id="4"/>
                 <token id="5"/>
                 <token id="6"/>
@@ -51,10 +51,10 @@
               <token id="8"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="10">
                 <token id="9"/>
                 <token id="10"/>
               </frameElement>

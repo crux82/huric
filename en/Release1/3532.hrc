@@ -40,10 +40,10 @@
               <token id="5"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="3">
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="9">
                 <token id="6"/>
                 <token id="7"/>
                 <token id="8"/>
@@ -56,13 +56,13 @@
               <token id="11"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Agent">
+              <frameElement type="Agent" semanticHead="3">
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Device">
+              <frameElement type="Device" semanticHead="12">
                 <token id="12"/>
               </frameElement>
-              <frameElement type="Operational_state">
+              <frameElement type="Operational_state" semanticHead="13">
                 <token id="13"/>
               </frameElement>
             </frameElements>
@@ -173,10 +173,27 @@
         </attributes>
         <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
       </entity>
+      <entity atom="washer_1484052241958" type="Washing_machine">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>washer</value>
+            <value>washing machine</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
     </entities>
   </semanticMap>
   <lexicalGroundings>
   	<lexicalGrounding atom="robot_1484063748562" tokenId="3"/>
+  	<lexicalGrounding atom="washer_1484052241958" tokenId="9"/>
+  	<lexicalGrounding atom="washer_1484052241958" tokenId="10"/>
     <lexicalGrounding atom="it_1484051033580" tokenId="12"/>
   </lexicalGroundings>
 </huricExample>

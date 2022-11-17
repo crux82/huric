@@ -34,7 +34,7 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Direction">
+              <frameElement type="Direction" semanticHead="5">
                 <token id="3"/>
                 <token id="4"/>
                 <token id="5"/>
@@ -46,7 +46,7 @@
               <token id="7"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Sought_entity">
+              <frameElement type="Sought_entity" semanticHead="10">
                 <token id="8"/>
                 <token id="9"/>
                 <token id="10"/>
@@ -83,6 +83,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>couch</value>
+            <value>sofa</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
@@ -143,7 +144,25 @@
         </attributes>
         <coordinate angle="0.0" x="11.0" y="6.0" z="0.0"/>
       </entity>
+      <entity atom="book_1484052297635" type="Book">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>true</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>book</value>
+              <value>volume</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="0.0" y="0.0" z="0.0"/>
+      </entity>
     </entities>
   </semanticMap>
-  <lexicalGroundings/>
+  <lexicalGroundings>
+    <lexicalGrounding atom="book_1484052297635" tokenId="9"/>
+    <lexicalGrounding atom="book_1484052297635" tokenId="10"/>
+  </lexicalGroundings>  
 </huricExample>

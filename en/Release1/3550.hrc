@@ -34,7 +34,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
               </frameElement>
@@ -45,10 +45,10 @@
               <token id="5"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="6">
                 <token id="6"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="10">
                 <token id="7"/>
                 <token id="8"/>
                 <token id="9"/>
@@ -156,6 +156,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>light</value>
+            <value>lamp</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>

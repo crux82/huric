@@ -26,11 +26,11 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Ground">
+              <frameElement type="Ground" semanticHead="4">
                 <token id="3"/>
                 <token id="4"/>
               </frameElement>
-              <frameElement type="Desired_state">
+              <frameElement type="Desired_state" semanticHead="6">
                 <token id="5"/>
                 <token id="6"/>
               </frameElement>
@@ -52,6 +52,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>keys</value>
+            <value>key</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>

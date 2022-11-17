@@ -34,16 +34,14 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Ground">
+              <frameElement type="Ground" semanticHead="4">
                 <token id="3"/>
                 <token id="4"/>
                 <token id="5"/>
                 <token id="6"/>
                 <token id="7"/>
               </frameElement>
-              <frameElement type="Desired_state">
-                <token id="8"/>
-                <token id="9"/>
+              <frameElement type="Desired_state" semanticHead="10">
                 <token id="10"/>
               </frameElement>
             </frameElements>
@@ -121,6 +119,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>light</value>
+            <value>lamp</value>
             <value>nightlight</value>
           </attribute>
         </attributes>

@@ -32,7 +32,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="4">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
@@ -44,7 +44,7 @@
               <token id="6"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="8">
                 <token id="7"/>
                 <token id="8"/>
               </frameElement>

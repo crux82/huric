@@ -44,7 +44,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="5">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
@@ -57,7 +57,7 @@
               <token id="6"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="8">
                 <token id="7"/>
                 <token id="8"/>
               </frameElement>
@@ -68,10 +68,10 @@
               <token id="10"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="11">
                 <token id="11"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="15">
                 <token id="12"/>
                 <token id="13"/>
                 <token id="14"/>
@@ -166,6 +166,8 @@
           </attribute>
           <attribute name="lexical_references">
             <value>phone</value>
+            <value>telephone</value>
+            <value>cellphone</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>

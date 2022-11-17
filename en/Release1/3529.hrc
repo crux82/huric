@@ -28,15 +28,15 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Direction">
+              <frameElement type="Direction" semanticHead="3">
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Angle">
+              <frameElement type="Angle" semanticHead="5">
                 <token id="4"/>
                 <token id="5"/>
                 <token id="6"/>
               </frameElement>
-              <frameElement type="Speed">
+              <frameElement type="Speed" semanticHead="7">
                 <token id="7"/>
               </frameElement>
             </frameElements>

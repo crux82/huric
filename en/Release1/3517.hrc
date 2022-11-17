@@ -34,12 +34,12 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="5">
                 <token id="3"/>
                 <token id="4"/>
                 <token id="5"/>
               </frameElement>
-              <frameElement type="Path">
+              <frameElement type="Path" semanticHead="10">
                 <token id="6"/>
                 <token id="7"/>
                 <token id="8"/>
@@ -97,23 +97,41 @@
         </attributes>
         <coordinate angle="0.0" x="11.0" y="11.0" z="0.0"/>
       </entity>
-      <entity atom="bathroom_1484050999392" type="Bathroom">
+      <entity atom="door_148405229763" type="DOOR">
         <attributes>
-          <attribute name="contain_ability">
-            <value>false</value>
-          </attribute>
-          <attribute name="support_ability">
-            <value>false</value>
-          </attribute>
-          <attribute name="lexical_references">
-            <value>bathroom</value>
-          </attribute>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>door</value>
+            </attribute>
         </attributes>
-        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+        <coordinate angle="0.0" x="10.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="bathroom_1484052297635" type="Bathroom">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>restroom</value>
+              <value>bathroom</value>
+              <value>toilet</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="0.0" z="0.0"/>
       </entity>
     </entities>
   </semanticMap>
   <lexicalGroundings>
     <lexicalGrounding atom="kitchen_1484050999281" tokenId="5"/>
+    <lexicalGrounding atom="bathroom_1484052297635" tokenId="9"/>
+    <lexicalGrounding atom="door_148405229763" tokenId="10"/>
   </lexicalGroundings>
 </huricExample>

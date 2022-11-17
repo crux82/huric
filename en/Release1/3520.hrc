@@ -22,7 +22,7 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Ground">
+              <frameElement type="Ground" semanticHead="4">
                 <token id="3"/>
                 <token id="4"/>
               </frameElement>

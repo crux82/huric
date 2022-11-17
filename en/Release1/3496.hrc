@@ -24,10 +24,10 @@
               <token id="4"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Direction">
+              <frameElement type="Direction" semanticHead="5">
                 <token id="5"/>
               </frameElement>
             </frameElements>

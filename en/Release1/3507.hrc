@@ -32,12 +32,12 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="4">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="9">
                 <token id="7"/>
                 <token id="8"/>
                 <token id="9"/>
@@ -146,6 +146,8 @@
           </attribute>
           <attribute name="lexical_references">
             <value>phone</value>
+            <value>telephone</value>
+            <value>cellphone</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>

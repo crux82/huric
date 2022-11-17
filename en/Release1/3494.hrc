@@ -38,10 +38,10 @@
               <token id="4"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="8">
                 <token id="5"/>
                 <token id="6"/>
                 <token id="7"/>
@@ -143,10 +143,27 @@
         </attributes>
         <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
       </entity>
+      <entity atom="washer_1484052241958" type="Washing_machine">
+        <attributes>
+          <attribute name="contain_ability">
+            <value>true</value>
+          </attribute>
+          <attribute name="support_ability">
+            <value>false</value>
+          </attribute>
+          <attribute name="lexical_references">
+            <value>washer</value>
+            <value>washing machine</value>
+          </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
+      </entity>
     </entities>
   </semanticMap>
   <lexicalGroundings>
   	<lexicalGrounding atom="robot_1484063748562" tokenId="2"/>
+  	<lexicalGrounding atom="washer_1484052241958" tokenId="7"/>
+  	<lexicalGrounding atom="washer_1484052241958" tokenId="8"/>
     <lexicalGrounding atom="it_1484050913165" tokenId="11"/>
   </lexicalGroundings>
 </huricExample>
