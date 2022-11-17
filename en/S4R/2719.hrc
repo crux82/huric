@@ -30,7 +30,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="4">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
@@ -99,6 +99,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>cup</value>
+            <value>mug</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="4.0" y="2.0" z="0.0"/>
@@ -114,6 +115,7 @@
           <attribute name="lexical_references">
             <value>television</value>
             <value>telly</value>
+            <value>tv</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="6.0" y="14.0" z="0.0"/>

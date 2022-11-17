@@ -32,11 +32,11 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Sought_entity">
+              <frameElement type="Sought_entity" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
               </frameElement>
-              <frameElement type="Ground">
+              <frameElement type="Ground" semanticHead="6">
                 <token id="4"/>
                 <token id="5"/>
                 <token id="6"/>
@@ -76,6 +76,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>bedroom</value>
+            <value>bed room</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="5.0" y="13.0" z="0.0"/>

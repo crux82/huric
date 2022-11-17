@@ -32,7 +32,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Device">
+              <frameElement type="Device" semanticHead="3">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>

@@ -30,12 +30,12 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Sought_entity">
+              <frameElement type="Sought_entity" semanticHead="4">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
               </frameElement>
-              <frameElement type="Ground">
+              <frameElement type="Ground" semanticHead="8">
                 <token id="5"/>
                 <token id="6"/>
                 <token id="7"/>
@@ -59,6 +59,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>bedroom</value>
+            <value>bed room</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="5.0" y="8.0" z="0.0"/>
@@ -132,6 +133,21 @@
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
+      </entity>
+      <entity atom="dining_room_1484052415511" type="DiningRoom">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>diningroom</value>
+              <value>dining room</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="5.0" y="13.0" z="0.0"/>
       </entity>
     </entities>
   </semanticMap>

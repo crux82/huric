@@ -28,11 +28,11 @@
               <token id="2"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Theme">
+              <frameElement type="Theme" semanticHead="4">
                 <token id="3"/>
                 <token id="4"/>
               </frameElement>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="7">
                 <token id="5"/>
                 <token id="6"/>
                 <token id="7"/>
@@ -55,6 +55,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>bedroom</value>
+            <value>bed room</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="5.0" y="9.0" z="0.0"/>
@@ -111,6 +112,7 @@
           </attribute>
           <attribute name="lexical_references">
             <value>cup</value>
+            <value>mug</value>
           </attribute>
         </attributes>
         <coordinate angle="0.0" x="13.0" y="7.0" z="0.0"/>

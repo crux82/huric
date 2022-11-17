@@ -22,10 +22,10 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="2">
                 <token id="2"/>
               </frameElement>
-              <frameElement type="Path">
+              <frameElement type="Path" semanticHead="4">
                 <token id="3"/>
                 <token id="4"/>
               </frameElement>
@@ -90,6 +90,24 @@
           <attribute name="lexical_references">
             <value>bathtub</value>
           </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
+      </entity>
+      <entity atom="martina_1484052466848" type="Person">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>person</value>
+              <value>martina</value>
+              <value>mother</value>
+              <value>guy</value>
+              <value>friend</value>
+            </attribute>
         </attributes>
         <coordinate angle="0.0" x="2.0" y="2.0" z="0.0"/>
       </entity>

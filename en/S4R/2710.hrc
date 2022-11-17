@@ -30,7 +30,7 @@
               <token id="1"/>
             </lexicalUnit>
             <frameElements>
-              <frameElement type="Goal">
+              <frameElement type="Goal" semanticHead="5">
                 <token id="2"/>
                 <token id="3"/>
                 <token id="4"/>
@@ -128,10 +128,40 @@
         </attributes>
         <coordinate angle="0.0" x="9.0" y="14.0" z="0.0"/>
       </entity>
+      <entity atom="dining_room_1484052388580" type="DiningRoom">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>diningroom</value>
+              <value>dining room</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="0.0" z="0.0"/>
+      </entity>
+      <entity atom="bottle_1484052297635" type="Bottle">
+        <attributes>
+            <attribute name="contain_ability">
+              <value>true</value>
+            </attribute>
+            <attribute name="support_ability">
+              <value>false</value>
+            </attribute>
+            <attribute name="lexical_references">
+              <value>bottle</value>
+            </attribute>
+        </attributes>
+        <coordinate angle="0.0" x="11.0" y="0.0" z="0.0"/>
+      </entity>
     </entities>
   </semanticMap>
   <lexicalGroundings>
     <lexicalGrounding atom="dining_room_1484052388580" tokenId="4"/>
     <lexicalGrounding atom="dining_room_1484052388580" tokenId="5"/>
+    <lexicalGrounding atom="bottle_1484052297635" tokenId="8"/>
   </lexicalGroundings>
 </huricExample>
