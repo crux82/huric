@@ -177,8 +177,8 @@ The targeted command is *"take the mug next to the keyboard"*
                 <span startId="2" endId="3" />
               </frameElement>
               <frameElement>
-                <type name="Goal" />
-                <span startId="4" endId="7" semanticHead="7" />
+                <type name="Goal" semanticHead="7" />
+                <span startId="4" endId="7" />
               </frameElement>
             </frameElements>
           </frame>
@@ -237,7 +237,7 @@ Hence, for each command, the following information are provided:
 	* dependency relations exist only for the English dataset and their tag is consistent with the [Stanford Dependency Tagset](https://nlp.stanford.edu/software/dependencies_manual.pdf).
 4. the semantics, based on the Frame Semantics Theory and expressed by Frames (i.e., the `<frames/>` tag) and Frame elements (i.e., the `<frameElements/>` tag):
 	* even though a sentence may express an arbitrary number of frames, in the example above only the frame `Bringing` is expressed with two frame elements, i.e., the `Theme` role spanning between the second and the third token (`the mug`) and the `Goal` role, instead spanning between the forth and the seventh token (`next to the keyboard`);
-  * for each frame element, the semantic head was marked through an attribute `semanticHead`: the main carier of the semantic meaning for `Theme` is `mug`, thus ID `semanticHead="3"` is appointed, while `keyboard` is main carrier for the `Goal` role, i.e. `semanticHead="7"`;
+  	* for each frame element, the semantic head was marked through an attribute `semanticHead`: the main carier of the semantic meaning for `Theme` is `mug`, thus ID `semanticHead="3"` is appointed, while `keyboard` is main carrier for the `Goal` role, i.e. `semanticHead="7"`;
 5. the configuration of the environment, in terms of entities populating the Semantic Map (*SM*), along with their semantic attributes (i.e., `semanticMap` tag):
 	* each entity is identified by a unique id (`atom`) and characterized by a `type`; in the example above, two objects are in the Semantic Map, such as the object `p1` which is an instance of the class `Cup`;
 	* entities are extended through semantic or lexical `<attributes/>`; in the example above an instance of the class `Cup` may contain other entities, so that the `containability` property is `true`; these attributes also encode the multiple lexical references that can be used to refer to the entitie, such as `cup`, `mug` or `bowl`. 
